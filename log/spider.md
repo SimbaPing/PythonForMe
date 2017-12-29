@@ -49,9 +49,7 @@ BeautifulSoup4:<br>
 url:网址。 <br>
 values：{登陆表单}（字典）
 
-headers：{'User-Agent':user_agant, 
-* 'Regerer':r'网址'
-* 'connection':'连接状态'}模拟浏览器（字典）
+headers：{'User-Agent':user_agant, 'Regerer':r'网址', 'connection':'连接状态'}模拟浏览器（字典）
 
 data：urllib.parse.urlencode(values) 将表单数据变为 data，Post 提交的数据<br>
 req：urllib.request.Request(url, data, headers) 用这三个东西请求<br>
