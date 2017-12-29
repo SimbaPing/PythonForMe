@@ -1,7 +1,7 @@
-#python爬虫日志
+# python爬虫日志
 
 ---
-##1. 什么是爬虫？
+## 1. 什么是爬虫？
 英文名：web crawler 。<br>
 URL（Uniform Resource Locator）统一资源定位符。<br>
 URL格式由三部分组成：
@@ -11,11 +11,11 @@ URL格式由三部分组成：
 * (3)path：第三部分就是主机资源的具体地址，如目录和文件名等。
 
 ---
-##2. 爬虫能做什么？
+## 2. 爬虫能做什么？
 爬取网页上自己想要的信息。进行分析，存储。<br>
 例如：爬取新闻，变成新闻阅读器；故事集；图片；电商价格对比。<br>
 
-###爬虫步骤：
+### 爬虫步骤：
 调度器：<br>
 URL管理器：管理待爬取的的URL和已爬取的URL
 * 防止重复抓取，防止循环抓取
@@ -28,7 +28,7 @@ URL管理器：管理待爬取的的URL和已爬取的URL
 * BeautifulSoup，比较强大，DOM
 * lxml
 
-###实例
+### 实例
 目标：<br>
 入口页：<br>
 URL格式：后缀需要变化的网页链接<br>
@@ -36,16 +36,16 @@ URL格式：后缀需要变化的网页链接<br>
 页面编码：
 
 ---
-##3. 第三方库有哪些？
+## 3. 第三方库有哪些？
 urllib:<br>
 scrapy:<br>
 BeautifulSoup4:<br>
 
 ---
-##4. urllib
+## 4. urllib
 详见：PythonForMe\src\python_test\pyurllib
 
-###4.1 urllib步骤
+### 4.1 urllib步骤
 url:网址。 <br>
 values：{登陆表单}（字典）
 
@@ -59,7 +59,7 @@ response：urllib.request.urlopen(req) 正式打开网页 并响应<br>
 html: response.read()读取这个响应<br>
 print(html) 答应这个网页，或者做其他操作
 
-###4.2 urllib其他
+### 4.2 urllib其他
 urllib.request.Request(url, data=None, headers={}, method=None)<br>
 使用Request（）来包装请求，再通过urlopen（）获取页面。<br>
 
@@ -77,16 +77,16 @@ urllib.request.ProxyHandler(proxies=None)<br>
 当需要抓取的网站设置了访问限制，这时就需要用到代理来抓取数据。<br>
 
 ---
-##5. BeautifulSoup
+## 5. BeautifulSoup
 html网页——创建beautsoup对象——搜索节点（find_all、find）——访问节点（名词、属性、文字）
 
 ---
-##名词解释
+## 名词解释
 cookie：储存用户本地终端上的数据。<br>
 DOM（Document Object Model）文档对象模型
 
 ---
-##其他
+## 其他
 ```python
 headers = {
     'User-Agent': r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)'
