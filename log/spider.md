@@ -39,21 +39,28 @@ URL格式：后缀需要变化的网页链接<br>
 ## 3. 第三方库有哪些？
 urllib:<br>
 scrapy:<br>
-BeautifulSoup4:<br>
+BeautifulSoup4: from bs4 import BeautifulSoup<br>
 
 ---
 ## 4. urllib
 详见：PythonForMe\src\python_test\pyurllib
 
 ### 4.1 urllib步骤
+import http.cookiejar  # 这四行添加 cookie 信息。
+cj = http.cookiejar.CookieJar()  # 创建 cookie 容器
+opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))  # 创建 opener
+urllib.request.install_opener(opener)给urllib.request  # 安装 opener
+
+proxy_handler = urllib.request.ProxyHandler({'http': '代理网址'}) 设置代理，还要在opener里面加入这个。
+
 url:网址。 <br>
-values：{登陆表单}（字典）
+values: {'name': 'ping', 'password': 'xxxxxxxx'}登陆表单（字典）
 
-headers：{'User-Agent':user_agant, 'Regerer':r'网址', 'connection':'连接状态'}模拟浏览器（字典）
+headers: {'User-Agent':user_agant, 'Regerer':r'网址', 'connection':'连接状态'}模拟浏览器（字典）
 
-data：urllib.parse.urlencode(values) 将表单数据变为 data，Post 提交的数据<br>
-req：urllib.request.Request(url, data, headers) 用这三个东西请求<br>
-response：urllib.request.urlopen(req) 正式打开网页 并响应<br>
+data: urllib.parse.urlencode(values).encode(encoding='utf8') 将表单数据变为 data，Post 提交的数据<br>
+req: urllib.request.Request(url, data, headers=headers) 用这三个东西请求<br>
+response: urllib.request.urlopen(req) 正式打开网页 并响应<br>
 html: response.read()读取这个响应<br>
 print(html) 答应这个网页，或者做其他操作
 
@@ -77,7 +84,13 @@ urllib.request.ProxyHandler(proxies=None)<br>
 ---
 ## 5. BeautifulSoup
 html网页——创建beautsoup对象——搜索节点（find_all、find）——访问节点（名词、属性、文字）
+```python
+from bs4 import BeautifulSoup
 
+html = "http://baidu.com/"
+soup = BeautifulSoup(html, "html.parser")  # 解析这个网站
+print(soup.prettify())  # 让代码好看的打出来
+```
 ---
 ## 名词解释
 cookie：储存用户本地终端上的数据。<br>
