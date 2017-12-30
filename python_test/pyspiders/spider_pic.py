@@ -17,7 +17,7 @@ def getHtml(url):
     # 创建 cookie 容器
     cj = http.cookiejar.CookieJar()
     # 代理服务器
-    proxy_handler = urllib.request.ProxyHandler({'http': '203.58.117.34:80'})
+    proxy_handler = urllib.request.ProxyHandler({'http': '103.87.16.2:80'})
     # 创建 opener，里面可以放多个参数，最常见 cookie 和 proxy
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj), proxy_handler)
     # 给 urllib.request 安装 opener
@@ -25,14 +25,10 @@ def getHtml(url):
 
     values = {'name': 'pin', 'password': 'xxxxxxxx'}
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.4533.400 QQBrowser/10.0.487.400',
-        'Connection': 'keep-alive',
-        'Host': 'jandan.net',
-        'Referer': 'http://jandan.net/duan',
-        'Accept-Language': 'zh-CN, zh; q=0.9',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate',
-        'Upgrade-Insecure-Requests': '1'
+        'User-Agent': r'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 '
+        r'Safari/537.36 Core/1.63.4533.400 QQBrowser/10.0.487.400 '
+        r'Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.3',
+        'Connection': 'keep-alive'
     }
     data = urllib.parse.urlencode(values).encode(encoding='utf-8')
     req = urllib.request.Request(url, data, headers=headers)
@@ -43,7 +39,7 @@ def getHtml(url):
 
 
 def getImg(html):
-    reg = r'src="([.*\S]*\.jpg)" pic_ext="jpeg"'
+    reg = r'src="(.jpg)" pic_ext="jpeg"'
     imgre = re.compile(reg);
     imglist = re.findall(imgre, html)
     return imglist
@@ -57,8 +53,8 @@ def getPic(img):
     imgName += 1
 
 if __name__ == '__main__' :
-    inurl = 'http://jandan.net/'
+    inurl = 'http://jiandan.net/ooxx/'
     inhtml = getHtml(inurl)
-    print(inhtml)
-    # inimg = getImg(inhtml)
-    # out = getPic(inimg)
+    # print(inhtml)
+    inimg = getImg(inhtml)
+    out = getPic(inimg)

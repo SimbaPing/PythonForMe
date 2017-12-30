@@ -17,7 +17,6 @@ headers = {
     'User-Agent': r'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 '
                   r'Safari/537.36 Core/1.63.4533.400 QQBrowser/10.0.487.400 '
     r'Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.3',
-    'Referer': r'http://www.lagou.com/zhaopin/Python/?labelWords=label',
     'Connection': 'keep-alive'
 }
 data = urllib.parse.urlencode(values).encode(encoding='utf8')
