@@ -5,7 +5,7 @@ Created with IntelliJ IDEA
 @author: Ping
 @contact: fpsping@163.com
 @file: spider_getFile.py
-@time: 2017 2017/12/30 16:29
+@time: 2017/12/30 16:29
 """
 
 import os
@@ -42,4 +42,5 @@ def file():
     os.remove('two.txt')
     # 2.5 重命名文件
     os.rename('old', 'new')
+
 
