@@ -38,21 +38,21 @@ def getHtml(url):
 
 
 def getImg(html):  # 转成 byte 它才肯干活
-    reg = r'src="([.*\S]*\.jpg)" pic_ext="jpeg"'
-    imgre = re.compile(reg)
+    reg = r'src="(.jpg)"'
+    imgre = re.compile(reg, html)
     imglist = re.findall(imgre, html)
     return imglist
 
 if __name__ == '__main__' :
     os.chdir('pic')
-    inurl = 'http://www.meizitu.com/a//5590.html/'  # 初始网址
+    inurl = 'http://jiandan.net/ooxx/page-425#comments'  # 初始网址
     inhtml = getHtml(inurl)  # 网站源码已经被解析出来了
-    print(inhtml)
-    # inimg = getImg(inhtml)  # imglist
-    # imgNum = 0
-    # for i in inimg:
-    #     f = open("pic/" + str(imgName) + ".jpg", 'wb')
-    #     f.write((urllib.request.urlopen(i)).read())
-    #     f.close()
-    #     imgNum += 1
-    # out = getPic(inimg)
+    # print(inhtml)
+    inimg = getImg(inhtml)  # imglist
+    print(inimg)
+    imgNum = 0
+    for i in inimg:
+        f = open("pic/" + str(imgNum) + ".jpg", 'wb')
+        f.write((urllib.request.urlopen(i)).read())
+        f.close()
+        imgNum += 1

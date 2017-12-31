@@ -1,8 +1,8 @@
 import urllib.request
 import http.cookiejar
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
-url = "http://jiandan.net/ooxx/"
+url = "http://tieba.baidu.com/p/3205263090"
 # 创建 cookie 容器
 cj = http.cookiejar.CookieJar()
 # 代理服务器
@@ -12,7 +12,7 @@ opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj), pro
 # 给 urllib.request 安装 opener
 urllib.request.install_opener(opener)
 
-values = {'name': 'ping', 'password': 'xxxxxxxx'}
+values = {'name': 'xxxxxxxx', 'password': 'xxxxxxxx'}
 headers = {
     'User-Agent': r'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 '
                   r'Safari/537.36 Core/1.63.4533.400 QQBrowser/10.0.487.400 '
@@ -22,10 +22,10 @@ headers = {
 data = urllib.parse.urlencode(values).encode(encoding='utf8')
 req = urllib.request.Request(url, data, headers=headers)
 response = urllib.request.urlopen(req)
-html = response.read()
-# print(html)
+html = response.read().decode('utf8')
+print(html)
 # print(cj)
 
-
-soup = BeautifulSoup(html, "html.parser")
-print(soup)
+#
+# soup = BeautifulSoup(html, "html.parser")
+# print(soup)

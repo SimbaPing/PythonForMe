@@ -40,6 +40,7 @@ URL格式：后缀需要变化的网页链接<br>
 urllib:<br>
 scrapy:<br>
 BeautifulSoup4: from bs4 import BeautifulSoup<br>
+requests:
 
 ---
 ## 4. urllib
