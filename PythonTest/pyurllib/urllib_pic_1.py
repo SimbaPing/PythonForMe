@@ -4,7 +4,7 @@ import re
 import urllib.request
 import os
 
-os.mkdir('pic1')
+os.mkdir('pic1')  # 创建这个文件夹，如果已经创建就报错
 
 
 def getHtml(url):

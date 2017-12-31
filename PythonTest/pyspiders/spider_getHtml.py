@@ -28,4 +28,4 @@ html = response.read()
 
 
 soup = BeautifulSoup(html, "html.parser")
-print(soup.prettify())
+print(soup)

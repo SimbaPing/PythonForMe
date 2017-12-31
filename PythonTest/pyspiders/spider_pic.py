@@ -9,7 +9,7 @@ Created with IntelliJ IDEA
 """
 import urllib.request
 import http.cookiejar
-import re
+import re, os
 from bs4 import BeautifulSoup
 
 
@@ -33,28 +33,26 @@ def getHtml(url):
     data = urllib.parse.urlencode(values).encode(encoding='utf-8')
     req = urllib.request.Request(url, data, headers=headers)
     response = urllib.request.urlopen(req)
-    html = response.read().decode('utf-8')
-    soup = BeautifulSoup(html, 'html.parser')
-    return soup
+    html = response.read().decode('utf8')  # 如果添加 decode('utf-8')，那么下面的就不好开展工作
+    return html
 
 
-def getImg(html):
-    reg = r'src="(.jpg)" pic_ext="jpeg"'
-    imgre = re.compile(reg);
+def getImg(html):  # 转成 byte 它才肯干活
+    reg = r'src="([.*\S]*\.jpg)" pic_ext="jpeg"'
+    imgre = re.compile(reg)
     imglist = re.findall(imgre, html)
     return imglist
 
-
-def getPic(img):
-    imgName = 0
-    f = open("pic/"+str(imgName)+".jpg", 'wb')
-    f.write((urllib.request.urlopen(imgPath)).read())
-    f.close()
-    imgName += 1
-
 if __name__ == '__main__' :
-    inurl = 'http://jiandan.net/ooxx/'
-    inhtml = getHtml(inurl)
-    # print(inhtml)
-    inimg = getImg(inhtml)
-    out = getPic(inimg)
+    os.chdir('pic')
+    inurl = 'http://www.meizitu.com/a//5590.html/'  # 初始网址
+    inhtml = getHtml(inurl)  # 网站源码已经被解析出来了
+    print(inhtml)
+    # inimg = getImg(inhtml)  # imglist
+    # imgNum = 0
+    # for i in inimg:
+    #     f = open("pic/" + str(imgName) + ".jpg", 'wb')
+    #     f.write((urllib.request.urlopen(i)).read())
+    #     f.close()
+    #     imgNum += 1
+    # out = getPic(inimg)

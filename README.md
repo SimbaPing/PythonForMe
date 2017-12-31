@@ -47,3 +47,16 @@
 ## 2. 基本数据类型
 在 Python 中，变量就是变量，我们所说的“类型”是变量所指的内存中对象的类型。
 等号左边是变量名，右边是存储在变量中的值。
+
+## 正则表达式
+匹配成功返回一个匹配的对象，否则返回 None。
+re.match(pattern, strings, flags=0)，
+re.match 尝试从字符串的起始位置匹配一个模式，如果不是起始位置匹配成功的话，match()就返回none。
+* pattern 匹配的正则表达式
+* strings 要匹配的字符串
+* flags 用于控制正则表达式的匹配方式，例如区分大小写、多行匹配等
+
+re.search(pattern, strings, flags=0)，
+扫描整个字符串并返回第一个成功的匹配。
+
+re.sub(pattern, repl, string, max=0)
