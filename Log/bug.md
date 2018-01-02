@@ -25,3 +25,7 @@ for imgPath in imgList:  # 将列表逐行打印变成 imgPath
 单个网页内容：模拟浏览器登陆网站→用正则表达式在标签中获取自己想要的信息→将信息下载至本地。
 
 临时：目前的难点是正则表达式，网页之间的游走，如何有组织的写类和函数
+
+6. requests 爬取后中文乱码。
+r = requests.get(url)
+**r.ending = 'gbk'**，中文编码 gbk
