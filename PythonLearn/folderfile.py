@@ -4,7 +4,7 @@
 Created with IntelliJ IDEA
 @author: Ping
 @contact: fpsping@163.com
-@file: FolderFile.py
+@file: folderfile.py
 @time: 2017/12/30 16:29
 """
 

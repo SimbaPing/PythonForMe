@@ -59,3 +59,14 @@ headers = {
     'Connection': 'keep-alive'
 }
 ```
+
+---
+## 特殊情景处理器
+HTTPCookieProcessor<br/>
+ProxyHandler<br/>
+HTTPSHandler<br/>
+HTTPRedirectHandler<br/>
+
+---
+## 网页解析器
+正则表达式，html.parser，**BeautifulSoup**，lxml
