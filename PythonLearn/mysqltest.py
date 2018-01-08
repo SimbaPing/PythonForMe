@@ -8,21 +8,17 @@ Created with IntelliJ IDEA
 @time: 2018/1/8 2:54
 """
 
-import pymysql
+import pymysql.cursors
 
-# 打开数据库连接
-db = pymysql.connect("localhost", "testuser", "test123", "TESTDB")
+config = {
+    'host': '127.0.0.1',
+    'port': 3306,
+    'user': 'root',
+    'password': 'zhyea.com',
+    'db': 'employees',
+    'charset': 'utf8mb4',
+    'cursorclass': pymysql.cursors.DictCursor,
+}
 
-# 使用 cursor() 方法获取操作游标
-cursor = db.cursor()
-
-# SQL 插入语句
-sql = "INSERT INTO EMPLOYEE(FIRST_NAME, LAST_NAME, AGE, SEX, INCOME) VALUES ('%s', '%s', '%d', '%c', '%d')" % ('Mac', 'Mohan', 20, 'M', 2000)
-
-try:
-    cursor.execute(sql)
-    db.commit()
-except:
-    db.rollback()
-
-db.close()
+# Connect to the database
+connection = pymysql.connect(**config)

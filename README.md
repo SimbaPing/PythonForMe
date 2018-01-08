@@ -100,32 +100,32 @@ Python 中使用最频繁的数据类型。<br/>
 ## 4. 控制语句
 
 ### 条件控制
-if
-if...else...
+if<br/>
+if...else...<br/>
 
 ### 循环语句
-while
-while...else...
-for
-break 和 continue
-pass
+while<br/>
+while...else...<br/>
+for<br/>
+break 和 continue<br/>
+pass<br/>
 
 ### 迭代器
-iter()
-next()
+iter()<br/>
+next()<br/>
 
 ### 生成器（generator）
-yield
+yield<br/>
 
 ---
 ## 5. 函数
-定义一个函数
-函数调用
-参数传递
-参数
-匿名函数
-return 语句
-变量作用域
+定义一个函数<br/>
+函数调用<br/>
+参数传递<br/>
+参数<br/>
+匿名函数<br/>
+return 语句<br/>
+变量作用域<br/>
 
 ---
 ## 6. 输入和输出
@@ -136,50 +136,58 @@ return 语句
 ---
 ## 8. 错误和异常
 
-语法错误
-异常
-异常处理
-抛出异常
-用户自定义异常
-定义清理行为
-预定义的清理行为
+语法错误<br/>
+异常<br/>
+异常处理<br/>
+抛出异常<br/>
+用户自定义异常<br/>
+定义清理行为<br/>
+预定义的清理行为<br/>
 
 ---
 ## 9. 正则表达式
-匹配成功返回一个匹配的对象，否则返回 None。
-re.match(pattern, strings, flags=0)，
+匹配成功返回一个匹配的对象，否则返回 None。<br/>
+re.match(pattern, strings, flags=0)，<br/>
 re.match 尝试从字符串的起始位置匹配一个模式，如果不是起始位置匹配成功的话，match()就返回none。
 * pattern 匹配的正则表达式
 * strings 要匹配的字符串
 * flags 用于控制正则表达式的匹配方式，例如区分大小写、多行匹配等
 
-re.search(pattern, strings, flags=0)，
-扫描整个字符串并返回第一个成功的匹配。
+re.search(pattern, strings, flags=0)，<br/>
+扫描整个字符串并返回第一个成功的匹配。<br/>
 
-re.sub(pattern, repl, string, max=0)
+re.sub(pattern, repl, string, max=0)<br/>
 
 ---
 ## 10. 面向对象
-类定义
-类对象
-类的方法
-继承
-多继承
-方法重写
-类属性和方法
+类定义<br/>
+类对象<br/>
+类的方法<br/>
+继承<br/>
+多继承<br/>
+方法重写<br/>
+类属性和方法<br/>
 
 ---
 ## 11. CGI 编程
-CGI（Common Gateway Interface），通用网关接口。
+CGI（Common Gateway Interface），通用网关接口。<br/>
 
 ---
 ## 12. MySQL 数据库连接
-安装
-数据库连接
-创建数据库表
-数据库插入操作
-数据库查询操作
-数据可更新操作
-删除操作
-执行事务
-错误处理
+安装<br/>
+数据库连接<br/>
+创建数据库表<br/>
+数据库插入操作<br/>
+数据库查询操作<br/>
+数据可更新操作<br/>
+删除操作<br/>
+执行事务<br/>
+错误处理<br/>
+
+---
+## 13. 网络编程
+Python 提供了两个级别访问的网络服务：
+* 低级别 Socket，可以访问底层操作系统 Socket 的全部方法。
+* 高级别 SocketServer，提供了服务器中心类，可以简化网络服务器的开发。
+
+网络上的两个程序通过一个双向的通信连接实现数据的交换，这个连接的一端称为一个socket。<br/>
