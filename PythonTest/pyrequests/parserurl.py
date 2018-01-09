@@ -4,8 +4,8 @@
 Created with IntelliJ IDEA
 @author: Ping
 @contact: fpsping@163.com
-@file: requests_3.py
-@time: 2018/1/7 16:23
+@file: parserurl.py
+@time: 2018/1/9 23:46
 """
 
 from bs4 import BeautifulSoup
@@ -25,13 +25,12 @@ headers = {
 data = {'name': 'ping', 'password': 'xxxxxxxx'}
 r = requests.get(url, data=data, headers=headers)  # 给网页加上表单和模拟浏览器
 r.encoding = 'gbk'  # 不会出现中文乱码
-urlurl = r.text
-soup = BeautifulSoup(urlurl, 'html.parser')
-# links = soup.find_all(id='picture')
+# 以上 OK
+print(r.text)
 
-reg = r'src="(*\.jpg)" pic_ext="jpeg"'
-imgre = re.compile(reg)
-imglist = re.findall(imgre, soup)
-# for link in links:
-#     print(link.name)
-#
+soup = BeautifulSoup(r.text, 'html.parser')
+print(soup.title)
+print(soup.find_all('a'))
+s = soup.find_all('a')
+for i in s:
+    print(i)
