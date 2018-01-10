@@ -186,8 +186,51 @@ CGI（Common Gateway Interface），通用网关接口。<br/>
 
 ---
 ## 13. 网络编程
+Socket 套接字，应用程序通过“套接字”向网络发出请求或者应答网络请求，使主机间或计算机上的进程间可以通讯。<br/>
 Python 提供了两个级别访问的网络服务：
 * 低级别 Socket，可以访问底层操作系统 Socket 的全部方法。
 * 高级别 SocketServer，提供了服务器中心类，可以简化网络服务器的开发。
 
-网络上的两个程序通过一个双向的通信连接实现数据的交换，这个连接的一端称为一个socket。<br/>
+socket.socket([family[, type[, proto]]])
+* family：套接字家族可以使用 AF_UNIX 或 AF_INET。
+* type：套接字类型可以根据是面向连接的还是非连接分为 SOCK_STEAM 或 SOCK_DGRAM。
+* protocol：一般默认值是0。
+
+Socket 对象內建方法。
+* 服务端套接字
+* 客户端套接字
+* 公共用途的套接字函数
+
+---
+## 14. JSON
+JSON（JavaScript Object Notation） 是一种轻量级的数据交换格式。基于 ECMAScript 的一个子集。<br/>
+Python3 中可以使用 json 对 JSON 数据进行解码，包含两个函数：
+* json.dumps() 对数据进行编码
+* json.loads() 对数据进行解码
+
+---
+## 15. CGI 编程
+CGI 目前由 NCSA 维护。<br/>
+CGI（Common Gateway Interface），通用网关接口，他是一段程序，运行在服务器上。<br/>
+网页浏览<br/>
+CGI 框架<br/>
+Web 服务器支持与配置<br/>
+HTTP 头部<br/>
+CGI 环境变量<br/>
+GET 和 POST 方法<br/>
+CGI 中使用 Cookie<br/>
+文件下载对话框<br/>
+
+---
+## 16. 日期和时间
+
+---
+## 17. 多线程
+Python3 使用线程有两种方式：函数或者用类来包装线程对象。<br/>
+线程模块<br/>
+使用 threading 模块来创建线程<br/>
+线程同步<br/>
+线程优先级队列<br/>
+
+======
+以上

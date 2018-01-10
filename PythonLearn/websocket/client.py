@@ -10,14 +10,19 @@ Created with IntelliJ IDEA
 
 import socket
 
+# 创建 socket 对象
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+# 获取本地主机名
 host = socket.gethostname()
 
-port = 1233
+# 端口号
+port = 9999
 
+# 连接服务，主机和端口
 s.connect((host, port))
 
+# 接收小于1024的数据
 msg = s.recv(1024)
 
 s.close()

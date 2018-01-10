@@ -13,7 +13,7 @@ import requests
 import urllib.request
 import re
 
-url = 'http://www.meizitu.com/a/5530.html'
+url = 'http://www.meizitu.com/a/5568.html'
 # url = 'http://httpbin.org/post'
 headers = {
     'User-Agent': r'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) '
@@ -25,12 +25,15 @@ headers = {
 data = {'name': 'ping', 'password': 'xxxxxxxx'}
 r = requests.get(url, data=data, headers=headers)  # 给网页加上表单和模拟浏览器
 r.encoding = 'gbk'  # 不会出现中文乱码
-# 以上 OK
-print(r.text)
-
+# print(r.text)
 soup = BeautifulSoup(r.text, 'html.parser')
-print(soup.title)
-print(soup.find_all('a'))
-s = soup.find_all('a')
-for i in s:
-    print(i)
+# 以上 OK
+# print(soup.title)
+# print(soup.find_all('img'))
+
+ss = re.compile(r"http://*.jpg")
+print(ss.findall('nihao'))
+
+
+# for i in s:
+#     print(i)
