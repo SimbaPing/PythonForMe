@@ -149,7 +149,7 @@ return 语句<br/>
 匹配成功返回一个匹配的对象，否则返回 None。<br/>
 re.match(pattern, strings, flags=0)，<br/>
 re.match 尝试从字符串的起始位置匹配一个模式，如果不是起始位置匹配成功的话，match()就返回none。
-* pattern 匹配的正则表达式
+* pattern 正则表达式
 * strings 要匹配的字符串
 * flags 用于控制正则表达式的匹配方式，例如区分大小写、多行匹配等
 
@@ -157,6 +157,15 @@ re.search(pattern, strings, flags=0)，<br/>
 扫描整个字符串并返回第一个成功的匹配。<br/>
 
 re.sub(pattern, repl, string, max=0)<br/>
+
+\d digit数字，\s space空格，\w word单词。
+
+re.I(re.IGNORECASE): 忽略大小写（括号内是完整写法，下同）。<br/>
+M(MULTILINE): 多行模式，改变'^'和'$'的行为。<br/>
+S(DOTALL): 点任意匹配模式，改变'.'的行为。<br/>
+L(LOCALE): 使预定字符类 \w \W \b \B \s \S 取决于当前区域设定。<br/>
+U(UNICODE): 使预定字符类 \w \W \b \B \s \S \d \D 取决于unicode定义的字符属性。<br/>
+X(VERBOSE): 详细模式。这个模式下正则表达式可以是多行，忽略空白字符，并可以加入注释。<br/>
 
 ---
 ## 10. 面向对象
