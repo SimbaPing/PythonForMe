@@ -29,3 +29,5 @@ for imgPath in imgList:  # 将列表逐行打印变成 imgPath
 6. requests 爬取后中文乱码。
 r = requests.get(url)
 **r.ending = 'gbk'**，中文编码 gbk
+
+7.
