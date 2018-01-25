@@ -34,16 +34,15 @@ class HtmlParser(object):
         return new_urls
 
     @staticmethod
-    def _get_new_data(page_url, soup, summary_node=None):
-        if summary_node is None:
-            return 
-        
+    def _get_new_data(page_url, soup):
         res_data = {'url': page_url}
 
         title_node = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1')
         res_data['title'] = title_node.get_text()
 
         summary_node = soup.find('div', class_='lemma-summary')
+        if summary_node is None:
+            return
         res_data['summary'] = summary_node.get_text()
 
         return res_data

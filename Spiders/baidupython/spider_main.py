@@ -22,7 +22,7 @@ class SpiderMain(object):
         self.urls.add_new_url(root_url)  # 将初始链接添加进 urls 链接池
         while self.urls.has_new_url():  # 如果链接池中有新链接
             new_url = self.urls.get_new_url()  # 获取这个链接添加进 下载器
-            print('craw %d : %s', count, new_url)
+            print('craw%d:%s', count, new_url)
             html_cont = self.downloader.download(new_url)  # 在下载器中将这个链接下载下来
             new_urls, new_data = self.parser.parse(new_url, html_cont)  # 解析出新的链接和网页中的数据
             self.urls.add_new_urls(new_urls)  # 将链接添加进新的链接池
