@@ -31,7 +31,6 @@ class SpiderMain(object):
             if count == 100:
                 break
 
-
             count += 1
 
         self.outputer.output_html()  # ？？输出收集好的数据
