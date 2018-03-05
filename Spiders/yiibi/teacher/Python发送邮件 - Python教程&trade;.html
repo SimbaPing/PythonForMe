@@ -1,0 +1,909 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-title" content="yiibai">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<title>Python发送邮件 - Python教程&trade;</title>
+<meta name="keywords" content="">
+<meta name="description" content="简单邮件传输协议(SMTP)是一种协议，用于在邮件服务器之间发送电子邮件和路由电子邮件。
+Python提供smtplib模块，该模块定义了一个SMTP客户端会话对象">
+<link rel="stylesheet" href="/static.v4/css/fonts/font-awesome.min.css" media="all" />
+<link rel="stylesheet" href="/static.v4/css/all.css?ver=4.0" media="all">
+<link rel="stylesheet" href="/static.v4/css/prism.css?ver=3.0" media="all">
+<style>
+	.article-content ul li {list-style-type: disc;}
+	.article-content ol li {list-style-type: disc;}	
+	
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body class="page-home">
+	
+	
+<header class="header">
+	<div class="container">
+		<h1 class="logo">
+			<a href="http://www.yiibai.com" title="易百教程"><i
+				class="fa">&#xe600;</i>易百教程</a>
+		</h1>
+		<div class="site-navbar">
+			<ul>
+				<li class="has-sub-menu"><a href="#">所有教程</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="http://www.yiibai.com/html/java/">Java技术</a></li>
+							<li><a href="http://www.yiibai.com/web/">Web技术</a></li>
+							<li><a href="http://www.yiibai.com/html/script/">脚本语言</a></li>
+							<li><a href="http://www.yiibai.com/html/database/">数据库</a></li>
+							<li><a href="http://www.yiibai.com/hightlang/">高级语言</a></li>
+							<li><a href="http://www.yiibai.com/html/misc/">其它技术</a></li>
+							<li><a href="http://www.yiibai.com/v3.php?app=all" style="font-weight:bold;color: #61B3E6;">查看所有教程</a></li>
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:void(0);">Java技术</a>
+					<div class="sub-menu">
+						<ul>
+								<li>
+									<a href="http://www.yiibai.com/java/" target="_blank">Java教程</a>
+								</li>
+								
+								<li>
+									<a href="http://www.yiibai.com/design_pattern/" target="_blank">Java设计模式</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/jsp/" target="_blank">JSP教程</a>
+								</li>
+
+								<li>
+									<a href="http://www.yiibai.com/jdbc/" target="_blank">JDBC教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/java_xml/" target="_blank">Java XML教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/junit/" target="_blank">JUnit教程</a>
+								</li>							
+								
+							
+							
+								<li>
+									<a href="http://www.yiibai.com/struts_2/" target="_blank">Struts2教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/maven/" target="_blank">Maven教程</a>
+								</li>
+							
+							
+								<li>
+									<a href="http://www.yiibai.com/javaexamples/" target="_blank">java实例教程</a>
+								</li>
+
+								<li>
+									<a href="http://www.yiibai.com/mybatis/" target="_blank">MyBatis教程</a>
+								</li>
+
+								
+								<li>
+									<a href="http://www.yiibai.com/spring/" target="_blank">Spring教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/spring_mvc/" target="_blank">Spring MVC教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/gradle/" target="_blank">Gradle教程</a>
+								</li>
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:;">数据库</a>
+					<div class="sub-menu">
+						<ul>
+							
+								<li>
+									<a href="http://www.yiibai.com/mysql/" target="_blank" title="MySQL教程">MySQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/couchdb/" target="_blank" title="CouchDB教程">CouchDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/cassandra/" target="_blank" title="Cassandra教程">Cassandra教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/mariadb/" target="_blank" title="MariaDB教程">MariaDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/firebase/" target="_blank" title="FireBase教程">FireBase教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/plsql/" target="_blank" title="PL/SQL教程">PL/SQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/postgresql/" target="_blank" title="PostgreSQL教程">PostgreSQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/mongodb/" target="_blank" title="MongoDB教程">MongoDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sqlite/" target="_blank" title="SQLite教程">SQLite教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/db2/" target="_blank" title="DB2教程">DB2教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/redis/" target="_blank" title="Redis教程">Redis教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/memcached/" target="_blank" title="Memcached教程">Memcached教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/access/" target="_blank" title="Access教程">Access教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sql/" target="_blank" title="SQL教程">SQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sql_server/" target="_blank" title="SQL Server教程">SQL Server教程</a>
+								</li>
+							
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:;">脚本语言</a>
+					<div class="sub-menu">
+						<ul>
+							
+								<li>
+									<a href="http://www.yiibai.com/wxpython/" target="_blank" title="WxPython教程">WxPython教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/ruby/" target="_blank" title="Ruby教程">Ruby教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/php/" target="_blank" title="PHP教程">PHP教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/python/" target="_blank" title="Python教程">Python教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/lua/" target="_blank" title="Lua教程">Lua教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/tcl/" target="_blank" title="Tcl教程">Tcl教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/tk/" target="_blank" title="Tk教程">Tk教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/numpy/" target="_blank" title="NumPy教程">NumPy教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/python3/" target="_blank" title="Python3教程">Python3教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/php7/" target="_blank" title="PHP7教程">PHP7教程</a>
+								</li>
+							
+						</ul>
+					</div></li>
+
+								
+					<li class=""><a href="/v3.php?app=post">极客文章</a></li>
+					<li class="active"><a href="/v3.php?app=post&act=new">+投稿</a></li>
+			</ul>
+		</div>
+		<div style="padding-top:6px;width:220px;float:left;margin-left:64px;line-height:22px;" id="search-form">
+		    <form action="/search.php" method="get">
+				<input type="text" name="kw" style="float:left;width:134px;padding-left:8px;font-weight:bold;" value=""/>
+				<input type="submit" style="float:left;width:48px;" value="搜索"/>
+			</form>
+		</div>
+
+		<div id="login-state" style="float:left;margin-top: 4px;">
+			
+		</div>
+		<div class="m-navbar-start">
+			<i class="fa">&#xe624;</i>
+		</div>
+		<div class="m-wel-start">
+			<i class="fa">&#xe632;</i>
+		</div>
+		<div class="m-mask"></div>
+	</div>
+</header>
+
+
+
+	<section class="container container-page clearfix" style="margin-top: 24px;">
+		<div class="pageside">
+			<div class="pagemenus">
+				<ul class="pagemenu">
+					<li class="navto-ads active"><a href="/python/" style="font-weight:bold;"><i class="fa fa-list"></i>&nbsp;&nbsp;Python教程</a></li>
+					
+					<li style=""><a href="https://www.yiibai.com/python/python_quick_guide.html" title="Python快速入门" style="">Python快速入门</a></li><li style=""><a href="https://www.yiibai.com/python/what-is-python.html" title="Python是什么？" style="">Python是什么？</a></li><li style=""><a href="https://www.yiibai.com/python/history-of-python.html" title="Python的历史" style="">Python的历史</a></li><li style=""><a href="https://www.yiibai.com/python/features.html" title="Python功能特点" style="">Python功能特点</a></li><li style=""><a href="https://www.yiibai.com/python/applications.html" title="Python可以开发哪些程序？" style="">Python可以开发哪些程序？</a></li><li style=""><a href="https://www.yiibai.com/python/python_environment.html" title="Python安装和环境配置" style="">Python安装和环境配置</a></li><li style=""><a href="https://www.yiibai.com/python/python_command_line_arguments.html" title="Python命令行参数" style="">Python命令行参数</a></li><li style=""><a href="https://www.yiibai.com/python/python_variable_types.html" title="Python变量类型" style="">Python变量类型</a></li><li style=""><a href="https://www.yiibai.com/python/python_basic_operators.html" title="Python基本运算符" style="">Python基本运算符</a></li><li style=""><a href="https://www.yiibai.com/python/python_decision_making.html" title="Python决策" style="">Python决策</a></li><li style=""><a href="https://www.yiibai.com/python/python_loops.html" title="Python循环" style="">Python循环</a></li><li style=""><a href="https://www.yiibai.com/python/python_numbers.html" title="Python数字" style="">Python数字</a></li><li style=""><a href="https://www.yiibai.com/python/python_strings.html" title="Python字符串" style="">Python字符串</a></li><li style=""><a href="https://www.yiibai.com/python/python_lists.html" title="Python列表" style="">Python列表</a></li><li style=""><a href="https://www.yiibai.com/python/python_tuples.html" title="Python元组" style="">Python元组</a></li><li style=""><a href="https://www.yiibai.com/python/python_dictionary.html" title="Python字典" style="">Python字典</a></li><li style=""><a href="https://www.yiibai.com/python/python_date_time.html" title="Python日期和时间" style="">Python日期和时间</a></li><li style=""><a href="https://www.yiibai.com/python/python_functions.html" title="Python函数" style="">Python函数</a></li><li style=""><a href="https://www.yiibai.com/python/python_modules.html" title="Python模块" style="">Python模块</a></li><li style=""><a href="https://www.yiibai.com/python/python_files_io.html" title="Python文件读写" style="">Python文件读写</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">面向对象</a></li><li ><a href="https://www.yiibai.com/python/python_classes_objects.html" title="Python面向对象（类和对象）" >Python面向对象（类和对象）</a></li><li ><a href="https://www.yiibai.com/python/python-constructors.html" title="Python构造函数" >Python构造函数</a></li><li ><a href="https://www.yiibai.com/python/inheritance-in-python.html" title="Python继承" >Python继承</a></li><li ><a href="https://www.yiibai.com/python/multiple-inheritance.html" title="Python多重继承" >Python多重继承</a></li><li ><a href="https://www.yiibai.com/python/operator-overloading.html" title="Python操作符重载" >Python操作符重载</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">高级部分</a></li><li ><a href="https://www.yiibai.com/python/python_exceptions.html" title="Python异常处理" >Python异常处理</a></li><li ><a href="https://www.yiibai.com/python/python_reg_expressions.html" title="Python正则表达式" >Python正则表达式</a></li><li ><a href="https://www.yiibai.com/python/python_database_access.html" title="Python+MySQL数据库操作（PyMySQL）" >Python+MySQL数据库操作（PyMySQL）</a></li><li ><a href="https://www.yiibai.com/python/python_networking.html" title="Python网络编程（Sockets）" >Python网络编程（Sockets）</a></li><li style="border-left: 6px solid #2e82ff;font-weight: bold;"><a href="#" title="这是当前阅读的文章" style="cursor:text;">Python发送邮件</a></li><li ><a href="https://www.yiibai.com/python/python_multithreading.html" title="Python多线程编程" >Python多线程编程</a></li><li ><a href="https://www.yiibai.com/python/python_xml_processing.html" title="Python XML解析和处理" >Python XML解析和处理</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">其它杂项</a></li><li ><a href="https://www.yiibai.com/python/file_methods.html" title="Python文件对象方法" >Python文件对象方法</a></li><li ><a href="https://www.yiibai.com/python/os_file_methods.html" title="Python os模块方法" >Python os模块方法</a></li><li ><a href="https://www.yiibai.com/python/iterator.html" title="Python迭代器" >Python迭代器</a></li><li ><a href="https://www.yiibai.com/python/generator.html" title="Python生成器" >Python生成器</a></li><li ><a href="https://www.yiibai.com/python/closure.html" title="Python闭包" >Python闭包</a></li><li ><a href="https://www.yiibai.com/python/decorator.html" title="Python修饰器" >Python修饰器</a></li>					
+					<!--<li><a href="" title=""></a></li>-->					
+				</ul>
+				
+			</div>
+		</div>
+
+		<div class="content" id="navs">
+						
+                <header class="article-header">
+                    <h1 class="article-title" style="text-align:center;">Python发送邮件</h1>
+                    <div class="article-meta" style="margin-top:20px;font-size:14px;">
+						<span class="item" style="">
+							<a class="btn btn-pay" id="btn-reward" target="_blank"> ¥ 我要打赏 </a>
+						</span>
+                        
+                        <span class="item" style="margin-left:20px;"><a href="/python/" rel="category tag">Python教程</a></span>
+						<span class="item" style="margin-left:20px;">作者：初生不惑</span>
+                        <span class="item" style="margin-left:20px;">评论：0 条</span>
+						<span style="font-weight:bold;margin-left:24px;" id="qq-group">Java技术QQ群：<a href="//shang.qq.com/wpa/qunwpa?idkey=c7c79783f2da15e2244981dfbd17c18b6a71b8bc5d018e248d59919bd614e18f" style="color:#61B3E6;" target="_blank" title="直接点击加群">227270512</a></span>
+
+                    </div>
+                </header>
+                <!--// article body -->
+                <article>
+					<a name="article-start" id="article-start"></a>
+					
+					<div style="padding-top: 6px;padding-bottom: 4px;float:left;width:100%;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- 顶部_720x90 -->
+						<ins class="adsbygoogle"
+							 style="display:inline-block;width:728px;height:90px"
+							 data-ad-client="ca-pub-1090193214637198"
+							 data-ad-slot="9805510053"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					
+
+					<div style="width:100%;float:left;" class="article-content">
+						
+						<input type="hidden" name="article_id" id="article_id" value="10849"/>
+						<input type="hidden" name="artype" id="artype" value="-1"/>
+
+						<p>简单邮件传输协议(SMTP)是一种协议，用于在邮件服务器之间发送电子邮件和路由电子邮件。</p>
+<p>Python提供<code>smtplib</code>模块，该模块定义了一个SMTP客户端会话对象，可用于使用SMTP或ESMTP侦听器守护程序向任何互联网机器发送邮件。</p>
+<p>这是一个简单的语法，用来创建一个SMTP对象，稍后将演示如何用它来发送电子邮件 -</p>
+<pre><code class="lang-python">import smtplib
+
+smtpObj = smtplib.SMTP( [host [, port [, local_hostname]]] )
+</code></pre>
+<p>这里是上面语法的参数细节 -</p>
+<ul>
+<li><em>host</em> - 这是运行SMTP服务器的主机。可以指定主机的IP地址或类似<code>yiibai.com</code>的域名。这是一个可选参数。</li><li><em>port</em> - 如果提供主机参数，则需要指定SMTP服务器正在侦听的端口。通常这个端口默认值是：<code>25</code>。</li><li><em>local_hostname</em> - 如果SMTP服务器在本地计算机上运行，那么可以只指定<code>localhost</code>选项。</li></ul>
+<p>SMTP对象有一个<code>sendmail</code>的实例方法，该方法通常用于执行邮件发送的工作。它需要三个参数 -</p>
+<ul>
+<li><em>sender</em> - 具有发件人地址的字符串。</li><li><em>receivers</em> - 字符串列表，每个收件人一个。</li><li><em>message</em> - 作为格式如在各种RFC中指定的字符串。</li></ul>
+<h2 id="h2-1-python-"><a name="1.使用Python发送纯文本电子邮件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>1.使用Python发送纯文本电子邮件</h2><p><strong>示例</strong></p>
+<p>以下是使用Python脚本发送一封电子邮件的简单方法 -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+
+import smtplib
+
+sender = &#39;from@fromdomain.com&#39;
+receivers = [&#39;to@todomain.com&#39;]
+
+message = &quot;&quot;&quot;From: From Person &lt;from@fromdomain.com&gt;
+To: To Person &lt;to@todomain.com&gt;
+Subject: SMTP e-mail test
+
+This is a test e-mail message.
+&quot;&quot;&quot;
+
+try:
+   smtpObj = smtplib.SMTP(&#39;localhost&#39;)
+   smtpObj.sendmail(sender, receivers, message)         
+   print &quot;Successfully sent email&quot;
+except SMTPException:
+   print &quot;Error: unable to send email&quot;
+</code></pre>
+<p>在这里，已经发送了一封基本的电子邮件，使用三重引号，请注意正确格式化标题。一封电子邮件需要一个<code>From</code>，<code>To</code>和一个<code>Subject</code>标题，与电子邮件的正文与空白行分开。</p>
+<p>要发送邮件，使用<code>smtpObj</code>连接到本地机器上的SMTP服务器。 然后使用<code>sendmail</code>方法以及消息，从地址和目标地址作为参数(即使来自和地址在电子邮件本身内，这些并不总是用于路由邮件)。</p>
+<p>如果没有在本地计算机上运行SMTP服务器，则可以使用<code>smtplib</code>客户端与远程SMTP服务器进行通信。除非您使用网络邮件服务(如gmail或Yahoo! Mail)，否则您的电子邮件提供商必须向您提供可以提供的邮件服务器详细信息。以腾讯QQ邮箱为例，具体如下：</p>
+<pre><code class="lang-python">mail = smtplib.SMTP(&#39;smtp.qq.com&#39;, 587) # 端口465或587
+</code></pre>
+<h2 id="h2-2-python-html-"><a name="2.使用Python发送HTML电子邮件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>2.使用Python发送HTML电子邮件</h2><p>当使用Python发送邮件信息时，所有内容都被视为简单文本。 即使在短信中包含HTML标签，它也将显示为简单的文本，HTML标签将不会根据HTML语法进行格式化。 但是，Python提供了将HTML消息作为HTML消息发送的选项。</p>
+<p>发送电子邮件时，可以指定一个Mime版本，内容类型和发送HTML电子邮件的字符集。<br>以下是将HTML内容作为电子邮件发送的示例 - </p>
+<pre><code class="lang-python">#!/usr/bin/python3
+
+import smtplib
+
+message = &quot;&quot;&quot;From: From Person &lt;from@fromdomain.com&gt;
+To: To Person &lt;to@todomain.com&gt;
+MIME-Version: 1.0
+Content-type: text/html
+Subject: SMTP HTML e-mail test
+
+This is an e-mail message to be sent in HTML format
+
+&lt;b&gt;This is HTML message.&lt;/b&gt;
+&lt;h1&gt;This is headline.&lt;/h1&gt;
+&quot;&quot;&quot;
+
+try:
+   smtpObj = smtplib.SMTP(&#39;localhost&#39;)
+   smtpObj.sendmail(sender, receivers, message)         
+   print &quot;Successfully sent email&quot;
+except SMTPException:
+   print &quot;Error: unable to send email&quot;
+</code></pre>
+<h2 id="h2-3-"><a name="3.发送附件作为电子邮件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>3.发送附件作为电子邮件</h2><p>要发送具有混合内容的电子邮件，需要将Content-type标题设置为multipart / mixed。 然后，可以在边界内指定文本和附件部分。</p>
+<p>一个边界以两个连字符开始，后跟一个唯一的编号，不能出现在电子邮件的消息部分。 表示电子邮件最终部分的最后一个边界也必须以两个连字符结尾。</p>
+<p>所附的文件应该用包(“m”)功能编码，以便在传输之前具有基本的64编码。</p>
+<h2 id="h2-4-"><a name="4.发送示例" class="reference-link"></a><span class="header-link octicon octicon-link"></span>4.发送示例</h2><p>首先我们要知道用python代理登录qq邮箱发邮件，是需要更改自己qq邮箱设置的。在这里大家需要做两件事情：邮箱开启SMTP功能 、获得授权码。之后我们来看看如何更改模板代码，实现使用Python登录QQ邮箱发送QQ邮件。</p>
+<blockquote>
+<p>注意：也可以使用其他服务商的 SMTP 访问(QQ、网易、Gmail等)。</p>
+</blockquote>
+<p>使用QQ邮件发送邮件之前如何设置授权码，参考：</p>
+<p><a target="_blank" href="http://service.mail.qq.com/cgi-bin/help?subtype=1&amp;&amp;id=28&amp;&amp;no=1001256">http://service.mail.qq.com/cgi-bin/help?subtype=1&amp;&amp;id=28&amp;&amp;no=1001256</a></p>
+<p><strong>4.1.发送一纯文本邮件到指定邮件</strong></p>
+<pre><code class="lang-python">#! /usr/bin/env python
+#coding=utf-8
+
+from email.mime.text import MIMEText
+from email.header import Header
+from smtplib import SMTP_SSL
+
+
+#qq邮箱smtp服务器
+host_server = &#39;smtp.qq.com&#39;
+#sender_qq为发件人的qq号码
+sender_qq = &#39;769728683@qq.com&#39;
+#pwd为qq邮箱的授权码
+pwd = &#39;****kenbb***&#39; ## xh**********bdc
+#发件人的邮箱
+sender_qq_mail = &#39;769728683@qq.com&#39;
+#收件人邮箱
+receiver = &#39;yiibai.com@gmail.com&#39;
+
+#邮件的正文内容
+mail_content = &#39;你好，这是使用python登录qq邮箱发邮件的测试&#39;
+#邮件标题
+mail_title = &#39;Maxsu的邮件&#39;
+
+#ssl登录
+smtp = SMTP_SSL(host_server)
+#set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
+smtp.set_debuglevel(1)
+smtp.ehlo(host_server)
+smtp.login(sender_qq, pwd)
+
+msg = MIMEText(mail_content, &quot;plain&quot;, &#39;utf-8&#39;)
+msg[&quot;Subject&quot;] = Header(mail_title, &#39;utf-8&#39;)
+msg[&quot;From&quot;] = sender_qq_mail
+msg[&quot;To&quot;] = receiver
+smtp.sendmail(sender_qq_mail, receiver, msg.as_string())
+smtp.quit()
+</code></pre>
+<p>执行上面代码后，登录接收邮件的邮件帐号，这里接收邮件的账号为：<code><a target="_blank" href="mailto:yiibai.com@gmail.com">yiibai.com@gmail.com</a></code>，登录 <a target="_blank" href="http://gmail.com">http://gmail.com</a> 应该会看到有接收到邮件如下 - </p>
+<p><img src="http://www.yiibai.com/uploads/images/201706/2606/767100600_71168.png" alt=""></p>
+<blockquote>
+<p>注意：有时可能被认为是垃圾邮件，如果没有找到可从“垃圾邮件”查找一下。</p>
+</blockquote>
+<p><strong>4.2.给多个人发送邮件</strong></p>
+<pre><code class="lang-python">#! /usr/bin/env python
+#coding=utf-8
+
+from email.mime.text import MIMEText
+from email.header import Header
+from smtplib import SMTP_SSL
+
+
+#qq邮箱smtp服务器
+host_server = &#39;smtp.qq.com&#39;
+#sender_qq为发件人的qq号码
+sender_qq = &#39;769728683@qq.com&#39;
+#pwd为qq邮箱的授权码
+pwd = &#39;h**********bdc&#39; ## h**********bdc
+#发件人的邮箱
+sender_qq_mail = &#39;769728683@qq.com&#39;
+#收件人邮箱
+receivers = [&#39;yiibai.com@gmail.com&#39;,&#39;****su@gmail.com&#39;]
+
+#邮件的正文内容
+mail_content = &#39;你好，这是使用python登录qq邮箱发邮件的测试&#39;
+#邮件标题
+mail_title = &#39;Maxsu的邮件&#39;
+
+
+#ssl登录
+smtp = SMTP_SSL(host_server)
+#set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
+smtp.set_debuglevel(1)
+smtp.ehlo(host_server)
+smtp.login(sender_qq, pwd)
+
+msg = MIMEText(mail_content, &quot;plain&quot;, &#39;utf-8&#39;)
+msg[&quot;Subject&quot;] = Header(mail_title, &#39;utf-8&#39;)
+msg[&quot;From&quot;] = sender_qq_mail
+msg[&quot;To&quot;] = Header(&quot;接收者测试&quot;, &#39;utf-8&#39;) ## 接收者的别名
+smtp.sendmail(sender_qq_mail, receivers, msg.as_string())
+smtp.quit()
+</code></pre>
+<p>执行上面代码后，登录接收邮件的邮件帐号，这里接收邮件的账号为：<code><a target="_blank" href="mailto:yiibai.com@gmail.com">yiibai.com@gmail.com</a></code>，登录 <a target="_blank" href="http://gmail.com">http://gmail.com</a> 应该会看到有接收到邮件如下 - </p>
+<p><img src="http://www.yiibai.com/uploads/images/201706/2606/378110652_20832.png" alt=""></p>
+<p><strong>4.3.使用Python发送HTML格式的邮件</strong></p>
+<p>Python发送HTML格式的邮件与发送纯文本消息的邮件不同之处就是将MIMEText中<code>_subtype</code>设置为<code>html</code>。代码如下：</p>
+<pre><code class="lang-python">#! /usr/bin/env python
+#coding=utf-8
+
+from email.mime.text import MIMEText
+from email.header import Header
+from smtplib import SMTP_SSL
+
+
+#qq邮箱smtp服务器
+host_server = &#39;smtp.qq.com&#39;
+#sender_qq为发件人的qq号码
+sender_qq = &#39;769728683@qq.com&#39;
+#pwd为qq邮箱的授权码
+pwd = &#39;***bmke********&#39; ##
+#发件人的邮箱
+sender_qq_mail = &#39;769728683@qq.com&#39;
+#收件人邮箱
+receiver = &#39;yiibai.com@gmail.com&#39;
+
+#邮件的正文内容
+mail_content = &quot;你好，&lt;p&gt;这是使用python登录qq邮箱发送HTML格式邮件的测试：&lt;/p&gt;&lt;p&gt;&lt;a href=&#39;http://www.yiibai.com&#39;&gt;易百教程&lt;/a&gt;&lt;/p&gt;&quot;
+#邮件标题
+mail_title = &#39;Maxsu的邮件&#39;
+
+
+#ssl登录
+smtp = SMTP_SSL(host_server)
+#set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
+smtp.set_debuglevel(1)
+smtp.ehlo(host_server)
+smtp.login(sender_qq, pwd)
+
+msg = MIMEText(mail_content, &quot;html&quot;, &#39;utf-8&#39;)
+msg[&quot;Subject&quot;] = Header(mail_title, &#39;utf-8&#39;)
+msg[&quot;From&quot;] = sender_qq_mail
+msg[&quot;To&quot;] = Header(&quot;接收者测试&quot;, &#39;utf-8&#39;) ## 接收者的别名
+
+smtp.sendmail(sender_qq_mail, receiver, msg.as_string())
+smtp.quit()
+</code></pre>
+<p>执行上面代码后，登录接收邮件的邮件帐号，这里接收邮件的账号为：<code><a target="_blank" href="mailto:yiibai.com@gmail.com">yiibai.com@gmail.com</a></code>，登录 <a target="_blank" href="http://gmail.com">http://gmail.com</a> 应该会看到有接收到邮件如下 - </p>
+<p><img src="http://www.yiibai.com/uploads/images/201706/2606/599110651_72642.png" alt=""></p>
+<p><strong>4.4.Python发送带附件的邮件</strong></p>
+<p>要发送带附件的邮件，首先要创建<code>MIMEMultipart()</code>实例，然后构造附件，如果有多个附件，可依次构造，最后使用<code>smtplib.smtp</code>发送。</p>
+<p>实现代码如下所示 - </p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<ins class="adsbygoogle"
+								 style="display:inline-block;width:728px;height:90px"
+								 data-ad-client="ca-pub-1090193214637198"
+								 data-ad-slot="6494738921"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script><pre><code class="lang-python">#! /usr/bin/env python
+#coding=utf-8
+import smtplib
+from email.mime.text import MIMEText
+from email.header import Header
+from smtplib import SMTP_SSL
+
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.header import Header
+
+
+
+#qq邮箱smtp服务器
+host_server = &#39;smtp.qq.com&#39;
+#sender_qq为发件人的qq号码
+sender_qq = &#39;769728683@qq.com&#39;
+#pwd为qq邮箱的授权码
+pwd = &#39;*****mkenb****&#39; ##
+#发件人的邮箱
+sender_qq_mail = &#39;769728683@qq.com&#39;
+#收件人邮箱
+receiver = &#39;yiibai.com@gmail.com&#39;
+
+#邮件的正文内容
+mail_content = &quot;你好，&lt;p&gt;这是使用python登录qq邮箱发送HTML格式邮件的测试：&lt;/p&gt;&lt;p&gt;&lt;a href=&#39;http://www.yiibai.com&#39;&gt;易百教程&lt;/a&gt;&lt;/p&gt;&quot;
+#邮件标题
+mail_title = &#39;Maxsu的邮件&#39;
+
+#邮件正文内容
+msg = MIMEMultipart()
+#msg = MIMEText(mail_content, &quot;plain&quot;, &#39;utf-8&#39;)
+msg[&quot;Subject&quot;] = Header(mail_title, &#39;utf-8&#39;)
+msg[&quot;From&quot;] = sender_qq_mail
+msg[&quot;To&quot;] = Header(&quot;接收者测试&quot;, &#39;utf-8&#39;) ## 接收者的别名
+
+#邮件正文内容
+msg.attach(MIMEText(mail_content, &#39;html&#39;, &#39;utf-8&#39;))
+
+
+# 构造附件1，传送当前目录下的 test.txt 文件
+att1 = MIMEText(open(&#39;attach.txt&#39;, &#39;rb&#39;).read(), &#39;base64&#39;, &#39;utf-8&#39;)
+att1[&quot;Content-Type&quot;] = &#39;application/octet-stream&#39;
+# 这里的filename可以任意写，写什么名字，邮件中显示什么名字
+att1[&quot;Content-Disposition&quot;] = &#39;attachment; filename=&quot;attach.txt&quot;&#39;
+msg.attach(att1)
+
+# 构造附件2，传送当前目录下的 runoob.txt 文件
+att2 = MIMEText(open(&#39;yiibai.txt&#39;, &#39;rb&#39;).read(), &#39;base64&#39;, &#39;utf-8&#39;)
+att2[&quot;Content-Type&quot;] = &#39;application/octet-stream&#39;
+att2[&quot;Content-Disposition&quot;] = &#39;attachment; filename=&quot;yiibai.txt&quot;&#39;
+msg.attach(att2)
+
+
+#ssl登录
+smtp = SMTP_SSL(host_server)
+#set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
+smtp.set_debuglevel(1)
+smtp.ehlo(host_server)
+smtp.login(sender_qq, pwd)
+
+smtp.sendmail(sender_qq_mail, receiver, msg.as_string())
+smtp.quit()
+</code></pre>
+<p>执行上面代码后，登录接收邮件的邮件帐号，这里接收邮件的账号为：<code><a target="_blank" href="mailto:yiibai.com@gmail.com">yiibai.com@gmail.com</a></code>，登录 <a target="_blank" href="http://gmail.com">http://gmail.com</a> 应该会看到有接收到邮件如下 - </p>
+<p><img src="http://www.yiibai.com/uploads/images/201706/2706/283120658_18531.png" alt=""></p>
+<p><strong>4.5.在 HTML 文本中添加图片</strong></p>
+<p>邮件的HTML文本中一般邮件服务商添加外链是无效的，所以要发送带图片的邮件内容，可以参考下面的实例代码实现：</p>
+<pre><code class="lang-python">#! /usr/bin/env python
+#coding=utf-8
+import smtplib
+from email.mime.text import MIMEText
+from email.header import Header
+from smtplib import SMTP_SSL
+
+from email.mime.image import MIMEImage
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+
+#qq邮箱smtp服务器
+host_server = &#39;smtp.qq.com&#39;
+#sender_qq为发件人的qq号码
+sender_qq = &#39;769728683@qq.com&#39;
+#pwd为qq邮箱的授权码
+pwd = &#39;h******mk*****&#39; #
+#发件人的邮箱
+sender_qq_mail = &#39;769728683@qq.com&#39;
+#收件人邮箱
+receiver = [&#39;yiibai.com@gmail.com&#39;,&#39;h****u@qq.com&#39;]
+
+#邮件的正文内容
+mail_content = &quot;&quot;
+#邮件标题
+mail_title = &#39;Maxsu的邮件&#39;
+
+#邮件正文内容
+#msg = MIMEMultipart()
+msg = MIMEMultipart(&#39;related&#39;)
+msg[&quot;Subject&quot;] = Header(mail_title, &#39;utf-8&#39;)
+msg[&quot;From&quot;] = sender_qq_mail
+msg[&quot;To&quot;] = Header(&quot;接收者测试&quot;, &#39;utf-8&#39;) ## 接收者的别名
+
+msgAlternative = MIMEMultipart(&#39;alternative&#39;)
+msg.attach(msgAlternative)
+
+
+#邮件正文内容
+mail_body = &quot;&quot;&quot;
+ &lt;p&gt;你好，Python 邮件发送测试...&lt;/p&gt;
+ &lt;p&gt;这是使用python登录qq邮箱发送HTML格式和图片的测试邮件：&lt;/p&gt;
+ &lt;p&gt;&lt;a href=&#39;http://www.yiibai.com&#39;&gt;易百教程&lt;/a&gt;&lt;/p&gt;
+ &lt;p&gt;图片演示：&lt;/p&gt;
+ &lt;p&gt;&lt;img src=&quot;cid:send_image&quot;&gt;&lt;/p&gt;
+&quot;&quot;&quot;
+
+#msg.attach(MIMEText(mail_body, &#39;html&#39;, &#39;utf-8&#39;))
+msgText = (MIMEText(mail_body, &#39;html&#39;, &#39;utf-8&#39;))
+msgAlternative.attach(msgText)
+
+
+# 指定图片为当前目录
+fp = open(&#39;my.png&#39;, &#39;rb&#39;)
+msgImage = MIMEImage(fp.read())
+fp.close()
+
+# 定义图片 ID，在 HTML 文本中引用
+msgImage.add_header(&#39;Content-ID&#39;, &#39;&lt;send_image&gt;&#39;)
+msg.attach(msgImage)
+
+
+#ssl登录
+smtp = SMTP_SSL(host_server)
+#set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
+smtp.set_debuglevel(1)
+smtp.ehlo(host_server)
+smtp.login(sender_qq, pwd)
+
+smtp.sendmail(sender_qq_mail, receiver, msg.as_string())
+smtp.quit()
+</code></pre>
+<p>执行上面代码后，登录接收邮件的邮件帐号，这里接收邮件的账号为：<code><a target="_blank" href="mailto:yiibai.com@gmail.com">yiibai.com@gmail.com</a></code>，登录 <a target="_blank" href="http://gmail.com">http://gmail.com</a> 应该会看到有接收到邮件如下 - </p>
+<p><img src="http://www.yiibai.com/uploads/images/201706/2706/403140648_30653.png" alt=""></p><br/>
+																
+
+						<p>
+							<b style="color:#f57e42;">易百教程移动端</b>：请扫描本页面底部(右侧)二维码并关注微信公众号，回复："<b>教程</b>" 选择相关教程阅读或直接访问：http://m.yiibai.com 。
+						</p>
+
+
+						<div style="width:100%;margin-bottom: 16px; height: 32px;margin-top:18px;">
+							<span style="float:left;">上一篇：<a href="https://www.yiibai.com/python/python_networking.html#article-start" title="Python网络编程（Sockets）"><i class="layui-icon"></i>Python网络编程（Sockets）</a></span><span style="float:right;">下一篇：<a href="https://www.yiibai.com/python/python_multithreading.html#article-start" style="float:right;" title="下一篇：Python多线程编程"><i class="layui-icon"></i>Python多线程编程</a></a></span>	
+							
+							<div id="googlead" style="float:left;margin-top:8px;">
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- yiibai下方 -->
+								<ins class="adsbygoogle"
+									 style="display:inline-block;width:728px;height:90px"
+									 data-ad-client="ca-pub-1090193214637198"
+									 data-ad-slot="6494738921"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>
+
+						</div>
+
+
+						
+						<h4 style="color: #f57e42;padding-top:6px;padding-bottom: 4px;float: left;width: 100%;margin-bottom:12px;">加QQ群啦，易百教程官方技术学习群</h4>
+						
+						<blockquote style="width:100%;float:left;margin-bottom:6px;padding-bottom:4px;">
+							注意：建议每个人选自己的技术方向加群，同一个QQ最多限加3个群。
+						</blockquote>
+						<ul style="width:100%;float:left;">
+							<li><b>Java技术群：</b> 227270512 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>MySQL/SQL群：</b> 418407075 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>大数据开发群：</b> 655154550 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>Python技术群：</b> 287904175 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>人工智能深度学习：</b> 456236082 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>测试工程师(新群)：</b> 415553199 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>前端技术群(新群)：</b> 410430016 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>C/C++技术(新群)：</b> 629264796 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>Node.js技术(新群)：</b> 621549808 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>Linux技术：</b> 479429477 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>PHP开发者：</b> 460153241 （人数：2000，等级：LV5，免费：是）</li>
+							
+							<li><b>Oracle数据库：</b> 175248146 （人数：2000，等级：LV5，免费：是）</li>
+							<li><b>C#/ASP.Net开发者：</b> 579821706 （人数：2000，等级：LV5，免费：是）</li>
+							<li><b>数据分析师：</b> 397883996 （人数：1000，等级：LV1，免费：是）R语言，Matlab语言等技术</li>
+						</ul>
+						
+					</div>
+
+					<div class="xshare">
+						<!-- JiaThis Button BEGIN -->
+						<div class="jiathis_style_24x24">
+							<a class="jiathis_button_qzone"></a>
+							<a class="jiathis_button_tsina"></a>
+							<a class="jiathis_button_tqq"></a>
+							<a class="jiathis_button_weixin"></a>						
+							<a class="jiathis_button_ishare"></a>
+							<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+							<a class="jiathis_counter_style"></a>
+						</div>
+						<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+						<!-- JiaThis Button END -->
+					</div>    
+					
+					
+					<!--// google adv -->
+					
+					
+
+					<!--PC版-->
+					<div id="SOHUCS" sid="article-10849"></div>
+					<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+					<script type="text/javascript">
+					window.changyan.api.config({
+					appid: 'cysNoANqz',
+					conf: 'prod_d6c4446986ec966c450afefb0c11ea5f'
+					});
+					</script>
+
+					<div style="width:100%;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+							 style="display:block"
+							 data-ad-format="autorelaxed"
+							 data-ad-client="ca-pub-1090193214637198"
+							 data-ad-slot="1254304051"></ins>
+						<script>
+							 (adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					
+                </article>				
+		</div>
+		<!--//end content-->
+
+		<div class="page-right">
+						
+			<div class="item">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- GoogleAdv-300x250 -->
+				<ins class="adsbygoogle"
+					 style="display:inline-block;width:300px;height:250px"
+					 data-ad-client="ca-pub-1090193214637198"
+					 data-ad-slot="9485766451"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
+			</div>
+			<!--
+			<div class="item">
+				<script type="text/javascript">
+					/*BDAdv-300x250-创建于*/
+					var cpro_id = "u3028183";
+				</script>
+				<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/c.js"></script>
+
+			</div>-->
+
+			<div class="item">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Right-300x600 -->
+				<ins class="adsbygoogle"
+					 style="display:inline-block;width:300px;height:600px"
+					 data-ad-client="ca-pub-1090193214637198"
+					 data-ad-slot="9448740452"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div><!--//end page-right -->
+
+	</section>
+
+	
+<footer class="footer" >	
+	<div class="container" id="yiiba-bottom">			
+		<div class="ybm-block">
+			<div class="ybm cf">
+			 <dl>
+				<dt>推荐/最新教程</dt>
+						<dd>·<a href="http://www.yiibai.com/httpclient" title="HttpClient教程" target="_blank">HttpClient教程</a> </dd><dd>·<a href="http://www.yiibai.com/gson" title="Gson教程" target="_blank">Gson教程</a> </dd><dd>·<a href="http://www.yiibai.com/thymeleaf" title="Thymeleaf教程" target="_blank">Thymeleaf教程</a> </dd><dd>·<a href="http://www.yiibai.com/ipc" title="进程间通信教程" target="_blank">进程间通信教程</a> </dd><dd>·<a href="http://www.yiibai.com/firebase" title="FireBase教程" target="_blank">FireBase教程</a> </dd><dd>·<a href="http://www.yiibai.com/website_development" title="网站开发教程" target="_blank">网站开发教程</a> </dd><dd>·<a href="http://www.yiibai.com/batch_script" title="批处理教程" target="_blank">批处理教程</a> </dd><dd>·<a href="http://www.yiibai.com/opencv" title="OpenCV教程" target="_blank">OpenCV教程</a> </dd>
+	
+			 
+			 </dl>
+			
+			 <dl>
+				<dt>最新更新 </dt>
+					<dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-multipart-upload-request.html" title="HttpClient分段上传请求">HttpClient分段上传请求</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-custom-http-headers.html" title="HttpClient自定义HTTP头">HttpClient自定义HTTP头</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-redirect-handling.html" title="HttpClient重定向处理示例">HttpClient重定向处理示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-html-form-post.html" title="HttpClient HTML表单提交示例">HttpClient HTML表单提交示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-cache-http-caching.html" title="HttpClient Http缓存示例">HttpClient Http缓存示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-httprequestretryhandler.html" title="HttpClient HttpRequestRetryHandler示例">HttpClient HttpRequestRetryHandler示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/ignore-certificate-errors.html" title="HttpClient忽略证书错误">HttpClient忽略证书错误</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-get-server-certificates.html" title="HttpClient获取服务器证书">HttpClient获取服务器证书</a></dd>			   
+			  
+			 </dl>
+
+			 <dl>
+			  
+				<dt>站点信息</dt>
+				<dd> · <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IBcWGRcSGBYYE2BRUQ5DT00" rel="external nofollow">意见反馈</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/disclaimer.html">免责声明</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/about_us.html">关于我们</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/reward.html#to-qcode">关于捐助</a> </dd>
+			    <dd> · <a target="_blank" href="http://www.yiibai.com/siteinfo/download.html" style="color:#e74851;">所有实例代码下载</a> </dd>
+			 </dl>
+
+			 <dl>
+				<dt>易百教程官方QQ群</dt>
+						<dd>JAVA技术：227270512</dd>
+						<dd>MySQL数据库：418407075</dd>						
+						<dd>Python技术： 287904175</dd>
+						<dd>大数据开发： 655154550</dd>
+						<dd>Linux技术： 479429477</dd>
+						<dd>PHP/Web技术： 460153241</dd>
+
+			</dl>
+
+
+			 <div class="search-share">
+			  <div class="app-download">
+				<div>
+				 <strong>关注微信公众号</strong>
+				</div>
+			  </div>
+			  <div class="share">
+			  <img width="150" height="150" src="/static.v3/img/qrcode.jpg">
+			   </div>
+			 </div>
+			</div>
+		   </div>		
+	</div>
+
+</footer>
+<div id="footer-copyright">
+	Copyright &copy; 2012-2018<strong><a href="http://www.yiibai.com/" target="_blank">易百教程</a></strong>&nbsp; <strong>
+		
+		<a href="http://www.yiibai.com/" target="_blank">yiiai.com</a></strong> All Rights Reserved. 备案号：琼ICP备13001417号-3 联系我们：769728683@qq.com &nbsp;&nbsp;
+
+	
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?424e222704e2274e37a8169110e6e00a";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4255568'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/stat.php%3Fid%3D4255568' type='text/javascript'%3E%3C/script%3E"));</script>
+	
+</div>
+
+<div class="fixed-btn">
+	<a class="to-top" href="javascript:void(0)" title="返回顶部"> <i
+		class="fa fa-angle-up"></i></a> <a class="qrcode"
+		href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+	<a class="writer" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IBcWGRcSGBYYE2BRUQ5DT00" style="font-size: 12px;"
+		title="问题反馈"><i class="fa fa-envelope-o"
+		style="font-size: 20px;"></i></a>
+	<!-- qrcode modal -->
+
+	<div id="bottom-qrcode" class="modal fade in" style="display: none;">
+		<h4>微信关注</h4>
+		<div class="panel-body">
+			<img alt="微信关注" width="128" height="128"
+				src="/static.v3/img/qrcode.jpg">
+		</div>
+	</div>
+</div>
+
+<script src="/static/js/jquery.js"></script> 
+<script src="/static.v4/js/main.js?v=2017/6/21"></script>
+<script src="/static.v4/js/prism.js"></script>
+<script src="/static/layer/layer.js" charset="utf-8"></script>
+<script>
+	var TBUI = {
+		URL : 'http://www.yiibai.com',
+		STATIC : 'http://www.yiibai.com/static.v4',
+		VERSION : '3.0',
+	};
+	$("#btn-reward").on('click', function(){
+		layer.open({
+			  type: 2,
+			  title: "请扫描以下二维码支付打赏",
+			  area: ['56%', '70%'],
+			  shade: 0.4,
+			  closeBtn: 1,
+			  shadeClose: true,
+			  content: '/static/images/reward.png'
+		});
+
+	});
+</script>
+
+</body>
+</html>

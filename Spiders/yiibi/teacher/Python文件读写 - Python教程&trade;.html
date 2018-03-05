@@ -1,0 +1,866 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-title" content="yiibai">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<title>Python文件读写 - Python教程&trade;</title>
+<meta name="keywords" content="">
+<meta name="description" content="在本章中将介绍Python 3中可用的所有基本文件读取I/O功能。有关更多功能，请参考标准Python文档。
+打印到屏幕产生输出的最简单方法是使用print语句，">
+<link rel="stylesheet" href="/static.v4/css/fonts/font-awesome.min.css" media="all" />
+<link rel="stylesheet" href="/static.v4/css/all.css?ver=4.0" media="all">
+<link rel="stylesheet" href="/static.v4/css/prism.css?ver=3.0" media="all">
+<style>
+	.article-content ul li {list-style-type: disc;}
+	.article-content ol li {list-style-type: disc;}	
+	
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body class="page-home">
+	
+	
+<header class="header">
+	<div class="container">
+		<h1 class="logo">
+			<a href="http://www.yiibai.com" title="易百教程"><i
+				class="fa">&#xe600;</i>易百教程</a>
+		</h1>
+		<div class="site-navbar">
+			<ul>
+				<li class="has-sub-menu"><a href="#">所有教程</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="http://www.yiibai.com/html/java/">Java技术</a></li>
+							<li><a href="http://www.yiibai.com/web/">Web技术</a></li>
+							<li><a href="http://www.yiibai.com/html/script/">脚本语言</a></li>
+							<li><a href="http://www.yiibai.com/html/database/">数据库</a></li>
+							<li><a href="http://www.yiibai.com/hightlang/">高级语言</a></li>
+							<li><a href="http://www.yiibai.com/html/misc/">其它技术</a></li>
+							<li><a href="http://www.yiibai.com/v3.php?app=all" style="font-weight:bold;color: #61B3E6;">查看所有教程</a></li>
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:void(0);">Java技术</a>
+					<div class="sub-menu">
+						<ul>
+								<li>
+									<a href="http://www.yiibai.com/java/" target="_blank">Java教程</a>
+								</li>
+								
+								<li>
+									<a href="http://www.yiibai.com/design_pattern/" target="_blank">Java设计模式</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/jsp/" target="_blank">JSP教程</a>
+								</li>
+
+								<li>
+									<a href="http://www.yiibai.com/jdbc/" target="_blank">JDBC教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/java_xml/" target="_blank">Java XML教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/junit/" target="_blank">JUnit教程</a>
+								</li>							
+								
+							
+							
+								<li>
+									<a href="http://www.yiibai.com/struts_2/" target="_blank">Struts2教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/maven/" target="_blank">Maven教程</a>
+								</li>
+							
+							
+								<li>
+									<a href="http://www.yiibai.com/javaexamples/" target="_blank">java实例教程</a>
+								</li>
+
+								<li>
+									<a href="http://www.yiibai.com/mybatis/" target="_blank">MyBatis教程</a>
+								</li>
+
+								
+								<li>
+									<a href="http://www.yiibai.com/spring/" target="_blank">Spring教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/spring_mvc/" target="_blank">Spring MVC教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/gradle/" target="_blank">Gradle教程</a>
+								</li>
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:;">数据库</a>
+					<div class="sub-menu">
+						<ul>
+							
+								<li>
+									<a href="http://www.yiibai.com/mysql/" target="_blank" title="MySQL教程">MySQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/couchdb/" target="_blank" title="CouchDB教程">CouchDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/cassandra/" target="_blank" title="Cassandra教程">Cassandra教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/mariadb/" target="_blank" title="MariaDB教程">MariaDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/firebase/" target="_blank" title="FireBase教程">FireBase教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/plsql/" target="_blank" title="PL/SQL教程">PL/SQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/postgresql/" target="_blank" title="PostgreSQL教程">PostgreSQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/mongodb/" target="_blank" title="MongoDB教程">MongoDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sqlite/" target="_blank" title="SQLite教程">SQLite教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/db2/" target="_blank" title="DB2教程">DB2教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/redis/" target="_blank" title="Redis教程">Redis教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/memcached/" target="_blank" title="Memcached教程">Memcached教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/access/" target="_blank" title="Access教程">Access教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sql/" target="_blank" title="SQL教程">SQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sql_server/" target="_blank" title="SQL Server教程">SQL Server教程</a>
+								</li>
+							
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:;">脚本语言</a>
+					<div class="sub-menu">
+						<ul>
+							
+								<li>
+									<a href="http://www.yiibai.com/wxpython/" target="_blank" title="WxPython教程">WxPython教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/ruby/" target="_blank" title="Ruby教程">Ruby教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/php/" target="_blank" title="PHP教程">PHP教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/python/" target="_blank" title="Python教程">Python教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/lua/" target="_blank" title="Lua教程">Lua教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/tcl/" target="_blank" title="Tcl教程">Tcl教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/tk/" target="_blank" title="Tk教程">Tk教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/numpy/" target="_blank" title="NumPy教程">NumPy教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/python3/" target="_blank" title="Python3教程">Python3教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/php7/" target="_blank" title="PHP7教程">PHP7教程</a>
+								</li>
+							
+						</ul>
+					</div></li>
+
+								
+					<li class=""><a href="/v3.php?app=post">极客文章</a></li>
+					<li class="active"><a href="/v3.php?app=post&act=new">+投稿</a></li>
+			</ul>
+		</div>
+		<div style="padding-top:6px;width:220px;float:left;margin-left:64px;line-height:22px;" id="search-form">
+		    <form action="/search.php" method="get">
+				<input type="text" name="kw" style="float:left;width:134px;padding-left:8px;font-weight:bold;" value=""/>
+				<input type="submit" style="float:left;width:48px;" value="搜索"/>
+			</form>
+		</div>
+
+		<div id="login-state" style="float:left;margin-top: 4px;">
+			
+		</div>
+		<div class="m-navbar-start">
+			<i class="fa">&#xe624;</i>
+		</div>
+		<div class="m-wel-start">
+			<i class="fa">&#xe632;</i>
+		</div>
+		<div class="m-mask"></div>
+	</div>
+</header>
+
+
+
+	<section class="container container-page clearfix" style="margin-top: 24px;">
+		<div class="pageside">
+			<div class="pagemenus">
+				<ul class="pagemenu">
+					<li class="navto-ads active"><a href="/python/" style="font-weight:bold;"><i class="fa fa-list"></i>&nbsp;&nbsp;Python教程</a></li>
+					
+					<li style=""><a href="https://www.yiibai.com/python/python_quick_guide.html" title="Python快速入门" style="">Python快速入门</a></li><li style=""><a href="https://www.yiibai.com/python/what-is-python.html" title="Python是什么？" style="">Python是什么？</a></li><li style=""><a href="https://www.yiibai.com/python/history-of-python.html" title="Python的历史" style="">Python的历史</a></li><li style=""><a href="https://www.yiibai.com/python/features.html" title="Python功能特点" style="">Python功能特点</a></li><li style=""><a href="https://www.yiibai.com/python/applications.html" title="Python可以开发哪些程序？" style="">Python可以开发哪些程序？</a></li><li style=""><a href="https://www.yiibai.com/python/python_environment.html" title="Python安装和环境配置" style="">Python安装和环境配置</a></li><li style=""><a href="https://www.yiibai.com/python/python_command_line_arguments.html" title="Python命令行参数" style="">Python命令行参数</a></li><li style=""><a href="https://www.yiibai.com/python/python_variable_types.html" title="Python变量类型" style="">Python变量类型</a></li><li style=""><a href="https://www.yiibai.com/python/python_basic_operators.html" title="Python基本运算符" style="">Python基本运算符</a></li><li style=""><a href="https://www.yiibai.com/python/python_decision_making.html" title="Python决策" style="">Python决策</a></li><li style=""><a href="https://www.yiibai.com/python/python_loops.html" title="Python循环" style="">Python循环</a></li><li style=""><a href="https://www.yiibai.com/python/python_numbers.html" title="Python数字" style="">Python数字</a></li><li style=""><a href="https://www.yiibai.com/python/python_strings.html" title="Python字符串" style="">Python字符串</a></li><li style=""><a href="https://www.yiibai.com/python/python_lists.html" title="Python列表" style="">Python列表</a></li><li style=""><a href="https://www.yiibai.com/python/python_tuples.html" title="Python元组" style="">Python元组</a></li><li style=""><a href="https://www.yiibai.com/python/python_dictionary.html" title="Python字典" style="">Python字典</a></li><li style=""><a href="https://www.yiibai.com/python/python_date_time.html" title="Python日期和时间" style="">Python日期和时间</a></li><li style=""><a href="https://www.yiibai.com/python/python_functions.html" title="Python函数" style="">Python函数</a></li><li style=""><a href="https://www.yiibai.com/python/python_modules.html" title="Python模块" style="">Python模块</a></li><li style="border-left: 6px solid #2e82ff;font-weight: bold;"><a href="#" title="这是当前阅读的文章" style="cursor:text;background-color: #f5f2f0;">Python文件读写</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">面向对象</a></li><li ><a href="https://www.yiibai.com/python/python_classes_objects.html" title="Python面向对象（类和对象）" >Python面向对象（类和对象）</a></li><li ><a href="https://www.yiibai.com/python/python-constructors.html" title="Python构造函数" >Python构造函数</a></li><li ><a href="https://www.yiibai.com/python/inheritance-in-python.html" title="Python继承" >Python继承</a></li><li ><a href="https://www.yiibai.com/python/multiple-inheritance.html" title="Python多重继承" >Python多重继承</a></li><li ><a href="https://www.yiibai.com/python/operator-overloading.html" title="Python操作符重载" >Python操作符重载</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">高级部分</a></li><li ><a href="https://www.yiibai.com/python/python_exceptions.html" title="Python异常处理" >Python异常处理</a></li><li ><a href="https://www.yiibai.com/python/python_reg_expressions.html" title="Python正则表达式" >Python正则表达式</a></li><li ><a href="https://www.yiibai.com/python/python_database_access.html" title="Python+MySQL数据库操作（PyMySQL）" >Python+MySQL数据库操作（PyMySQL）</a></li><li ><a href="https://www.yiibai.com/python/python_networking.html" title="Python网络编程（Sockets）" >Python网络编程（Sockets）</a></li><li ><a href="https://www.yiibai.com/python/python_sending_email.html" title="Python发送邮件" >Python发送邮件</a></li><li ><a href="https://www.yiibai.com/python/python_multithreading.html" title="Python多线程编程" >Python多线程编程</a></li><li ><a href="https://www.yiibai.com/python/python_xml_processing.html" title="Python XML解析和处理" >Python XML解析和处理</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">其它杂项</a></li><li ><a href="https://www.yiibai.com/python/file_methods.html" title="Python文件对象方法" >Python文件对象方法</a></li><li ><a href="https://www.yiibai.com/python/os_file_methods.html" title="Python os模块方法" >Python os模块方法</a></li><li ><a href="https://www.yiibai.com/python/iterator.html" title="Python迭代器" >Python迭代器</a></li><li ><a href="https://www.yiibai.com/python/generator.html" title="Python生成器" >Python生成器</a></li><li ><a href="https://www.yiibai.com/python/closure.html" title="Python闭包" >Python闭包</a></li><li ><a href="https://www.yiibai.com/python/decorator.html" title="Python修饰器" >Python修饰器</a></li>					
+					<!--<li><a href="" title=""></a></li>-->					
+				</ul>
+				
+			</div>
+		</div>
+
+		<div class="content" id="navs">
+						
+                <header class="article-header">
+                    <h1 class="article-title" style="text-align:center;">Python文件读写</h1>
+                    <div class="article-meta" style="margin-top:20px;font-size:14px;">
+						<span class="item" style="">
+							<a class="btn btn-pay" id="btn-reward" target="_blank"> ¥ 我要打赏 </a>
+						</span>
+                        
+                        <span class="item" style="margin-left:20px;"><a href="/python/" rel="category tag">Python教程</a></span>
+						<span class="item" style="margin-left:20px;">作者：初生不惑</span>
+                        <span class="item" style="margin-left:20px;">评论：0 条</span>
+						<span style="font-weight:bold;margin-left:24px;" id="qq-group">Java技术QQ群：<a href="//shang.qq.com/wpa/qunwpa?idkey=c7c79783f2da15e2244981dfbd17c18b6a71b8bc5d018e248d59919bd614e18f" style="color:#61B3E6;" target="_blank" title="直接点击加群">227270512</a></span>
+
+                    </div>
+                </header>
+                <!--// article body -->
+                <article>
+					<a name="article-start" id="article-start"></a>
+					
+					<div style="padding-top: 6px;padding-bottom: 4px;float:left;width:100%;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- 顶部_720x90 -->
+						<ins class="adsbygoogle"
+							 style="display:inline-block;width:728px;height:90px"
+							 data-ad-client="ca-pub-1090193214637198"
+							 data-ad-slot="9805510053"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					
+
+					<div style="width:100%;float:left;" class="article-content">
+						
+						<input type="hidden" name="article_id" id="article_id" value="10770"/>
+						<input type="hidden" name="artype" id="artype" value="-1"/>
+
+						<p>在本章中将介绍<em>Python 3</em>中可用的所有基本文件读取<em>I/O</em>功能。有关更多功能，请参考标准Python文档。</p>
+<h2 id="h2-u6253u5370u5230u5C4Fu5E55"><a name="打印到屏幕" class="reference-link"></a><span class="header-link octicon octicon-link"></span>打印到屏幕</h2><p>产生输出的最简单方法是使用<code>print</code>语句，可以传递零个或多个由逗号分隔的表达式。此函数将传递的表达式转换为字符串，并将结果写入标准输出，如下所示：</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+
+print (&quot;Python是世界上最牛逼的语言,&quot;, &quot;难道不是吗?&quot;)
+</code></pre>
+<p>执行上面代码后，将在标准屏幕上产生以下结果 -</p>
+<pre><code class="lang-shell">Python是世界上最牛逼的语言, 难道不是吗?
+</code></pre>
+<h2 id="h2-u4ECEu952Eu76D8u8BFBu53D6u8F93u5165"><a name="从键盘读取输入" class="reference-link"></a><span class="header-link octicon octicon-link"></span>从键盘读取输入</h2><p><em>Python 2</em>有两个内置的函数用于从标准输入读取数据，默认情况下来自键盘。这两个函数分别是：<code>input()</code>和<code>raw_input()</code>。</p>
+<p>在<em>Python 3</em>中，不建议使用<code>raw_input()</code>函数。 <code>input()</code>函数可以从键盘读取数并作为字符串类型，而不管它是否用引号括起来(“或”“)。</p>
+<pre><code class="lang-python">&gt;&gt;&gt; x = input(&quot;input something:&quot;)
+input something:yes,input some string
+&gt;&gt;&gt; x
+&#39;yes,input some string&#39;
+&gt;&gt;&gt; x = input(&quot;input something:&quot;)
+input something:1239900
+&gt;&gt;&gt; x
+&#39;1239900&#39;
+&gt;&gt;&gt;
+</code></pre>
+<h2 id="h2-u6253u5F00u548Cu5173u95EDu6587u4EF6"><a name="打开和关闭文件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>打开和关闭文件</h2><p>在前面我们学习读取和写入标准的输入和输出。 现在，来看看如何使用实际的数据文件。Python提供了默认操作文件所必需的基本功能和方法。可以使用文件对象执行大部分文件操作。</p>
+<h3 id="h3-u6253u5F00u6587u4EF6"><a name="打开文件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>打开文件</h3><p>在读取或写入文件之前，必须使用Python的内置<code>open()</code>函数打开文件。此函数创建一个文件对象，该对象将用于调用与其相关联的其他支持方法。</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">file object = open(file_name [, access_mode][, buffering])
+</code></pre>
+<p>这里是参数详细信息 -</p>
+<ul>
+<li><em>file_name</em> - <code>file_name</code>参数是一个字符串值，指定要访问的文件的名称。</li><li><em>access_mode</em> - <code>access_mode</code>确定文件打开的模式，即读取，写入，追加等。可能的值的完整列表如下表所示。 这是一个可选参数，默认文件访问模式为(<code>r</code> - 也就是只读)。</li><li><em>buffering</em> - 如果<code>buffering</code>值设置为<code>0</code>，则不会发生缓冲。 如果缓冲值<code>buffering</code>为<code>1</code>，则在访问文件时执行行缓冲。如果将缓冲值<code>buffering</code>指定为大于<code>1</code>的整数，则使用指定的缓冲区大小执行缓冲操作。如果为负，则缓冲区大小为系统默认值(默认行为)。</li></ul>
+<p>以下是打开文件使用的模式的列表 -</p>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>模式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>r</code></td>
+<td>打开的文件为只读模式。文件指针位于文件的开头，这是默认模式。</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>rb</code></td>
+<td>打开仅用二进制格式读取的文件。文件指针位于文件的开头，这是默认模式。</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>r+</code></td>
+<td>打开读写文件。文件指针放在文件的开头。</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>rb+</code></td>
+<td>以二进制格式打开一个用于读写文件。文件指针放在文件的开头。</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>w</code></td>
+<td>打开仅供写入的文件。 如果文件存在，则覆盖该文件。 如果文件不存在，则创建一个新文件进行写入。</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>wb</code></td>
+<td>打开仅用二进制格式写入的文件。如果文件存在，则覆盖该文件。 如果文件不存在，则创建一个新文件进行写入。</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>w+</code></td>
+<td>打开写入和取读的文件。如果文件存在，则覆盖现有文件。 如果文件不存在，创建一个新文件进行阅读和写入。</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>wb+</code></td>
+<td>打开一个二进制格式的写入和读取文件。 如果文件存在，则覆盖现有文件。 如果文件不存在，创建一个新文件进行阅读和写入。</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>a</code></td>
+<td>打开一个文件进行追加。 如果文件存在，则文件指针位于文件末尾。也就是说，文件处于追加模式。如果文件不存在，它将创建一个新文件进行写入。</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>ab</code></td>
+<td>打开一个二进制格式的文件。如果文件存在，则文件指针位于文件末尾。 也就是说，文件处于追加模式。如果文件不存在，它将创建一个新文件进行写入。</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>a+</code></td>
+<td>打开一个文件，用于追加和阅读。 如果文件存在，则文件指针位于文件末尾。 文件以附加模式打开。 如果文件不存在，它将创建一个新文件进行阅读和写入。</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>ab+</code></td>
+<td>打开一个二进制格式的附加和读取文件。 如果文件存在，则文件指针位于文件末尾。文件以附加模式打开。如果文件不存在，它将创建一个新文件进行读取和写入。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2-u6587u4EF6u5BF9u8C61u5C5Eu6027"><a name="文件对象属性" class="reference-link"></a><span class="header-link octicon octicon-link"></span>文件对象属性</h2><p>打开一个文件并且有一个文件对象后，可以获得与该文件相关的各种信息。</p>
+<p>以下是与文件对象相关的所有属性的列表 -</p>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>file.closed</code></td>
+<td>如果文件关闭则返回<code>true</code>，否则返回<code>false</code>。</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>file.mode</code></td>
+<td>返回打开文件的访问模式。</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>file.name</code></td>
+<td>返回文件的名称。</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>注意 - <em>Python 3.x</em>中不支持<code>softspace</code>属性</p>
+</blockquote>
+<p><strong>示例</strong></p>
+<pre><code class="lang-python">#!/usr/bin/python3
+
+# Open a file
+fo = open(&quot;foo.txt&quot;, &quot;wb&quot;)
+print (&quot;Name of the file: &quot;, fo.name)
+print (&quot;Closed or not : &quot;, fo.closed)
+print (&quot;Opening mode : &quot;, fo.mode)
+fo.close()
+</code></pre>
+<p>执行上面代码，这产生以下结果 -</p>
+<pre><code class="lang-shell">Name of the file:  foo.txt
+Closed or not :  False
+Opening mode :  wb
+</code></pre>
+<h3 id="h3-close-"><a name="close()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>close()方法</h3><p>文件对象的<code>close()</code>方法刷新任何未写入的信息并关闭文件对象，之后不能再进行写入操作。<br>当文件的引用对象重新分配给另一个文件时，Python也会自动关闭一个文件。但使用<code>close()</code>方法关闭文件是个好习惯。</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">fileObject.close();
+</code></pre>
+<p><strong>示例</strong></p>
+<pre><code class="lang-python">#!/usr/bin/python3
+
+# Open a file
+fo = open(&quot;foo.txt&quot;, &quot;wb&quot;)
+print (&quot;Name of the file: &quot;, fo.name)
+
+# Close opened file
+fo.close()
+</code></pre>
+<p>执行上面代码，这产生以下结果 -</p>
+<pre><code class="lang-shell">Name of the file:  foo.txt
+</code></pre>
+<h2 id="h2-u8BFBu53D6u548Cu5199u5165u6587u4EF6"><a name="读取和写入文件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>读取和写入文件</h2><p>文件对象提供了一组访问方法，使代码编写更方便。下面将演示如何使用<code>read()</code>和<code>write()</code>方法来读取和写入文件。</p>
+<h3 id="h3-write-"><a name="write()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>write()方法</h3><p><code>write()</code>方法将任何字符串写入打开的文件。 重要的是要注意，Python字符串可以是二进制数据，而不仅仅是文本。</p>
+<p><code>write()</code>方法不会在字符串的末尾添加换行符(‘<code>\n</code>‘)</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">fileObject.write(string);
+</code></pre>
+<p>这里，传递参数 - <code>string</code> 是要写入打开文件的内容。</p>
+<p><strong>示例</strong></p>
+<pre><code>#!/usr/bin/python3
+
+# Open a file
+fo = open(&quot;foo.txt&quot;, &quot;w&quot;)
+fo.write( &quot;Python is a great language.\nYeah its great!!\n&quot;)
+
+# Close opend file
+fo.close()
+</code></pre><p>上述示例将创建一个<code>foo.txt</code>文件，并将给定的内容写入到该文件中，最后将关闭文件。 在执行上面语句后，如果打开文件(<code>foo.txt</code>)，它将应该以下内容 -</p>
+<pre><code class="lang-shell">Python is a great language.
+Yeah its great!!
+</code></pre>
+<h3 id="h3-read-"><a name="read()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>read()方法</h3><p><code>read()</code>方法用于从打开的文件读取一个字符串。 重要的是要注意Python字符串除文本数据外可以是二进制数据。。</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">fileObject.read([count]);
+</code></pre>
+<p>这里，传递参数 - <code>count</code>是从打开的文件读取的字节数。 该方法从文件的开始位置开始读取，如果<code>count</code>不指定值或丢失，则尽可能地尝试读取文件，直到文件结束。</p>
+<p><strong>示例</strong></p>
+<p>下面来一个文件<code>foo.txt</code>，这是上面示例中创建的。</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<ins class="adsbygoogle"
+								 style="display:inline-block;width:728px;height:90px"
+								 data-ad-client="ca-pub-1090193214637198"
+								 data-ad-slot="6494738921"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script><pre><code class="lang-python">#!/usr/bin/python3
+
+# Open a file
+fo = open(&quot;foo.txt&quot;, &quot;r+&quot;)
+str = fo.read(10)
+print (&quot;Read String is : &quot;, str)
+
+# Close opened file
+fo.close()
+</code></pre>
+<p>执行上面代码，这产生以下结果 -</p>
+<pre><code class="lang-python">Read String is :  Python is
+</code></pre>
+<h2 id="h2-u6587u4EF6u4F4Du7F6E"><a name="文件位置" class="reference-link"></a><span class="header-link octicon octicon-link"></span>文件位置</h2><p><code>tell()</code>方法用于获取文件中的当前位置; 换句话说，下一次读取或写入将发生在从文件开始处之后的多个字节数的位置。</p>
+<p><code>seek(offset [，from])</code>方法更改当前文件位置。 <code>offset</code>参数表示要移动的字节数。 <code>from</code>参数指定要移动字节的引用位置。</p>
+<p>如果<code>from</code>设置为<code>0</code>，则将文件的开头作为参考位置。 如果设置为<code>1</code>，则将当前位置用作参考位置。 如果设置为<code>2</code>，则文件的末尾将被作为参考位置。</p>
+<p><strong>示例</strong></p>
+<p>下面来一个文件<code>foo.txt</code>，这是上面示例中创建的。</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+
+# Open a file
+fo = open(&quot;foo.txt&quot;, &quot;r+&quot;)
+str = fo.read(10)
+print (&quot;Read String is : &quot;, str)
+
+# Check current position
+position = fo.tell()
+print (&quot;Current file position : &quot;, position)
+
+# Reposition pointer at the beginning once again
+position = fo.seek(0, 0)
+str = fo.read(10)
+print (&quot;Again read String is : &quot;, str)
+
+# Close opened file
+fo.close()
+</code></pre>
+<p>执行上面代码，这产生以下结果 -</p>
+<pre><code class="lang-python">Read String is :  Python is
+Current file position :  10
+Again read String is :  Python is
+</code></pre>
+<h2 id="h2-u91CDu547Du540Du548Cu5220u9664u6587u4EF6"><a name="重命名和删除文件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>重命名和删除文件</h2><p>Python os模块提供用于执行文件处理操作(如重命名和删除文件)的方法。要使用此模块，需要先将它导入，然后可以调用任何相关的函数。</p>
+<h3 id="h3-rename-"><a name="rename()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>rename()方法</h3><p><code>rename()</code>方法有两个参数，即当前的文件名和新的文件名。</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">os.rename(current_file_name, new_file_name)
+</code></pre>
+<p><strong>示例</strong></p>
+<p>以下是一个将现有文件<code>test1.txt</code>重命名为<code>test2.txt</code>的示例 -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import os
+
+# Rename a file from test1.txt to test2.txt
+os.rename( &quot;test1.txt&quot;, &quot;test2.txt&quot; )
+</code></pre>
+<h3 id="h3-remove-"><a name="remove()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>remove()方法</h3><p>使用<code>remove()</code>方法并通过提供要删除的文件的名称作为参数来删除文件。</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">os.remove(file_name)
+</code></pre>
+<p><strong>示例</strong></p>
+<p>以下是删除现有文件<code>test2.txt</code>的示例 -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import os
+
+# Delete file test2.txt
+os.remove(&quot;text2.txt&quot;)
+</code></pre>
+<h2 id="h2-python-"><a name="Python中的目录" class="reference-link"></a><span class="header-link octicon octicon-link"></span>Python中的目录</h2><p>所有文件都包含在各种目录中，Python处理目录问题也很容易。 <code>os</code>模块有几种方法可以用来创建，删除和更改目录。</p>
+<h3 id="h3-mkdir-"><a name="mkdir()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>mkdir()方法</h3><p>使用<code>os</code>模块的<code>mkdir()</code>方法在当前目录中创建目录。需要为此方法提供一个参数，指定要创建的目录的名称。</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">os.mkdir(&quot;newdir&quot;)
+</code></pre>
+<p><strong>示例</strong></p>
+<p>以下是在当前目录中创建一个目录：<code>test</code> 的示例 -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import os
+
+# Create a directory &quot;test&quot;
+os.mkdir(&quot;test&quot;)
+</code></pre>
+<p>使用<code>chdir()</code>方法来更改当前目录。 <code>chdir()</code>方法接受一个参数，它是要选择作为当前目录的目录的名称。</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-python">os.chdir(&quot;newdir&quot;)
+</code></pre>
+<p><strong>示例</strong></p>
+<p>以下是进入“<code>/home/newdir</code>”目录的示例 -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import os
+
+# Changing a directory to &quot;/home/newdir&quot;
+os.chdir(&quot;/home/newdir&quot;)
+</code></pre>
+<h3 id="h3-getcwd-"><a name="getcwd()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>getcwd()方法</h3><p><code>getcwd()</code>方法用于显示当前工作目录。</p>
+<pre><code class="lang-python">os.getcwd()
+</code></pre>
+<p><strong>示例</strong></p>
+<p>以下是给出当前目录的一个例子 -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import os
+
+# This would give location of the current directory
+os.getcwd()
+</code></pre>
+<h3 id="h3-rmdir-"><a name="rmdir()方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>rmdir()方法</h3><p><code>rmdir()</code>方法删除该方法中作为参数传递的目录。删除目录之前，应删除其中的所有内容。</p>
+<pre><code class="lang-python">os.rmdir(&#39;dirname&#39;)
+</code></pre>
+<p><strong>示例</strong></p>
+<p>以下是删除“<code>/tmp/test</code>”目录的示例。需要给出目录的完全限定名称，否则将在当前目录中搜索该目录。</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import os
+
+# This would  remove &quot;/tmp/test&quot;  directory.
+os.rmdir( &quot;/tmp/test&quot;  )
+</code></pre>
+<h2 id="h2-u6587u4EF6u548Cu76EEu5F55u76F8u5173u65B9u6CD5"><a name="文件和目录相关方法" class="reference-link"></a><span class="header-link octicon octicon-link"></span>文件和目录相关方法</h2><p>有三个重要的来源，它们提供了广泛的实用方法来处理和操作Windows和Unix操作系统上的文件和目录。它们如下 -</p>
+<ul>
+<li><a target="_blank" href="http://www.yiibai.com/python/file_methods.html" title="文件对象和方法">文件对象和方法</a> - 文件对象提供了操作文件的功能。</li><li><a target="_blank" href="http://www.yiibai.com/python/os_file_methods.html" title="OS对象和方法">OS对象和方法</a> - 这提供了处理文件和目录的方法。</li></ul><br/>
+																
+
+						<p>
+							<b style="color:#f57e42;">易百教程移动端</b>：请扫描本页面底部(右侧)二维码并关注微信公众号，回复："<b>教程</b>" 选择相关教程阅读或直接访问：http://m.yiibai.com 。
+						</p>
+
+
+						<div style="width:100%;margin-bottom: 16px; height: 32px;margin-top:18px;">
+							<span style="float:left;">上一篇：<a href="https://www.yiibai.com/python/python_modules.html#article-start" title="Python模块"><i class="layui-icon"></i>Python模块</a></span><span style="float:right;">下一篇：<a href="https://www.yiibai.com/python/file_methods.html#article-start" style="float:right;" title="下一篇：Python文件对象方法"><i class="layui-icon"></i>Python文件对象方法</a></a></span>	
+							
+							<div id="googlead" style="float:left;margin-top:8px;">
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- yiibai下方 -->
+								<ins class="adsbygoogle"
+									 style="display:inline-block;width:728px;height:90px"
+									 data-ad-client="ca-pub-1090193214637198"
+									 data-ad-slot="6494738921"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>
+
+						</div>
+
+
+						
+						<h4 style="color: #f57e42;padding-top:6px;padding-bottom: 4px;float: left;width: 100%;margin-bottom:12px;">加QQ群啦，易百教程官方技术学习群</h4>
+						
+						<blockquote style="width:100%;float:left;margin-bottom:6px;padding-bottom:4px;">
+							注意：建议每个人选自己的技术方向加群，同一个QQ最多限加3个群。
+						</blockquote>
+						<ul style="width:100%;float:left;">
+							<li><b>Java技术群：</b> 227270512 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>MySQL/SQL群：</b> 418407075 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>大数据开发群：</b> 655154550 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>Python技术群：</b> 287904175 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>人工智能深度学习：</b> 456236082 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>测试工程师(新群)：</b> 415553199 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>前端技术群(新群)：</b> 410430016 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>C/C++技术(新群)：</b> 629264796 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>Node.js技术(新群)：</b> 621549808 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>Linux技术：</b> 479429477 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>PHP开发者：</b> 460153241 （人数：2000，等级：LV5，免费：是）</li>
+							
+							<li><b>Oracle数据库：</b> 175248146 （人数：2000，等级：LV5，免费：是）</li>
+							<li><b>C#/ASP.Net开发者：</b> 579821706 （人数：2000，等级：LV5，免费：是）</li>
+							<li><b>数据分析师：</b> 397883996 （人数：1000，等级：LV1，免费：是）R语言，Matlab语言等技术</li>
+						</ul>
+						
+					</div>
+
+					<div class="xshare">
+						<!-- JiaThis Button BEGIN -->
+						<div class="jiathis_style_24x24">
+							<a class="jiathis_button_qzone"></a>
+							<a class="jiathis_button_tsina"></a>
+							<a class="jiathis_button_tqq"></a>
+							<a class="jiathis_button_weixin"></a>						
+							<a class="jiathis_button_ishare"></a>
+							<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+							<a class="jiathis_counter_style"></a>
+						</div>
+						<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+						<!-- JiaThis Button END -->
+					</div>    
+					
+					
+					<!--// google adv -->
+					
+					
+
+					<!--PC版-->
+					<div id="SOHUCS" sid="article-10770"></div>
+					<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+					<script type="text/javascript">
+					window.changyan.api.config({
+					appid: 'cysNoANqz',
+					conf: 'prod_d6c4446986ec966c450afefb0c11ea5f'
+					});
+					</script>
+
+					<div style="width:100%;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+							 style="display:block"
+							 data-ad-format="autorelaxed"
+							 data-ad-client="ca-pub-1090193214637198"
+							 data-ad-slot="1254304051"></ins>
+						<script>
+							 (adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					
+                </article>				
+		</div>
+		<!--//end content-->
+
+		<div class="page-right">
+						
+			<div class="item">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- GoogleAdv-300x250 -->
+				<ins class="adsbygoogle"
+					 style="display:inline-block;width:300px;height:250px"
+					 data-ad-client="ca-pub-1090193214637198"
+					 data-ad-slot="9485766451"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
+			</div>
+			<!--
+			<div class="item">
+				<script type="text/javascript">
+					/*BDAdv-300x250-创建于*/
+					var cpro_id = "u3028183";
+				</script>
+				<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/c.js"></script>
+
+			</div>-->
+
+			<div class="item">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Right-300x600 -->
+				<ins class="adsbygoogle"
+					 style="display:inline-block;width:300px;height:600px"
+					 data-ad-client="ca-pub-1090193214637198"
+					 data-ad-slot="9448740452"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div><!--//end page-right -->
+
+	</section>
+
+	
+<footer class="footer" >	
+	<div class="container" id="yiiba-bottom">			
+		<div class="ybm-block">
+			<div class="ybm cf">
+			 <dl>
+				<dt>推荐/最新教程</dt>
+						<dd>·<a href="http://www.yiibai.com/httpclient" title="HttpClient教程" target="_blank">HttpClient教程</a> </dd><dd>·<a href="http://www.yiibai.com/gson" title="Gson教程" target="_blank">Gson教程</a> </dd><dd>·<a href="http://www.yiibai.com/thymeleaf" title="Thymeleaf教程" target="_blank">Thymeleaf教程</a> </dd><dd>·<a href="http://www.yiibai.com/ipc" title="进程间通信教程" target="_blank">进程间通信教程</a> </dd><dd>·<a href="http://www.yiibai.com/firebase" title="FireBase教程" target="_blank">FireBase教程</a> </dd><dd>·<a href="http://www.yiibai.com/website_development" title="网站开发教程" target="_blank">网站开发教程</a> </dd><dd>·<a href="http://www.yiibai.com/batch_script" title="批处理教程" target="_blank">批处理教程</a> </dd><dd>·<a href="http://www.yiibai.com/opencv" title="OpenCV教程" target="_blank">OpenCV教程</a> </dd>
+	
+			 
+			 </dl>
+			
+			 <dl>
+				<dt>最新更新 </dt>
+					<dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-multipart-upload-request.html" title="HttpClient分段上传请求">HttpClient分段上传请求</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-custom-http-headers.html" title="HttpClient自定义HTTP头">HttpClient自定义HTTP头</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-redirect-handling.html" title="HttpClient重定向处理示例">HttpClient重定向处理示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-html-form-post.html" title="HttpClient HTML表单提交示例">HttpClient HTML表单提交示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-cache-http-caching.html" title="HttpClient Http缓存示例">HttpClient Http缓存示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-httprequestretryhandler.html" title="HttpClient HttpRequestRetryHandler示例">HttpClient HttpRequestRetryHandler示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/ignore-certificate-errors.html" title="HttpClient忽略证书错误">HttpClient忽略证书错误</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-get-server-certificates.html" title="HttpClient获取服务器证书">HttpClient获取服务器证书</a></dd>			   
+			  
+			 </dl>
+
+			 <dl>
+			  
+				<dt>站点信息</dt>
+				<dd> · <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IBcWGRcSGBYYE2BRUQ5DT00" rel="external nofollow">意见反馈</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/disclaimer.html">免责声明</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/about_us.html">关于我们</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/reward.html#to-qcode">关于捐助</a> </dd>
+			    <dd> · <a target="_blank" href="http://www.yiibai.com/siteinfo/download.html" style="color:#e74851;">所有实例代码下载</a> </dd>
+			 </dl>
+
+			 <dl>
+				<dt>易百教程官方QQ群</dt>
+						<dd>JAVA技术：227270512</dd>
+						<dd>MySQL数据库：418407075</dd>						
+						<dd>Python技术： 287904175</dd>
+						<dd>大数据开发： 655154550</dd>
+						<dd>Linux技术： 479429477</dd>
+						<dd>PHP/Web技术： 460153241</dd>
+
+			</dl>
+
+
+			 <div class="search-share">
+			  <div class="app-download">
+				<div>
+				 <strong>关注微信公众号</strong>
+				</div>
+			  </div>
+			  <div class="share">
+			  <img width="150" height="150" src="/static.v3/img/qrcode.jpg">
+			   </div>
+			 </div>
+			</div>
+		   </div>		
+	</div>
+
+</footer>
+<div id="footer-copyright">
+	Copyright &copy; 2012-2018<strong><a href="http://www.yiibai.com/" target="_blank">易百教程</a></strong>&nbsp; <strong>
+		
+		<a href="http://www.yiibai.com/" target="_blank">yiiai.com</a></strong> All Rights Reserved. 备案号：琼ICP备13001417号-3 联系我们：769728683@qq.com &nbsp;&nbsp;
+
+	
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?424e222704e2274e37a8169110e6e00a";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4255568'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/stat.php%3Fid%3D4255568' type='text/javascript'%3E%3C/script%3E"));</script>
+	
+</div>
+
+<div class="fixed-btn">
+	<a class="to-top" href="javascript:void(0)" title="返回顶部"> <i
+		class="fa fa-angle-up"></i></a> <a class="qrcode"
+		href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+	<a class="writer" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IBcWGRcSGBYYE2BRUQ5DT00" style="font-size: 12px;"
+		title="问题反馈"><i class="fa fa-envelope-o"
+		style="font-size: 20px;"></i></a>
+	<!-- qrcode modal -->
+
+	<div id="bottom-qrcode" class="modal fade in" style="display: none;">
+		<h4>微信关注</h4>
+		<div class="panel-body">
+			<img alt="微信关注" width="128" height="128"
+				src="/static.v3/img/qrcode.jpg">
+		</div>
+	</div>
+</div>
+
+<script src="/static/js/jquery.js"></script> 
+<script src="/static.v4/js/main.js?v=2017/6/21"></script>
+<script src="/static.v4/js/prism.js"></script>
+<script src="/static/layer/layer.js" charset="utf-8"></script>
+<script>
+	var TBUI = {
+		URL : 'http://www.yiibai.com',
+		STATIC : 'http://www.yiibai.com/static.v4',
+		VERSION : '3.0',
+	};
+	$("#btn-reward").on('click', function(){
+		layer.open({
+			  type: 2,
+			  title: "请扫描以下二维码支付打赏",
+			  area: ['56%', '70%'],
+			  shade: 0.4,
+			  closeBtn: 1,
+			  shadeClose: true,
+			  content: '/static/images/reward.png'
+		});
+
+	});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,969 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-title" content="yiibai">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<title>Python日期和时间 - Python教程&trade;</title>
+<meta name="keywords" content="">
+<meta name="description" content="Python程序可以通过多种方式处理日期和时间。日期格式之间的转换是计算机常见问题。Python的时间(time)和日历(calendar)模块可用于跟踪日期和时间。
+一">
+<link rel="stylesheet" href="/static.v4/css/fonts/font-awesome.min.css" media="all" />
+<link rel="stylesheet" href="/static.v4/css/all.css?ver=4.0" media="all">
+<link rel="stylesheet" href="/static.v4/css/prism.css?ver=3.0" media="all">
+<style>
+	.article-content ul li {list-style-type: disc;}
+	.article-content ol li {list-style-type: disc;}	
+	
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body class="page-home">
+	
+	
+<header class="header">
+	<div class="container">
+		<h1 class="logo">
+			<a href="http://www.yiibai.com" title="易百教程"><i
+				class="fa">&#xe600;</i>易百教程</a>
+		</h1>
+		<div class="site-navbar">
+			<ul>
+				<li class="has-sub-menu"><a href="#">所有教程</a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="http://www.yiibai.com/html/java/">Java技术</a></li>
+							<li><a href="http://www.yiibai.com/web/">Web技术</a></li>
+							<li><a href="http://www.yiibai.com/html/script/">脚本语言</a></li>
+							<li><a href="http://www.yiibai.com/html/database/">数据库</a></li>
+							<li><a href="http://www.yiibai.com/hightlang/">高级语言</a></li>
+							<li><a href="http://www.yiibai.com/html/misc/">其它技术</a></li>
+							<li><a href="http://www.yiibai.com/v3.php?app=all" style="font-weight:bold;color: #61B3E6;">查看所有教程</a></li>
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:void(0);">Java技术</a>
+					<div class="sub-menu">
+						<ul>
+								<li>
+									<a href="http://www.yiibai.com/java/" target="_blank">Java教程</a>
+								</li>
+								
+								<li>
+									<a href="http://www.yiibai.com/design_pattern/" target="_blank">Java设计模式</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/jsp/" target="_blank">JSP教程</a>
+								</li>
+
+								<li>
+									<a href="http://www.yiibai.com/jdbc/" target="_blank">JDBC教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/java_xml/" target="_blank">Java XML教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/junit/" target="_blank">JUnit教程</a>
+								</li>							
+								
+							
+							
+								<li>
+									<a href="http://www.yiibai.com/struts_2/" target="_blank">Struts2教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/maven/" target="_blank">Maven教程</a>
+								</li>
+							
+							
+								<li>
+									<a href="http://www.yiibai.com/javaexamples/" target="_blank">java实例教程</a>
+								</li>
+
+								<li>
+									<a href="http://www.yiibai.com/mybatis/" target="_blank">MyBatis教程</a>
+								</li>
+
+								
+								<li>
+									<a href="http://www.yiibai.com/spring/" target="_blank">Spring教程</a>
+								</li>
+								<li>
+									<a href="http://www.yiibai.com/spring_mvc/" target="_blank">Spring MVC教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/gradle/" target="_blank">Gradle教程</a>
+								</li>
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:;">数据库</a>
+					<div class="sub-menu">
+						<ul>
+							
+								<li>
+									<a href="http://www.yiibai.com/mysql/" target="_blank" title="MySQL教程">MySQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/couchdb/" target="_blank" title="CouchDB教程">CouchDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/cassandra/" target="_blank" title="Cassandra教程">Cassandra教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/mariadb/" target="_blank" title="MariaDB教程">MariaDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/firebase/" target="_blank" title="FireBase教程">FireBase教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/plsql/" target="_blank" title="PL/SQL教程">PL/SQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/postgresql/" target="_blank" title="PostgreSQL教程">PostgreSQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/mongodb/" target="_blank" title="MongoDB教程">MongoDB教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sqlite/" target="_blank" title="SQLite教程">SQLite教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/db2/" target="_blank" title="DB2教程">DB2教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/redis/" target="_blank" title="Redis教程">Redis教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/memcached/" target="_blank" title="Memcached教程">Memcached教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/access/" target="_blank" title="Access教程">Access教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sql/" target="_blank" title="SQL教程">SQL教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/sql_server/" target="_blank" title="SQL Server教程">SQL Server教程</a>
+								</li>
+							
+						</ul>
+					</div></li>
+				<li class="has-sub-menu"><a href="javascript:;">脚本语言</a>
+					<div class="sub-menu">
+						<ul>
+							
+								<li>
+									<a href="http://www.yiibai.com/wxpython/" target="_blank" title="WxPython教程">WxPython教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/ruby/" target="_blank" title="Ruby教程">Ruby教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/php/" target="_blank" title="PHP教程">PHP教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/python/" target="_blank" title="Python教程">Python教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/lua/" target="_blank" title="Lua教程">Lua教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/tcl/" target="_blank" title="Tcl教程">Tcl教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/tk/" target="_blank" title="Tk教程">Tk教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/numpy/" target="_blank" title="NumPy教程">NumPy教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/python3/" target="_blank" title="Python3教程">Python3教程</a>
+								</li>
+							
+								<li>
+									<a href="http://www.yiibai.com/php7/" target="_blank" title="PHP7教程">PHP7教程</a>
+								</li>
+							
+						</ul>
+					</div></li>
+
+								
+					<li class=""><a href="/v3.php?app=post">极客文章</a></li>
+					<li class="active"><a href="/v3.php?app=post&act=new">+投稿</a></li>
+			</ul>
+		</div>
+		<div style="padding-top:6px;width:220px;float:left;margin-left:64px;line-height:22px;" id="search-form">
+		    <form action="/search.php" method="get">
+				<input type="text" name="kw" style="float:left;width:134px;padding-left:8px;font-weight:bold;" value=""/>
+				<input type="submit" style="float:left;width:48px;" value="搜索"/>
+			</form>
+		</div>
+
+		<div id="login-state" style="float:left;margin-top: 4px;">
+			
+		</div>
+		<div class="m-navbar-start">
+			<i class="fa">&#xe624;</i>
+		</div>
+		<div class="m-wel-start">
+			<i class="fa">&#xe632;</i>
+		</div>
+		<div class="m-mask"></div>
+	</div>
+</header>
+
+
+
+	<section class="container container-page clearfix" style="margin-top: 24px;">
+		<div class="pageside">
+			<div class="pagemenus">
+				<ul class="pagemenu">
+					<li class="navto-ads active"><a href="/python/" style="font-weight:bold;"><i class="fa fa-list"></i>&nbsp;&nbsp;Python教程</a></li>
+					
+					<li style=""><a href="https://www.yiibai.com/python/python_quick_guide.html" title="Python快速入门" style="">Python快速入门</a></li><li style=""><a href="https://www.yiibai.com/python/what-is-python.html" title="Python是什么？" style="">Python是什么？</a></li><li style=""><a href="https://www.yiibai.com/python/history-of-python.html" title="Python的历史" style="">Python的历史</a></li><li style=""><a href="https://www.yiibai.com/python/features.html" title="Python功能特点" style="">Python功能特点</a></li><li style=""><a href="https://www.yiibai.com/python/applications.html" title="Python可以开发哪些程序？" style="">Python可以开发哪些程序？</a></li><li style=""><a href="https://www.yiibai.com/python/python_environment.html" title="Python安装和环境配置" style="">Python安装和环境配置</a></li><li style=""><a href="https://www.yiibai.com/python/python_command_line_arguments.html" title="Python命令行参数" style="">Python命令行参数</a></li><li style=""><a href="https://www.yiibai.com/python/python_variable_types.html" title="Python变量类型" style="">Python变量类型</a></li><li style=""><a href="https://www.yiibai.com/python/python_basic_operators.html" title="Python基本运算符" style="">Python基本运算符</a></li><li style=""><a href="https://www.yiibai.com/python/python_decision_making.html" title="Python决策" style="">Python决策</a></li><li style=""><a href="https://www.yiibai.com/python/python_loops.html" title="Python循环" style="">Python循环</a></li><li style=""><a href="https://www.yiibai.com/python/python_numbers.html" title="Python数字" style="">Python数字</a></li><li style=""><a href="https://www.yiibai.com/python/python_strings.html" title="Python字符串" style="">Python字符串</a></li><li style=""><a href="https://www.yiibai.com/python/python_lists.html" title="Python列表" style="">Python列表</a></li><li style=""><a href="https://www.yiibai.com/python/python_tuples.html" title="Python元组" style="">Python元组</a></li><li style=""><a href="https://www.yiibai.com/python/python_dictionary.html" title="Python字典" style="">Python字典</a></li><li style="border-left: 6px solid #2e82ff;font-weight: bold;"><a href="#" title="这是当前阅读的文章" style="cursor:text;background-color: #f5f2f0;">Python日期和时间</a></li><li style=""><a href="https://www.yiibai.com/python/python_functions.html" title="Python函数" style="">Python函数</a></li><li style=""><a href="https://www.yiibai.com/python/python_modules.html" title="Python模块" style="">Python模块</a></li><li style=""><a href="https://www.yiibai.com/python/python_files_io.html" title="Python文件读写" style="">Python文件读写</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">面向对象</a></li><li ><a href="https://www.yiibai.com/python/python_classes_objects.html" title="Python面向对象（类和对象）" >Python面向对象（类和对象）</a></li><li ><a href="https://www.yiibai.com/python/python-constructors.html" title="Python构造函数" >Python构造函数</a></li><li ><a href="https://www.yiibai.com/python/inheritance-in-python.html" title="Python继承" >Python继承</a></li><li ><a href="https://www.yiibai.com/python/multiple-inheritance.html" title="Python多重继承" >Python多重继承</a></li><li ><a href="https://www.yiibai.com/python/operator-overloading.html" title="Python操作符重载" >Python操作符重载</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">高级部分</a></li><li ><a href="https://www.yiibai.com/python/python_exceptions.html" title="Python异常处理" >Python异常处理</a></li><li ><a href="https://www.yiibai.com/python/python_reg_expressions.html" title="Python正则表达式" >Python正则表达式</a></li><li ><a href="https://www.yiibai.com/python/python_database_access.html" title="Python+MySQL数据库操作（PyMySQL）" >Python+MySQL数据库操作（PyMySQL）</a></li><li ><a href="https://www.yiibai.com/python/python_networking.html" title="Python网络编程（Sockets）" >Python网络编程（Sockets）</a></li><li ><a href="https://www.yiibai.com/python/python_sending_email.html" title="Python发送邮件" >Python发送邮件</a></li><li ><a href="https://www.yiibai.com/python/python_multithreading.html" title="Python多线程编程" >Python多线程编程</a></li><li ><a href="https://www.yiibai.com/python/python_xml_processing.html" title="Python XML解析和处理" >Python XML解析和处理</a></li><li style="font-size:16px;font-weight:bold;color:#666;"><a style="background-color: #f8f9f9;cursor:text;font-size:16px;color: #666;">其它杂项</a></li><li ><a href="https://www.yiibai.com/python/file_methods.html" title="Python文件对象方法" >Python文件对象方法</a></li><li ><a href="https://www.yiibai.com/python/os_file_methods.html" title="Python os模块方法" >Python os模块方法</a></li><li ><a href="https://www.yiibai.com/python/iterator.html" title="Python迭代器" >Python迭代器</a></li><li ><a href="https://www.yiibai.com/python/generator.html" title="Python生成器" >Python生成器</a></li><li ><a href="https://www.yiibai.com/python/closure.html" title="Python闭包" >Python闭包</a></li><li ><a href="https://www.yiibai.com/python/decorator.html" title="Python修饰器" >Python修饰器</a></li>					
+					<!--<li><a href="" title=""></a></li>-->					
+				</ul>
+				
+			</div>
+		</div>
+
+		<div class="content" id="navs">
+						
+                <header class="article-header">
+                    <h1 class="article-title" style="text-align:center;">Python日期和时间</h1>
+                    <div class="article-meta" style="margin-top:20px;font-size:14px;">
+						<span class="item" style="">
+							<a class="btn btn-pay" id="btn-reward" target="_blank"> ¥ 我要打赏 </a>
+						</span>
+                        
+                        <span class="item" style="margin-left:20px;"><a href="/python/" rel="category tag">Python教程</a></span>
+						<span class="item" style="margin-left:20px;">作者：初生不惑</span>
+                        <span class="item" style="margin-left:20px;">评论：0 条</span>
+						<span style="font-weight:bold;margin-left:24px;" id="qq-group">Java技术QQ群：<a href="//shang.qq.com/wpa/qunwpa?idkey=c7c79783f2da15e2244981dfbd17c18b6a71b8bc5d018e248d59919bd614e18f" style="color:#61B3E6;" target="_blank" title="直接点击加群">227270512</a></span>
+
+                    </div>
+                </header>
+                <!--// article body -->
+                <article>
+					<a name="article-start" id="article-start"></a>
+					
+					<div style="padding-top: 6px;padding-bottom: 4px;float:left;width:100%;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- 顶部_720x90 -->
+						<ins class="adsbygoogle"
+							 style="display:inline-block;width:728px;height:90px"
+							 data-ad-client="ca-pub-1090193214637198"
+							 data-ad-slot="9805510053"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					
+
+					<div style="width:100%;float:left;" class="article-content">
+						
+						<input type="hidden" name="article_id" id="article_id" value="10753"/>
+						<input type="hidden" name="artype" id="artype" value="-1"/>
+
+						<p>Python程序可以通过多种方式处理日期和时间。日期格式之间的转换是计算机常见问题。Python的时间(<code>time</code>)和日历(<code>calendar</code>)模块可用于跟踪日期和时间。</p>
+<h3 id="h3-u4E00u4E9Bu5E38u7528u4EE3u7801u793Au4F8B"><a name="一些常用代码示例" class="reference-link"></a><span class="header-link octicon octicon-link"></span>一些常用代码示例</h3><ul>
+<li><a target="_blank" href="http://www.yiibai.com/python/python_between_days.html" title="获取当前时间和日期">获取当前时间和日期</a>，如：2018-08-18 12：12：00</li><li><a target="_blank" href="http://www.yiibai.com/python/python_between_days.html" title="计算两个日期相差天数">计算两个日期相差天数</a></li><li>计算程序运行的时间</li></ul>
+<pre><code class="lang-python">#!/usr/bin/python3
+#coding=utf-8
+
+import time  
+import datetime  
+
+starttime = datetime.datetime.now()  
+
+time.sleep(5)  
+
+endtime = datetime.datetime.now()  
+print ((endtime - starttime).seconds )
+</code></pre>
+<ul>
+<li>计算十天之后的日期时间</li></ul>
+<pre><code class="lang-python">#!/usr/bin/python3
+#coding=utf-8
+
+import time  
+import datetime  
+
+d1 = datetime.datetime.now()  
+d3 = d1 + datetime.timedelta(days =10)  
+
+print (str(d3))
+print (d3.ctime())
+</code></pre>
+<ul>
+<li>获取两个日期时间的时间差</li></ul>
+<pre><code class="lang-python">t = (datetime.datetime(2019,1,13,12,0,0) - datetime.datetime.now()).total_seconds()
+print (&quot;t = &quot;, t)
+## 输出结果
+t = 49367780.076406
+</code></pre>
+<p>Python中有提供与日期和时间相关的<code>4</code>个模块。它们分别是 - </p>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>time</code></td>
+<td><code>time</code>是一个仅包含与日期和时间相关的函数和常量的模块，在本模块中定义了<code>C/C++</code>编写的几个类。 例如，<code>struct_time</code>类。</td>
+</tr>
+<tr>
+<td><code>datetime</code></td>
+<td><code>datetime</code>是一个使用面向对象编程设计的模块，可以在Python中使用日期和时间。它定义了几个表示日期和时间的类。</td>
+</tr>
+<tr>
+<td><code>calendar</code></td>
+<td>日历是一个提供函数的模块，以及与<code>Calendar</code>相关的几个类，它们支持将日历映像生成为text，html，….</td>
+</tr>
+<tr>
+<td><code>locale</code></td>
+<td>该模块包含用于格式化或基于区域设置分析日期和时间的函数。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2-1-"><a name="1. 时间间隔" class="reference-link"></a><span class="header-link octicon octicon-link"></span>1. 时间间隔</h2><p>时间间隔是以秒为单位的浮点数。 从1970年1月1日上午12:00(<em>epoch</em>)，这是一种时间的特殊时刻表示。</p>
+<p>在Python中，当前时刻与上述特殊的某个时间点之间以秒为单位的时间。这个时间段叫做Ticks。</p>
+<p><img src="http://www.yiibai.com/uploads/images/201706/2006/700100641_71063.png" alt=""></p>
+<p><code>time</code>模块中的<code>time()</code>函数返回从1970年1月1日上午12点开始的秒数。</p>
+<pre><code class="lang-python"># Import time module.
+import time;
+
+# Seconds
+ticks = time.time()
+
+
+print (&quot;Number of ticks since 12:00am, January 1, 1970: &quot;, ticks)
+</code></pre>
+<p>执行上面代码，得到以下结果 - </p>
+<pre><code class="lang-shell">Number of ticks since 12:00am, January 1, 1970:  1497970093.6243818
+</code></pre>
+<p>但是，这个形式不能表示在时代(<em>1970年1月1日上午12:00</em>)之前的日期。在未来的日子也不能以这种方式表示 - 截止点是在<code>2038</code>年的UNIX和Windows的某个时刻。</p>
+<h2 id="h2-2-timetuple-"><a name="2. 什么是TimeTuple？" class="reference-link"></a><span class="header-link octicon octicon-link"></span>2. 什么是TimeTuple？</h2><p>许多Python时间函数将时间处理为<code>9</code>个数字的元组，如下所示：</p>
+<table>
+<thead>
+<tr>
+<th>索引</th>
+<th>字段</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td><code>4</code>位数，表示年份</td>
+<td>2018，2019…</td>
+</tr>
+<tr>
+<td>1</td>
+<td>月份</td>
+<td>1 ~ 12</td>
+</tr>
+<tr>
+<td>2</td>
+<td>日期</td>
+<td>1 ~ 31</td>
+</tr>
+<tr>
+<td>3</td>
+<td>小时</td>
+<td>0 ~ 23</td>
+</tr>
+<tr>
+<td>4</td>
+<td>分钟</td>
+<td>0 ~ 59</td>
+</tr>
+<tr>
+<td>5</td>
+<td>秒</td>
+<td>0 ~ 61(<code>60</code>或<code>61</code>是闰秒)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>星期几</td>
+<td>0 ~ 6(<code>0</code>是星期一)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>一年的第几天</td>
+<td>1 ~ 366(朱利安日)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>夏令时</td>
+<td>-1，0，1，-1表示库确定DST</td>
+</tr>
+</tbody>
+</table>
+<p><strong>一个示例</strong></p>
+<pre><code class="lang-python">import time
+print (time.localtime());
+</code></pre>
+<p>这将产生如下结果：</p>
+<pre><code class="lang-shell">time.struct_time(tm_year = 2016, tm_mon = 2, tm_mday = 15, tm_hour = 9, 
+   tm_min = 29, tm_sec = 2, tm_wday = 0, tm_yday = 46, tm_isdst = 0)
+</code></pre>
+<p>上面的元组相当于<code>struct_time</code>结构。此结构具有以下属性 -</p>
+<table>
+<thead>
+<tr>
+<th>索引</th>
+<th>字段</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>tm_year</td>
+<td>2018，2019…</td>
+</tr>
+<tr>
+<td>1</td>
+<td>tm_mon</td>
+<td>1 ~ 12</td>
+</tr>
+<tr>
+<td>2</td>
+<td>tm_mday</td>
+<td>1 ~ 31</td>
+</tr>
+<tr>
+<td>3</td>
+<td>tm_hour</td>
+<td>0 ~ 23</td>
+</tr>
+<tr>
+<td>4</td>
+<td>tm_min</td>
+<td>0 ~ 59</td>
+</tr>
+<tr>
+<td>5</td>
+<td>tm_sec</td>
+<td>0 ~ 61(<code>60</code>或<code>61</code>是闰秒)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>tm_wday</td>
+<td>0 ~ 6(<code>0</code>是星期一)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>tm_yday</td>
+<td>1 ~ 366(朱利安日)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>tm_isdst</td>
+<td>-1，0，1，-1表示库确定DST</td>
+</tr>
+</tbody>
+</table>
+<p>能用图片说明白的尽量用图片说明 - </p>
+<p><img src="http://www.yiibai.com/uploads/images/201706/2006/852100659_39889.png" alt=""></p>
+<h3 id="h3-2-1-"><a name="2.1.获取当前时间" class="reference-link"></a><span class="header-link octicon octicon-link"></span>2.1.获取当前时间</h3><p>要将从时间浮点值开始的秒数瞬间转换为时间序列，将浮点值传递给返回具有所有有效九个项目的时间元组的函数(例如本地时间)。</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import time
+
+localtime = time.localtime(time.time())
+print (&quot;Local current time :&quot;, localtime)
+
+# 当前时间
+curtime = time.strftime(&quot;%Y-%m-%d %H:%M:%S&quot;, time.localtime())
+print (curtime)
+</code></pre>
+<p>执行上面代码，这将产生如下结果 - </p>
+<pre><code class="lang-shell">Local current time : time.struct_time(tm_year=2017, tm_mon=6, tm_mday=20, tm_hour=23, tm_min=9, tm_sec=36, tm_wday=1, tm_yday=171, tm_isdst=0)
+Curtime is =&gt;  2017-06-20 23:09:36
+</code></pre>
+<h3 id="h3-2-2-"><a name="2.2.获取格式化时间" class="reference-link"></a><span class="header-link octicon octicon-link"></span>2.2.获取格式化时间</h3><p>可以根据需要格式化任何时间，但也可使用可读格式获取时间的简单方法是 - <code>asctime()</code> -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import time
+
+localtime = time.asctime( time.localtime(time.time()) )
+print (&quot;Local current time :&quot;, localtime)
+</code></pre>
+<p>执行上面代码，这将产生如下结果 - </p>
+<pre><code class="lang-shell">Local current time : Mon Feb 15 10:32:13 2018
+</code></pre>
+<h3 id="h3-2-3-"><a name="2.3.获取一个月的日历" class="reference-link"></a><span class="header-link octicon octicon-link"></span>2.3.获取一个月的日历</h3><p><code>calendar</code>模块提供了广泛的方法来显示年历和月度日历。 在这里，将打印一个给定月份的日历(2021年11月) -</p>
+<pre><code class="lang-python">#!/usr/bin/python3
+import calendar
+
+cal = calendar.month(2021, 11)
+print (&quot;Here is the calendar:&quot;)
+print (cal)
+</code></pre>
+<p>执行上面代码后，将输出以下结果 - </p>
+<pre><code class="lang-shell">   November 2021
+Mo Tu We Th Fr Sa Su
+ 1  2  3  4  5  6  7
+ 8  9 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+29 30
+</code></pre>
+<h2 id="h2-3-"><a name="3.时间模块" class="reference-link"></a><span class="header-link octicon octicon-link"></span>3.时间模块</h2><p>Python中有一个受欢迎的时间(<code>time</code>)模块，它提供了处理时间和表示之间转换的功能。以下是所有时间(<code>time</code>)可用方法的列表。</p>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>方法</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_altzone.html" title="time.altzone">time.altzone</a></td>
+<td>本地DST时区的偏移量(以秒为单位的UTC)，如果定义了有一个定义的话。 如果本地的DST时区是UTC的东部(如在西欧，包括英国)，那么它是负数值。</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_asctime.html" title="time.asctime([tupletime])">time.asctime([tupletime])</a></td>
+<td>接受时间元组，并返回一个可读的<code>24</code>个字符的字符串，例如’Tue Dec 11 22&#58;07&#58;14 2019’。</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_clock.html" title="time.clock( )">time.clock( )</a></td>
+<td>将当前CPU时间返回为浮点数秒。 为了测量不同方法的计算成本，<code>time.clock</code>的值比<code>time.time()</code>的值更有用。</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_ctime.html" title="time.ctime([secs])">time.ctime([secs])</a></td>
+<td>类似于<code>asctime(localtime(secs))</code>，而没有参数就像<code>asctime()</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_gmtime.html" title="time.gmtime([secs])">time.gmtime([secs])</a></td>
+<td>接受从时代(<em>epoch</em>)以秒为单位的瞬间，并返回与UTC时间相关的时间元组<code>t</code>。 注 - <code>t.tm_isdst</code>始终为<code>0</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_localtime.html" title="time.localtime([secs])">time.localtime([secs])</a></td>
+<td>接受从时代(<em>epoch</em>)以秒为单位的瞬间，并返回与本地时间相关的时间<code>t</code>(<code>t.tm_isdst</code>为<code>0</code>或<code>1</code>，具体取决于DST是否适用于本地规则的瞬时秒)。</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_mktime.html" title="time.mktime(tupletime)">time.mktime(tupletime)</a></td>
+<td>接受在本地时间表示为时间元组的瞬间，并返回浮点值，该时间点以秒为单位表示。</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_sleep.html" title="time.sleep(secs)">time.sleep(secs)</a></td>
+<td>暂停调用线程<code>secs</code>秒。</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_strftime.html" title="time.strftime(fmt[,tupletime])">time.strftime(fmt[,tupletime])</a></td>
+<td>接受在本地时间表示为时间元组的瞬间，并返回一个表示由字符串<code>fmt</code>指定的时间的字符串。</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_strptime.html" title="time.strptime(str,fmt = &#39;%a %b %d %H:%M:%S %Y">time.strptime(str,fmt = ‘%a %b %d %H:%M:%S %Y’)</a>“)</td>
+<td>根据格式字符串<code>fmt</code>解析<code>str</code>，并返回时间元组格式的时间。</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_time.html" title="time.time( )">time.time( )</a></td>
+<td>返回当前时间时刻，即从时代(<em>epoch</em>)开始的浮点数秒数。</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a target="_blank" href="http://www.yiibai.com/python/time_tzset.html" title="time.tzset()">time.tzset()</a></td>
+<td>重置库例程使用的时间转换规则。环境变量<code>TZ</code>指定如何完成。</td>
+</tr>
+</tbody>
+</table>
+<p>时间(<code>time</code>)模块有两个重要的属性可用。它们是 -</p>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>time.timezone</code></td>
+<td>属性<code>time.timezone</code>是UTC和本地时区(不含DST)之间的偏移量(美洲为 &gt; <code>0</code>，欧洲，亚洲，非洲大部分地区为 <code>0</code>)。</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>time.tzname</code></td>
+<td>属性<code>time.tzname</code>是一对与区域相关的字符串，它们分别是没有和具有DST的本地时区的名称。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2-4-"><a name="4.日历模块" class="reference-link"></a><span class="header-link octicon octicon-link"></span>4.日历模块</h2><p><code>calendar</code>模块提供与日历相关的功能，包括为给定的月份或年份打印文本日历的功能。</p>
+<p>默认情况下，日历将星期一作为一周的第一天，将星期日作为最后一天。 如果想要更改这个，可调用<code>calendar.setfirstweekday()</code>函数设置修改。</p>
+<p>以下是<code>calendar</code>模块可用的功能函数列表 -</p>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>函数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>calendar.calendar(year,w = 2,l = 1,c = 6)</code></td>
+<td>返回一个具有年份日历的多行字符串格式化为三列，以<code>c</code>个空格分隔。 <code>w</code>是每个日期的字符宽度; 每行的长度为<code>21 * w + 18 + 2 * c</code>，<code>l</code>是每周的行数。</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>calendar.firstweekday( )</code></td>
+<td>返回当前设置每周开始的星期。默认情况下，当日历首次导入时设置为：<code>0</code>，表示为星期一。</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>calendar.isleap(year)</code></td>
+<td>如果给定年份(<code>year</code>)是闰年则返回<code>True</code>; 否则返回：<code>False</code>。</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>calendar.leapdays(y1,y2)</code></td>
+<td>返回在范围<code>(y1，y2)</code>内的年份中的闰年总数。</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>calendar.month(year,month,w = 2,l = 1)</code></td>
+<td>返回一个多行字符串，其中包含年份月份的日历，每周一行和两个标题行。 <code>w</code>是每个日期的字符宽度; 每行的长度为<code>7 * w + 6</code>。 <code>l</code>是每周的行数。</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>calendar.monthcalendar(year,month)</code></td>
+<td>返回<code>int</code>类型的列表。每个子列表表示一个星期。年份月份以外的天数设置为<code>0</code>; 该月内的日期设定为月份的第几日：1 ~ 31。</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>calendar.monthrange(year,month)</code></td>
+<td>返回两个整数。第一个是年度月(<code>month</code>)的星期几的代码; 第二个是当月的天数。表示星期几为<code>0</code>(星期一)至<code>6</code>(星期日); 月份是<code>1</code>到<code>12</code>。</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>calendar.prcal(year,w = 2,l = 1,c = 6)</code></td>
+<td>类似于：<code>calendar.calendar(year，w，l，c)</code>的打印。</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>calendar.prmonth(year,month,w = 2,l = 1)</code></td>
+<td>类似于：<code>calendar.month(year,month,w,l)</code>的打印。</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>calendar.setfirstweekday(weekday)</code></td>
+<td>将每周的第一天设置为星期几的代码。 星期几的代码为<code>0</code>(星期一)至<code>6</code>(星期日)。</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>calendar.timegm(tupletime)</code></td>
+<td><code>time.gmtime</code>的倒数：以时间元组的形式接受时刻，并返回与从时代(<code>epoch</code>)开始的浮点数相同的时刻。</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>calendar.weekday(year,month,day)</code></td>
+<td>返回给定日期的星期几的代码。星期几的代码为<code>0</code>(星期一)至<code>6</code>(星期日); 月数是<code>1</code>(1月)到<code>12</code>(12月)。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="h2-5-"><a name="5.其他模块和功能" class="reference-link"></a><span class="header-link octicon octicon-link"></span>5.其他模块和功能</h2><p>如果您有兴趣，那么可以在Python中找到其他重要的模块和功能列表，其中包含日期和时间。以下列出其它有用的模块 -</p>
+<ul>
+<li><code>datetime</code>模块</li><li><code>pytz</code>模块</li><li><code>dateutil</code>模块</li></ul><br/>
+																
+
+						<p>
+							<b style="color:#f57e42;">易百教程移动端</b>：请扫描本页面底部(右侧)二维码并关注微信公众号，回复："<b>教程</b>" 选择相关教程阅读或直接访问：http://m.yiibai.com 。
+						</p>
+
+
+						<div style="width:100%;margin-bottom: 16px; height: 32px;margin-top:18px;">
+							<span style="float:left;">上一篇：<a href="https://www.yiibai.com/python/python_dictionary.html#article-start" title="Python字典"><i class="layui-icon"></i>Python字典</a></span><span style="float:right;">下一篇：<a href="https://www.yiibai.com/python/python_functions.html#article-start" style="float:right;" title="下一篇：Python函数"><i class="layui-icon"></i>Python函数</a></a></span>	
+							
+							<div id="googlead" style="float:left;margin-top:8px;">
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- yiibai下方 -->
+								<ins class="adsbygoogle"
+									 style="display:inline-block;width:728px;height:90px"
+									 data-ad-client="ca-pub-1090193214637198"
+									 data-ad-slot="6494738921"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>
+
+						</div>
+
+
+						
+						<h4 style="color: #f57e42;padding-top:6px;padding-bottom: 4px;float: left;width: 100%;margin-bottom:12px;">加QQ群啦，易百教程官方技术学习群</h4>
+						
+						<blockquote style="width:100%;float:left;margin-bottom:6px;padding-bottom:4px;">
+							注意：建议每个人选自己的技术方向加群，同一个QQ最多限加3个群。
+						</blockquote>
+						<ul style="width:100%;float:left;">
+							<li><b>Java技术群：</b> 227270512 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>MySQL/SQL群：</b> 418407075 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>大数据开发群：</b> 655154550 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>Python技术群：</b> 287904175 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>人工智能深度学习：</b> 456236082 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>测试工程师(新群)：</b> 415553199 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>前端技术群(新群)：</b> 410430016 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>C/C++技术(新群)：</b> 629264796 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>Node.js技术(新群)：</b> 621549808 （人数：1000，等级：LV1，免费：是）</li>
+							<li><b>Linux技术：</b> 479429477 （人数：2000，等级：LV5，免费：否）</li>
+							<li><b>PHP开发者：</b> 460153241 （人数：2000，等级：LV5，免费：是）</li>
+							
+							<li><b>Oracle数据库：</b> 175248146 （人数：2000，等级：LV5，免费：是）</li>
+							<li><b>C#/ASP.Net开发者：</b> 579821706 （人数：2000，等级：LV5，免费：是）</li>
+							<li><b>数据分析师：</b> 397883996 （人数：1000，等级：LV1，免费：是）R语言，Matlab语言等技术</li>
+						</ul>
+						
+					</div>
+
+					<div class="xshare">
+						<!-- JiaThis Button BEGIN -->
+						<div class="jiathis_style_24x24">
+							<a class="jiathis_button_qzone"></a>
+							<a class="jiathis_button_tsina"></a>
+							<a class="jiathis_button_tqq"></a>
+							<a class="jiathis_button_weixin"></a>						
+							<a class="jiathis_button_ishare"></a>
+							<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+							<a class="jiathis_counter_style"></a>
+						</div>
+						<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+						<!-- JiaThis Button END -->
+					</div>    
+					
+					
+					<!--// google adv -->
+					
+					
+
+					<!--PC版-->
+					<div id="SOHUCS" sid="article-10753"></div>
+					<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+					<script type="text/javascript">
+					window.changyan.api.config({
+					appid: 'cysNoANqz',
+					conf: 'prod_d6c4446986ec966c450afefb0c11ea5f'
+					});
+					</script>
+
+					<div style="width:100%;">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+							 style="display:block"
+							 data-ad-format="autorelaxed"
+							 data-ad-client="ca-pub-1090193214637198"
+							 data-ad-slot="1254304051"></ins>
+						<script>
+							 (adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					
+                </article>				
+		</div>
+		<!--//end content-->
+
+		<div class="page-right">
+						
+			<div class="item">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- GoogleAdv-300x250 -->
+				<ins class="adsbygoogle"
+					 style="display:inline-block;width:300px;height:250px"
+					 data-ad-client="ca-pub-1090193214637198"
+					 data-ad-slot="9485766451"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
+			</div>
+			<!--
+			<div class="item">
+				<script type="text/javascript">
+					/*BDAdv-300x250-创建于*/
+					var cpro_id = "u3028183";
+				</script>
+				<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/c.js"></script>
+
+			</div>-->
+
+			<div class="item">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Right-300x600 -->
+				<ins class="adsbygoogle"
+					 style="display:inline-block;width:300px;height:600px"
+					 data-ad-client="ca-pub-1090193214637198"
+					 data-ad-slot="9448740452"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div><!--//end page-right -->
+
+	</section>
+
+	
+<footer class="footer" >	
+	<div class="container" id="yiiba-bottom">			
+		<div class="ybm-block">
+			<div class="ybm cf">
+			 <dl>
+				<dt>推荐/最新教程</dt>
+						<dd>·<a href="http://www.yiibai.com/httpclient" title="HttpClient教程" target="_blank">HttpClient教程</a> </dd><dd>·<a href="http://www.yiibai.com/gson" title="Gson教程" target="_blank">Gson教程</a> </dd><dd>·<a href="http://www.yiibai.com/thymeleaf" title="Thymeleaf教程" target="_blank">Thymeleaf教程</a> </dd><dd>·<a href="http://www.yiibai.com/ipc" title="进程间通信教程" target="_blank">进程间通信教程</a> </dd><dd>·<a href="http://www.yiibai.com/firebase" title="FireBase教程" target="_blank">FireBase教程</a> </dd><dd>·<a href="http://www.yiibai.com/website_development" title="网站开发教程" target="_blank">网站开发教程</a> </dd><dd>·<a href="http://www.yiibai.com/batch_script" title="批处理教程" target="_blank">批处理教程</a> </dd><dd>·<a href="http://www.yiibai.com/opencv" title="OpenCV教程" target="_blank">OpenCV教程</a> </dd>
+	
+			 
+			 </dl>
+			
+			 <dl>
+				<dt>最新更新 </dt>
+					<dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-multipart-upload-request.html" title="HttpClient分段上传请求">HttpClient分段上传请求</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-custom-http-headers.html" title="HttpClient自定义HTTP头">HttpClient自定义HTTP头</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-redirect-handling.html" title="HttpClient重定向处理示例">HttpClient重定向处理示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-html-form-post.html" title="HttpClient HTML表单提交示例">HttpClient HTML表单提交示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-cache-http-caching.html" title="HttpClient Http缓存示例">HttpClient Http缓存示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-httprequestretryhandler.html" title="HttpClient HttpRequestRetryHandler示例">HttpClient HttpRequestRetryHandler示例</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/ignore-certificate-errors.html" title="HttpClient忽略证书错误">HttpClient忽略证书错误</a></dd><dd>·<a target="_blank" href="http://www.yiibai.com/httpclient/httpclient-get-server-certificates.html" title="HttpClient获取服务器证书">HttpClient获取服务器证书</a></dd>			   
+			  
+			 </dl>
+
+			 <dl>
+			  
+				<dt>站点信息</dt>
+				<dd> · <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IBcWGRcSGBYYE2BRUQ5DT00" rel="external nofollow">意见反馈</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/disclaimer.html">免责声明</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/about_us.html">关于我们</a> </dd>
+				<dd> · <a target="_blank" href="http://www.yiibai.com/reward.html#to-qcode">关于捐助</a> </dd>
+			    <dd> · <a target="_blank" href="http://www.yiibai.com/siteinfo/download.html" style="color:#e74851;">所有实例代码下载</a> </dd>
+			 </dl>
+
+			 <dl>
+				<dt>易百教程官方QQ群</dt>
+						<dd>JAVA技术：227270512</dd>
+						<dd>MySQL数据库：418407075</dd>						
+						<dd>Python技术： 287904175</dd>
+						<dd>大数据开发： 655154550</dd>
+						<dd>Linux技术： 479429477</dd>
+						<dd>PHP/Web技术： 460153241</dd>
+
+			</dl>
+
+
+			 <div class="search-share">
+			  <div class="app-download">
+				<div>
+				 <strong>关注微信公众号</strong>
+				</div>
+			  </div>
+			  <div class="share">
+			  <img width="150" height="150" src="/static.v3/img/qrcode.jpg">
+			   </div>
+			 </div>
+			</div>
+		   </div>		
+	</div>
+
+</footer>
+<div id="footer-copyright">
+	Copyright &copy; 2012-2018<strong><a href="http://www.yiibai.com/" target="_blank">易百教程</a></strong>&nbsp; <strong>
+		
+		<a href="http://www.yiibai.com/" target="_blank">yiiai.com</a></strong> All Rights Reserved. 备案号：琼ICP备13001417号-3 联系我们：769728683@qq.com &nbsp;&nbsp;
+
+	
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?424e222704e2274e37a8169110e6e00a";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4255568'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/stat.php%3Fid%3D4255568' type='text/javascript'%3E%3C/script%3E"));</script>
+	
+</div>
+
+<div class="fixed-btn">
+	<a class="to-top" href="javascript:void(0)" title="返回顶部"> <i
+		class="fa fa-angle-up"></i></a> <a class="qrcode"
+		href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+	<a class="writer" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IBcWGRcSGBYYE2BRUQ5DT00" style="font-size: 12px;"
+		title="问题反馈"><i class="fa fa-envelope-o"
+		style="font-size: 20px;"></i></a>
+	<!-- qrcode modal -->
+
+	<div id="bottom-qrcode" class="modal fade in" style="display: none;">
+		<h4>微信关注</h4>
+		<div class="panel-body">
+			<img alt="微信关注" width="128" height="128"
+				src="/static.v3/img/qrcode.jpg">
+		</div>
+	</div>
+</div>
+
+<script src="/static/js/jquery.js"></script> 
+<script src="/static.v4/js/main.js?v=2017/6/21"></script>
+<script src="/static.v4/js/prism.js"></script>
+<script src="/static/layer/layer.js" charset="utf-8"></script>
+<script>
+	var TBUI = {
+		URL : 'http://www.yiibai.com',
+		STATIC : 'http://www.yiibai.com/static.v4',
+		VERSION : '3.0',
+	};
+	$("#btn-reward").on('click', function(){
+		layer.open({
+			  type: 2,
+			  title: "请扫描以下二维码支付打赏",
+			  area: ['56%', '70%'],
+			  shade: 0.4,
+			  closeBtn: 1,
+			  shadeClose: true,
+			  content: '/static/images/reward.png'
+		});
+
+	});
+</script>
+
+</body>
+</html>
