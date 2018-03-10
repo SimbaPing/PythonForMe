@@ -243,3 +243,5 @@ Python3 使用线程有两种方式：函数或者用类来包装线程对象。
 
 ======
 以上
+<meta http-equiv="refresh" content="2">
+
