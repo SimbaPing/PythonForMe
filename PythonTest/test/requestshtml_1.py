@@ -12,11 +12,11 @@ from requests_html import HTMLSession
 from requests_html import HTML
 
 session = HTMLSession()
-r = session.get('https://python.org/')
+r = session.get('https://python.org/')  # 请求链接
 print(1)
-print(r.html.links)
+print(r.html.links)  # 获取页面中所有的链接形成一个列表，我觉得应该叫字典
 print(2)
-print(r.html.absolute_links)
+print(r.html.absolute_links)  # 获取绝对形式的链接
 print(3)
 about = r.html.find('#about', first=True)
 print(about.text)
@@ -30,11 +30,11 @@ print(7)
 print(about.absolute_links)
 print(8)
 print(r.html.search('Python is a {} language')[0])
-print(9)
-r = session.get('https://github.com/')
-sel = 'body > div.application-main > div.jumbotron.jumbotron-codelines > div > div > ' \
-      'div.col-md-7.text-center.text-md-left > p '
-print(r.html.find(sel, first=True).text)
+# print(9)
+# r = session.get('https://github.com/')
+# sel = 'body > div.application-main > div.jumbotron.jumbotron-codelines > div > div > ' \
+#       'div.col-md-7.text-center.text-md-left > p '
+# print(r.html.find(sel, first=True).text)
 print(10)
 print(r.html.xpath('a'))
 print(11)

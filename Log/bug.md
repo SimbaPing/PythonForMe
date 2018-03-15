@@ -11,6 +11,8 @@
 
 4. 将图片下载到本地文件夹，并且按照顺序编号。
 ```python
+import urllib.request
+
 imgList = []  # 这是一个列表
 imgName = 0  # 列表的起始数字
 for imgPath in imgList:  # 将列表逐行打印变成 imgPath
