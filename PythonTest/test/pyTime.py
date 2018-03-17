@@ -10,7 +10,7 @@ local_time = time.asctime(time.localtime(time.time()))
 print("正确显示：", local_time)
 
 # 格式化日期
-print(time.strftime("%Y-%m-%d %H:%M:%S")) # 喜欢这个样式
+print(time.strftime("%Y-%m-%d %H:%M:%S"))  # 喜欢这个样式
 print(time.strftime("%a %b %d %H:%M:%S %Y"))
 
 # 将时间变为时间戳
