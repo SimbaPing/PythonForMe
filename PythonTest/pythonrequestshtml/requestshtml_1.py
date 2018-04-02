@@ -4,7 +4,7 @@
 Created with IntelliJ IDEA
 @Author: Ping
 @Contact: fpsping@163.com
-@File: requestshtml_1.py
+@File: requestshtml_jiandan.py
 @Time: 2018/2/28 15:58
 """
 
