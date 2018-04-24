@@ -21,3 +21,5 @@ def output(s, l):
 s = input('Input a string: ')
 l = len(s)
 output(s, l)
+
+print("hello world!")
