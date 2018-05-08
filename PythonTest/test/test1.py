@@ -23,3 +23,5 @@ l = len(s)
 output(s, l)
 
 print("hello world!")
+
+print('good')
