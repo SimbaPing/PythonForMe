@@ -11,16 +11,16 @@ Created with IntelliJ IDEA
 # 输入字符，并以相反的顺序打印出来
 
 
-def output(s, l):
-    if l == 0:
+def output(one, two):
+    if two == 0:
         return
-    print(s[l - 1])
-    output(s, l - 1)
+    print(one[two - 1])
+    output(one, two - 1)
 
 
-s = input('Input a string: ')
-l = len(s)
-output(s, l)
+one = input('Input a string: ')
+two = len(one)
+output(one, two)
 
 print("hello world!")
 
