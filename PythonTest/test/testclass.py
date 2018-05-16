@@ -84,3 +84,27 @@ class Student(People):
 
 s = Student('Ken', 10, 60, 3)
 s.speak()
+
+print("第五个：")
+
+
+class Employee:
+    empCount = 0
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+        Employee.empCount += 1
+
+    def displayCount(self):
+        print("Total Employee %d" % Employee.empCount)
+
+    def displayEmployee(self):
+        print("Name: ", self.name, ", Salary: ", self.salary)
+
+
+print(Employee.__doc__)
+print(Employee.__name__)
+print(Employee.__module__)
+print(Employee.__bases__)
+print(Employee.__dict__)
