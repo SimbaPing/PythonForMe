@@ -36,6 +36,8 @@ wsbja = list(range(wsbj - 5, wsbj + 5))
 wsbka = list(range(wsbk - 5, wsbk + 5))
 wscka = list(range(wsck - 5, wsck + 5))
 
+ttt = 68
+
 n = 1
 n1 = 1
 m = m1 = 2  # 指定行数
@@ -43,7 +45,7 @@ ma = mb = mc = 3
 maa = mbb = mcc = 4
 md = me = 5
 
-for i in range(0, 68):
+for i in range(0, ttt):
     print(i)
     for nn in range(0, 10):
         booksheet.write(n, nn, i + 1)
@@ -51,7 +53,7 @@ for i in range(0, 68):
     n += 6
 
 # 客厅高度
-for i in range(0, 68):
+for i in range(0, ttt):
     h15 = random.sample(ktha, 5)
     booksheet.write(m, 0, "客厅")
     booksheet.write(m, 1, kth)
@@ -63,7 +65,7 @@ for i in range(0, 68):
     m += 6
 
 # 客厅开间
-for i in range(0, 68):
+for i in range(0, ttt):
     h34 = random.sample(ktka, 2)
     for hh in range(len(h34)):
         booksheet.write(m1, hh + 9, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
@@ -72,7 +74,7 @@ for i in range(0, 68):
     m1 += 6
 
 # 卧室1 高度
-for i in range(0, 68):
+for i in range(0, ttt):
     h15 = random.sample(qtha, 5)
     booksheet.write(ma, 0, "卧1")
     booksheet.write(ma, 1, qth)
@@ -84,7 +86,7 @@ for i in range(0, 68):
     ma += 6
 
 # 卧室1 开间
-for i in range(0, 68):
+for i in range(0, ttt):
     h34 = random.sample(wsaka, 2)
     for hh in range(len(h34)):
         booksheet.write(mc, hh + 9, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
@@ -93,7 +95,7 @@ for i in range(0, 68):
     mc += 6
 
 # 卧室1 进深 111111111111111111111111111111
-for i in range(0, 68):
+for i in range(0, ttt):
     h34 = random.sample(wsaja, 2)
     for hh in range(len(h34)):
         booksheet.write(mb, hh + 7, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
@@ -102,7 +104,7 @@ for i in range(0, 68):
     mb += 6
 
 # 卧室2 高度
-for i in range(0, 68):
+for i in range(0, ttt):
     h15 = random.sample(qtha, 5)
     booksheet.write(maa, 0, "卧2")
     booksheet.write(maa, 1, qth)
@@ -114,7 +116,7 @@ for i in range(0, 68):
     maa += 6
 
 # 卧室2 开间
-for i in range(0, 68):
+for i in range(0, ttt):
     h34 = random.sample(wsbka, 2)
     for hh in range(len(h34)):
         booksheet.write(mcc, hh + 9, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
@@ -123,7 +125,7 @@ for i in range(0, 68):
     mcc += 6
 
 # 卧室2 进深
-for i in range(0, 68):
+for i in range(0, ttt):
     h34 = random.sample(wsbja, 2)
     for hh in range(len(h34)):
         booksheet.write(mbb, hh + 7, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
@@ -132,7 +134,7 @@ for i in range(0, 68):
     mbb += 6
 
 # 卧室3 高度
-for i in range(0, 68):
+for i in range(0, ttt):
     h15 = random.sample(qtha, 5)
     booksheet.write(md, 0, "卧3")
     booksheet.write(md, 1, qth)
@@ -144,7 +146,7 @@ for i in range(0, 68):
     md += 6
 
 # 卧室3 开间
-for i in range(0, 68):
+for i in range(0, ttt):
     h34 = random.sample(wscka, 2)
     for hh in range(len(h34)):
         booksheet.write(me, hh + 9, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
@@ -152,4 +154,4 @@ for i in range(0, 68):
     booksheet.write(me, 14, h34[1] - h34[0])
     me += 6
 
-workbook.save('thtest9.xls')
+workbook.save('one.xls')

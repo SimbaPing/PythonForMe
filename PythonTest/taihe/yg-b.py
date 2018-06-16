@@ -4,8 +4,8 @@
 Created with IntelliJ IDEA
 @Author: Ping
 @Contact: fpsping@163.com
-@File: yg1.py
-@Time: 2018/6/6 16:58
+@File: yg-b.py
+@Time: 2018/6/16 17:50
 """
 
 import random
@@ -13,30 +13,26 @@ import xlwt
 
 workbook = xlwt.Workbook(encoding='utf-8')  # 编码格式
 booksheet = workbook.add_sheet('Sheet 1', cell_overwrite_ok=True)  # 表格名称
-kth = 2680  # 客厅高度
-ktj = 3610  # 客厅进深
-ktk = 0  # 客厅开间
+kth = 2700  # 客厅高度
+
+ktk = 3590  # 客厅开间
 qth = 2720  # 卧室高度
-wsaj = 3640  # 卧室1，进深
-wsak = 3350  # 卧室1，开间
-wsbj = 2790  # 卧室2，进深
-wsbk = 2050  # 卧室2，开间
-wscj = 3600  # 卧室3，进深
-wsck = 3190  # 卧室3，开间
+wsaj = 4700  # 卧室1，进深
+wsak = 3200  # 卧室1，开间
+wsbj = 3290  # 卧室2，进深
+wsbk = 3200  # 卧室2，开间
+wsck = 2590  # 卧室3，开间
 
 ktha = list(range(kth - 10, kth + 10))
-# ktka = list(range(ktk - 5, ktk + 5))
-ktja = list(range(ktj - 10, ktj + 10))
 ktka = list(range(ktk - 10, ktk + 10))
 qtha = list(range(qth - 10, qth + 10))
 wsaja = list(range(wsaj - 10, wsaj + 10))
 wsaka = list(range(wsak - 10, wsak + 10))
 wsbja = list(range(wsbj - 10, wsbj + 10))
 wsbka = list(range(wsbk - 10, wsbk + 10))
-wscja = list(range(wscj - 10, wscj + 10))
 wscka = list(range(wsck - 10, wsck + 10))
 
-ttt = 8  # 一共生成几组
+ttt = 17  # 一共生成几组
 
 n = 1
 n1 = 1
@@ -75,13 +71,7 @@ for i in range(0, ttt):
     m0 += 6
 
 # 客厅 进深
-for i in range(0, ttt):
-    h34 = random.sample(wsaja, 2)
-    for hh in range(len(h34)):
-        booksheet.write(mb, hh + 7, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
-    h34.sort()
-    booksheet.write(mb, 13, h34[1] - h34[0])
-    mb += 6
+
 
 # 卧室1 高度
 for i in range(0, ttt):
@@ -156,13 +146,7 @@ for i in range(0, ttt):
     md += 6
 
 # 卧室3 进深
-for i in range(0, ttt):
-    h34 = random.sample(wscja, 2)
-    for hh in range(len(h34)):
-        booksheet.write(mcc, hh + 7, h34[hh])  # 第 m 行，第 hh-1 格，填入 h34[hh]
-    h34.sort()
-    booksheet.write(mcc, 13, h34[1] - h34[0])
-    mcc += 6
+
 
 # 卧室3 开间
 for i in range(0, ttt):
@@ -173,4 +157,4 @@ for i in range(0, ttt):
     booksheet.write(me, 14, h34[1] - h34[0])
     me += 6
 
-workbook.save('7#东单元东2-7共6.xls')
+workbook.save('7#中单元东2-18共17.xls')
