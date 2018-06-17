@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-# encoding: utf-8
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """
 Created with IntelliJ IDEA
 @author: Ping

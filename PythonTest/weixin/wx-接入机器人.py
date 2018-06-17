@@ -4,7 +4,7 @@
 Created with IntelliJ IDEA
 @Author: Ping
 @Contact: fpsping@163.com
-@File: weixin_4.py
+@File: wx-接入机器人.py
 @Time: 2018/6/4 15:49
 """
 

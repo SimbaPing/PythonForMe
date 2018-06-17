@@ -1,3 +1,5 @@
+# 强行头部
+
 1. 问：TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type s。
 答：Request('http://www.douban.com',data  = urllib.parse.urlencode(data).encode(encoding='UTF8'),headers = headers)。 
 

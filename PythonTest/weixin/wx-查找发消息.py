@@ -4,7 +4,7 @@
 Created with IntelliJ IDEA
 @Author: Ping
 @Contact: fpsping@163.com
-@File: weixin3.py
+@File: wx-查找发消息.py
 @Time: 2018/6/4 15:12
 """
 

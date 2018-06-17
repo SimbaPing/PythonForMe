@@ -1,5 +1,5 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
+# !/usr/bin/env python
+# coding: utf-8
 """
 Created with IntelliJ IDEA
 @Author: Ping
@@ -38,7 +38,7 @@ ttt = 6  # 一共生成几组
 
 n = 1
 n1 = 1
-m = m1 = m0 = 2  # 指定行数
+m = m1 = m0 = 2  # 指定行数l
 ma = mb = mc = 3
 maa = mbb = mcc = 4
 md = me = mf = 5
