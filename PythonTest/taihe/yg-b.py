@@ -57,7 +57,11 @@ for i in range(0, ttt):  # 一共生成6组
     for hh in range(len(h15)):  # 将这5个随机数填进相应的位置
         booksheet.write(m, hh + 2, h15[hh])
     h15.sort()  # 为了好排列，将五个数从小到大排列
-    booksheet.write(m, 11, abs(kth - h15[0]))  # 标准值与最小值的差
+    if abs(h15[0] - kth) > abs(h15[4] - kth):
+        booksheet.write(m, 11, h15[0] - kth)
+    else:
+        booksheet.write(m, 11, h15[4] - kth)
+    # booksheet.write(m, 11, abs(kth - h15[0]))  # 标准值与最小值的差
     booksheet.write(m, 12, h15[4] - h15[0])  # 最大值减去最小值
     m += 6  # 每隔六行生成一组
 
@@ -157,4 +161,4 @@ for i in range(0, ttt):
     booksheet.write(me, 14, h34[1] - h34[0])
     me += 6
 
-workbook.save('7#中单元东2-18共17.xls')
+workbook.save('7#中单元东2-18共170.xls')
