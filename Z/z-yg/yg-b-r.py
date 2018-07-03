@@ -23,14 +23,14 @@ wsbj = 3290  # 卧室2，进深
 wsbk = 3200  # 卧室2，开间
 wsck = 2590  # 卧室3，开间
 
-ktha = list(range(kth - 10, kth + 10))
-ktka = list(range(ktk - 10, ktk + 10))
-qtha = list(range(qth - 10, qth + 10))
-wsaja = list(range(wsaj - 10, wsaj + 10))
-wsaka = list(range(wsak - 10, wsak + 10))
-wsbja = list(range(wsbj - 10, wsbj + 10))
-wsbka = list(range(wsbk - 10, wsbk + 10))
-wscka = list(range(wsck - 10, wsck + 10))
+ktha = list(range(kth - 9, kth + 9))
+ktka = list(range(ktk - 9, ktk + 9))
+qtha = list(range(qth - 9, qth + 9))
+wsaja = list(range(wsaj - 9, wsaj + 9))
+wsaka = list(range(wsak - 9, wsak + 9))
+wsbja = list(range(wsbj - 9, wsbj + 9))
+wsbka = list(range(wsbk - 9, wsbk + 9))
+wscka = list(range(wsck - 9, wsck + 9))
 
 ttt = 17  # 一共生成几组
 
@@ -85,7 +85,11 @@ for i in range(0, ttt):
     for hh in range(len(h15)):
         booksheet.write(ma, hh + 2, h15[hh])
     h15.sort()
-    booksheet.write(ma, 11, abs(kth - h15[0]))
+    if abs(h15[0] - qth) > abs(h15[4] - qth):
+        booksheet.write(ma, 11, h15[0] - qth)
+    else:
+        booksheet.write(ma, 11, h15[4] - qth)
+    # booksheet.write(ma, 11, abs(kth - h15[0]))
     booksheet.write(ma, 12, h15[4] - h15[0])
     ma += 6
 
@@ -115,7 +119,11 @@ for i in range(0, ttt):
     for hh in range(len(h15)):
         booksheet.write(maa, hh + 2, h15[hh])
     h15.sort()
-    booksheet.write(maa, 11, abs(kth - h15[0]))
+    if abs(h15[0] - qth) > abs(h15[4] - qth):
+        booksheet.write(maa, 11, h15[0] - qth)
+    else:
+        booksheet.write(maa, 11, h15[4] - qth)
+    # booksheet.write(maa, 11, abs(kth - h15[0]))
     booksheet.write(maa, 12, h15[4] - h15[0])
     maa += 6
 
@@ -145,7 +153,11 @@ for i in range(0, ttt):
     for hh in range(len(h15)):
         booksheet.write(md, hh + 2, h15[hh])
     h15.sort()
-    booksheet.write(md, 11, abs(kth - h15[0]))
+    if abs(h15[0] - qth) > abs(h15[4] - qth):
+        booksheet.write(md, 11, h15[0] - qth)
+    else:
+        booksheet.write(md, 11, h15[4] - qth)
+    # booksheet.write(md, 11, abs(kth - h15[0]))
     booksheet.write(md, 12, h15[4] - h15[0])
     md += 6
 
@@ -161,4 +173,4 @@ for i in range(0, ttt):
     booksheet.write(me, 14, h34[1] - h34[0])
     me += 6
 
-workbook.save('7#中单元东2-18共170.xls')
+workbook.save('7#中单元东2-18共17-h.xls')

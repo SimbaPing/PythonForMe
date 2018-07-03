@@ -8,20 +8,23 @@ Created with IntelliJ IDEA
 @time: 2018/1/14 23:31
 """
 
-# 输入字符，并以相反的顺序打印出来
+# # 输入字符，并以相反的顺序打印出来
 
 
-def output(one, two):
-    if two == 0:
-        return
-    print(one[two - 1])
-    output(one, two - 1)
+# def output(one, two):
+#     if two == 0:
+#         return
+#     print(one[two - 1])
+#     output(one, two - 1)
 
 
-one = input('Input a string: ')
-two = len(one)
-output(one, two)
+# one = input('Input a string: ')
+# two = len(one)
+# output(one, two)
 
-print("hello world!")
+# print("hello world!")
 
-print('good')
+# print('good')
+
+# 两个列表合为字典
+
