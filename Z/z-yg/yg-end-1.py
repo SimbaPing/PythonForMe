@@ -13,8 +13,8 @@ import xlwt
 
 workbook = xlwt.Workbook(encoding='utf-8')  # 编码格式
 booksheet = workbook.add_sheet('Sheet 1', cell_overwrite_ok=True)  # 表格名称
-yg = [2700, 3890, 0, 2710, 3350, 0, 2720,
-      2890, 3510, 2720, 2090, 2590, 0, 0, 0]
+yg = [2770, 3850, 0, 2780, 3380, 0, 2790,
+      2680, 3980, 2790, 3190, 3280, 0, 0, 0]
 """
 7东东2-7：[2680,0,3610,2720,3350,3640,2720,2050,2790,2720,3190,3600,0,0,0]
 7东西2-7：[2700,3490,0,2720,3200,0,2720,2750,2890,2720,2070,2550,0,0,0]
@@ -49,21 +49,21 @@ wsdh = yg[12]
 wsdj = yg[13]
 wsdk = yg[14]
 
-ktha = list(range(kth - 9, kth + 9))
-ktja = list(range(ktj - 9, ktj + 9))
-ktka = list(range(ktk - 9, ktk + 9))
-wsaha = list(range(wsah - 9, wsah + 9))
-wsaja = list(range(wsaj - 9, wsaj + 9))
-wsaka = list(range(wsak - 9, wsak + 9))
-wsbha = list(range(wsbh - 9, wsbh + 9))
-wsbja = list(range(wsbj - 9, wsbj + 9))
-wsbka = list(range(wsbk - 9, wsbk + 9))
-wscha = list(range(wsch - 9, wsch + 9))
-wscja = list(range(wscj - 9, wscj + 9))
-wscka = list(range(wsck - 9, wsck + 9))
-wsdha = list(range(wsdh - 9, wsdh + 9))
-wsdja = list(range(wsdj - 9, wsdj + 9))
-wsdka = list(range(wsdk - 9, wsdk + 9))
+ktha = list(range(kth - random.randint(3, 9), kth + random.randint(3, 9)))
+ktja = list(range(ktj - random.randint(3, 9), ktj + random.randint(3, 9)))
+ktka = list(range(ktk - random.randint(3, 9), ktk + random.randint(3, 9)))
+wsaha = list(range(wsah - random.randint(3, 9), wsah + random.randint(3, 9)))
+wsaja = list(range(wsaj - random.randint(3, 9), wsaj + random.randint(3, 9)))
+wsaka = list(range(wsak - random.randint(3, 9), wsak + random.randint(3, 9)))
+wsbha = list(range(wsbh - random.randint(3, 9), wsbh + random.randint(3, 9)))
+wsbja = list(range(wsbj - random.randint(3, 9), wsbj + random.randint(3, 9)))
+wsbka = list(range(wsbk - random.randint(3, 9), wsbk + random.randint(3, 9)))
+wscha = list(range(wsch - random.randint(3, 9), wsch + random.randint(3, 9)))
+wscja = list(range(wscj - random.randint(3, 9), wscj + random.randint(3, 9)))
+wscka = list(range(wsck - random.randint(3, 9), wsck + random.randint(3, 9)))
+wsdha = list(range(wsdh - random.randint(3, 9), wsdh + random.randint(3, 9)))
+wsdja = list(range(wsdj - random.randint(3, 9), wsdj + random.randint(3, 9)))
+wsdka = list(range(wsdk - random.randint(3, 9), wsdk + random.randint(3, 9)))
 
 ttt = 50  # 一共生成几组
 
