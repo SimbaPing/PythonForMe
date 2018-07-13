@@ -14,7 +14,9 @@ import xlwt
 workbook = xlwt.Workbook(encoding='utf-8')  # 编码格式
 booksheet = workbook.add_sheet('Sheet 1', cell_overwrite_ok=True)  # 表格名称
 yg = [2700, 3880, 0, 2720, 3400, 0, 2680, 2590, 4100, 2720, 3200, 0, 0, 0, 0]
+
 """
+开间进深的位置填反了，但因为公式一样，所以不做更改。
 7东东2-7：[2680,0,3610,2720,3350,3640,2720,2050,2790,2720,3190,3600,0,0,0]
 7东西2-7：[2700,3490,0,2720,3200,0,2720,2750,2890,2720,2070,2550,0,0,0]
 7中东2-18：[2700,3590,0,2720,3200,4700,2720,3200,3290,2720,2590,0,0,0,0]
@@ -33,6 +35,7 @@ yg = [2700, 3880, 0, 2720, 3400, 0, 2680, 2590, 4100, 2720, 3200, 0, 0, 0, 0]
 4西东1-23：[2770,3850,0,2780,3380,0,2790,2680,3980,2790,3190,3280,0,0,0]
 8西西1-18：[2700,3880,0,2720,3400,0,2680,2590,4100,2720,3200,0,0,0,0]
 """
+
 kth = yg[0]  # 客厅高度
 ktj = yg[1]  # 客厅进深
 ktk = yg[2]  # 客厅开间
@@ -45,25 +48,40 @@ wsbk = yg[8]  # 卧室2，开间
 wsch = yg[9]  # 卧室3，高度
 wscj = yg[10]  # 卧室3，进深
 wsck = yg[11]  # 卧室3，开间
-wsdh = yg[12]
-wsdj = yg[13]
-wsdk = yg[14]
+wsdh = yg[12]  # 卧室4，高度
+wsdj = yg[13]  # 卧室4，进深
+wsdk = yg[14]  # 卧室4，开间
 
-ktha = list(range(kth - random.randint(3, 9), kth + random.randint(3, 9)))
-ktja = list(range(ktj - random.randint(3, 9), ktj + random.randint(3, 9)))
-ktka = list(range(ktk - random.randint(3, 9), ktk + random.randint(3, 9)))
-wsaha = list(range(wsah - random.randint(3, 9), wsah + random.randint(3, 9)))
-wsaja = list(range(wsaj - random.randint(3, 9), wsaj + random.randint(3, 9)))
-wsaka = list(range(wsak - random.randint(3, 9), wsak + random.randint(3, 9)))
-wsbha = list(range(wsbh - random.randint(3, 9), wsbh + random.randint(3, 9)))
-wsbja = list(range(wsbj - random.randint(3, 9), wsbj + random.randint(3, 9)))
-wsbka = list(range(wsbk - random.randint(3, 9), wsbk + random.randint(3, 9)))
-wscha = list(range(wsch - random.randint(3, 9), wsch + random.randint(3, 9)))
-wscja = list(range(wscj - random.randint(3, 9), wscj + random.randint(3, 9)))
-wscka = list(range(wsck - random.randint(3, 9), wsck + random.randint(3, 9)))
-wsdha = list(range(wsdh - random.randint(3, 9), wsdh + random.randint(3, 9)))
-wsdja = list(range(wsdj - random.randint(3, 9), wsdj + random.randint(3, 9)))
-wsdka = list(range(wsdk - random.randint(3, 9), wsdk + random.randint(3, 9)))
+ktha = list(range(kth - random.randint(3, random.randint(4, 9)),
+                  kth + random.randint(3, random.randint(4, 9))))
+ktja = list(range(ktj - random.randint(3, random.randint(4, 9)),
+                  ktj + random.randint(3, random.randint(4, 9))))
+ktka = list(range(ktk - random.randint(3, random.randint(4, 9)),
+                  ktk + random.randint(3, random.randint(4, 9))))
+wsaha = list(range(wsah - random.randint(3, random.randint(4, 9)),
+                   wsah + random.randint(3, random.randint(4, 9))))
+wsaja = list(range(wsaj - random.randint(3, random.randint(4, 9)),
+                   wsaj + random.randint(3, random.randint(4, 9))))
+wsaka = list(range(wsak - random.randint(3, random.randint(4, 9)),
+                   wsak + random.randint(3, random.randint(4, 9))))
+wsbha = list(range(wsbh - random.randint(3, random.randint(4, 9)),
+                   wsbh + random.randint(3, random.randint(4, 9))))
+wsbja = list(range(wsbj - random.randint(3, random.randint(4, 9)),
+                   wsbj + random.randint(3, random.randint(4, 9))))
+wsbka = list(range(wsbk - random.randint(3, random.randint(4, 9)),
+                   wsbk + random.randint(3, random.randint(4, 9))))
+wscha = list(range(wsch - random.randint(3, random.randint(4, 9)),
+                   wsch + random.randint(3, random.randint(4, 9))))
+wscja = list(range(wscj - random.randint(3, random.randint(4, 9)),
+                   wscj + random.randint(3, random.randint(4, 9))))
+wscka = list(range(wsck - random.randint(3, random.randint(4, 9)),
+                   wsck + random.randint(3, random.randint(4, 9))))
+wsdha = list(range(wsdh - random.randint(3, random.randint(4, 9)),
+                   wsdh + random.randint(3, random.randint(4, 9))))
+wsdja = list(range(wsdj - random.randint(3, random.randint(4, 9)),
+                   wsdj + random.randint(3, random.randint(4, 9))))
+wsdka = list(range(wsdk - random.randint(3, random.randint(4, 9)),
+                   wsdk + random.randint(3, random.randint(4, 9))))
 
 ttt = 50  # 一共生成几组
 
@@ -262,4 +280,4 @@ if wsdk != 0:
         booksheet.write(mccc, 14, h34[1] - h34[0])
         mccc += 6
 
-workbook.save('8西西1-18-2.xls')
+workbook.save('8西西1-18-3.xls')
