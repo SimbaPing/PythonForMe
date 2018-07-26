@@ -9,3 +9,4 @@ created with IntelliJ IDEA
 description:
 """
 
+print(len('name'))
