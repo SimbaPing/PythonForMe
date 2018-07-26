@@ -23,4 +23,5 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    Solution(20, 10)
+    a = Solution(20, 10)
+    print(a.twoSum())
