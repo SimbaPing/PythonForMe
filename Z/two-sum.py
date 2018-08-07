@@ -25,3 +25,5 @@ class Solution(object):
 if __name__ == '__main__':
     a = Solution(20, 10)
     print(a.twoSum())
+    print(两和相加)
+    
