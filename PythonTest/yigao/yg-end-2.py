@@ -107,7 +107,7 @@ for i in range(0, ttt):  # 一共生成6组
     for hh in range(len(h15)):  # 将这5个随机数填进相应的位置
         booksheet.write(m, hh + 2, h15[hh])
     h15.sort()  # 为了好排列，将五个数从小到大排列
-    if abs(h15[0] - kth) >= abs(h15[4] - kth):
+    if abs(h15[0] - kth) >= abs(h15[4] - kth):  # 最大相差多少，相等选负数
         booksheet.write(m, 11, h15[0] - kth)
     else:
         booksheet.write(m, 11, h15[4] - kth)

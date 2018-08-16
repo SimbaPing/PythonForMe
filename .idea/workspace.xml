@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/PythonTest/pythonrequestshtml/requests-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonTest/pythonrequestshtml/requests-1.py" afterDir="false" />
-    </list>
+    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,7 @@
     <SUITE FILE_PATH="coverage/learnpython$rh3.coverage" NAME="rh3 Coverage Results" MODIFIED="1527348718336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
     <SUITE FILE_PATH="coverage/learnpython$th2.coverage" NAME="th2 Coverage Results" MODIFIED="1528260006775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
     <SUITE FILE_PATH="coverage/learnpython$weixin_4.coverage" NAME="weixin_4 Coverage Results" MODIFIED="1528099500141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$yg_end_2.coverage" NAME="yg-end-2 Coverage Results" MODIFIED="1533827370991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/yigao" />
     <SUITE FILE_PATH="coverage/learnpython$yg_c.coverage" NAME="yg-c Coverage Results" MODIFIED="1529147546566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
     <SUITE FILE_PATH="coverage/learnpython$weixin5.coverage" NAME="weixin5 Coverage Results" MODIFIED="1529210563946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
     <SUITE FILE_PATH="coverage/learnpython$spiderzhihu.coverage" NAME="spiderzhihu Coverage Results" MODIFIED="1528126380667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
@@ -65,14 +64,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requests-1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requests-1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTest/pythonrequestshtml/requests-1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
                 <element signature="e#191#206#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yg-end-2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTest/yigao/yg-end-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -163,7 +171,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="518" />
     <option name="y" value="197" />
     <option name="width" value="1382" />
@@ -177,6 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,12 +205,16 @@
               <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
               <item name="pythonrequestshtml" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="yigao" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -244,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.requests-1">
+  <component name="RunManager" selected="Python.yg-end-2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -266,25 +280,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="class-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learnpython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest/pyclass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\pjs\GitHub\learnpython\Z\class-3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="class-4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
@@ -362,6 +357,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="yg-end-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learnpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest/yigao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/yigao/yg-end-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -398,19 +412,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Python.class-3" />
       <item itemvalue="Python.class-4" />
       <item itemvalue="Python.class-5" />
       <item itemvalue="Python.requestshtml_1" />
       <item itemvalue="Python.requests-1" />
+      <item itemvalue="Python.yg-end-2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yg-end-2" />
         <item itemvalue="Python.requests-1" />
         <item itemvalue="Python.requestshtml_1" />
         <item itemvalue="Python.class-5" />
         <item itemvalue="Python.class-4" />
-        <item itemvalue="Python.class-3" />
       </list>
     </recent_temporary>
   </component>
@@ -528,6 +542,7 @@
       <workItem from="1533479470394" duration="632000" />
       <workItem from="1533570734354" duration="2555000" />
       <workItem from="1533573672900" duration="1899000" />
+      <workItem from="1533827354647" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="20180106-1">
       <created>1515253947544</created>
@@ -841,11 +856,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206309000" />
+    <option name="totallyTimeSpent" value="206998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -853,22 +867,21 @@
       <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.50741524" side_tool="true" weight="0.3279396" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49258474" weight="0.22601625" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.27804878" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16868381" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.3296875" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="SciView" order="6" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" id="Notes" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Dilbert" order="7" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32961783" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -878,12 +891,13 @@
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32470334" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32961783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -930,13 +944,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Spiders/yiibi/teacher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Log/IO.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1218,10 +1225,17 @@
     <entry file="file://$PROJECT_DIR$/PythonTest/pythonrequestshtml/requests-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
             <element signature="e#191#206#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest/yigao/yg-end-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
