@@ -8,7 +8,7 @@ print(list(range(2, 11)))
 
 nums = [1, 2, 3, 4, 5]
 targets = 123
-a = 123
+a = 120
 print(len(nums))
 
 
@@ -33,7 +33,10 @@ e = d[0] * 100 + d[1] * 10 + d[2] * 1
 print(e)
 
 m = list(str(a))
-n = list
+n = []
 for i in range(0, len(m)):
     n.append(m[len(m) - i - 1])
-print(m)
+print(n)
+p = list(map(int, n))
+q = p[0] * 100 + p[1] * 10 + p[2] * 1
+print(q)
