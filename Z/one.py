@@ -40,3 +40,5 @@ print(n)
 p = list(map(int, n))
 q = p[0] * 100 + p[1] * 10 + p[2] * 1
 print(q)
+
+print("Hello world!")
