@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other">
-      <change afterPath="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learnpython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnpython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,7 +117,7 @@
     <session id="-669227815">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
@@ -670,14 +667,7 @@
       <workItem from="1537118074120" duration="87000" />
       <workItem from="1537118305410" duration="671000" />
       <workItem from="1537153816026" duration="250000" />
-      <workItem from="1537154193415" duration="2424000" />
-    </task>
-    <task id="LOCAL-00001" summary="20180106-1">
-      <created>1515253947544</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1515253947544</updated>
+      <workItem from="1537154193415" duration="2459000" />
     </task>
     <task id="LOCAL-00002" summary="20180107-1">
       <created>1515256177604</created>
@@ -1015,11 +1005,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535471016220</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="other">
+      <created>1537156630965</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1537156630966</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235166000" />
+    <option name="totallyTimeSpent" value="235201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -1037,7 +1034,7 @@
       <window_info anchor="bottom" id="Tail" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.32254586" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48687088" visible="true" weight="0.36548766" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48687088" weight="0.36548766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
