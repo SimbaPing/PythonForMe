@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/uppjs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +20,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/learnpython$pic_learn.coverage" NAME="pic-learn Coverage Results" MODIFIED="1534863073550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pypic" />
-    <SUITE FILE_PATH="coverage/learnpython$two_sum.coverage" NAME="two-sum Coverage Results" MODIFIED="1532448917049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
     <SUITE FILE_PATH="coverage/learnpython$yg_g.coverage" NAME="yg-g Coverage Results" MODIFIED="1529157092005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$two_sum.coverage" NAME="two-sum Coverage Results" MODIFIED="1537285960884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
     <SUITE FILE_PATH="coverage/learnpython$yg_d.coverage" NAME="yg-d Coverage Results" MODIFIED="1529156719225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
     <SUITE FILE_PATH="coverage/learnpython$rh3.coverage" NAME="rh3 Coverage Results" MODIFIED="1527348718336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
     <SUITE FILE_PATH="coverage/learnpython$requestshtml_1.coverage" NAME="requestshtml_1 Coverage Results" MODIFIED="1533575013040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
@@ -31,7 +32,7 @@
     <SUITE FILE_PATH="coverage/learnpython$class_3.coverage" NAME="class-3 Coverage Results" MODIFIED="1532787530814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
     <SUITE FILE_PATH="coverage/learnpython$weixin5.coverage" NAME="weixin5 Coverage Results" MODIFIED="1529210563946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
     <SUITE FILE_PATH="coverage/learnpython$two_sum__1_.coverage" NAME="two-sum (1) Coverage Results" MODIFIED="1532502142435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$to_lower_case.coverage" NAME="to-lower-case Coverage Results" MODIFIED="1537156541315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$to_lower_case.coverage" NAME="to-lower-case Coverage Results" MODIFIED="1537285959061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
     <SUITE FILE_PATH="coverage/learnpython$class_1__1_.coverage" NAME="class-1 (1) Coverage Results" MODIFIED="1532705512914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
     <SUITE FILE_PATH="coverage/learnpython$test_1.coverage" NAME="test-1 Coverage Results" MODIFIED="1532486265576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
     <SUITE FILE_PATH="coverage/learnpython$requests_1.coverage" NAME="requests-1 Coverage Results" MODIFIED="1533575928841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
@@ -60,6 +61,7 @@
     <SUITE FILE_PATH="coverage/learnpython$table1.coverage" NAME="table1 Coverage Results" MODIFIED="1527070546575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
     <SUITE FILE_PATH="coverage/learnpython$pic2.coverage" NAME="pic2 Coverage Results" MODIFIED="1529246434055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pypic" />
     <SUITE FILE_PATH="coverage/learnpython$weixin_4.coverage" NAME="weixin_4 Coverage Results" MODIFIED="1528099500141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$one.coverage" NAME="one Coverage Results" MODIFIED="1537285986307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z" />
     <SUITE FILE_PATH="coverage/learnpython$yg_end_2.coverage" NAME="yg-end-2 Coverage Results" MODIFIED="1533827370991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/yigao" />
     <SUITE FILE_PATH="coverage/learnpython$class1.coverage" NAME="class1 Coverage Results" MODIFIED="1526226563588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
     <SUITE FILE_PATH="coverage/learnpython$yg_e.coverage" NAME="yg-e Coverage Results" MODIFIED="1529150562898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
@@ -117,52 +119,43 @@
     <session id="-669227815">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="136" />
+          <entry key="py" value="159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="136" />
+          <entry key="Python" value="159" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,15 +173,12 @@
       <GitPushTagMode />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonTest/test/getfilename.py" />
-        <option value="$PROJECT_DIR$/PythonTest/test/test180510.py" />
-        <option value="$PROJECT_DIR$/PythonLearn/pyfile/file1.py" />
-        <option value="$PROJECT_DIR$/PythonTest/test/class1.py" />
-        <option value="$PROJECT_DIR$/PythonTest/test/testclass.py" />
-        <option value="$PROJECT_DIR$/PythonTest/test/table1.py" />
         <option value="$PROJECT_DIR$/PythonTest/taihe/th1.py" />
         <option value="$PROJECT_DIR$/PythonTest/pythonrequestshtml/rh3.py" />
         <option value="$PROJECT_DIR$/PythonTest/weixin/weixin2.py" />
@@ -233,21 +223,33 @@
         <option value="$PROJECT_DIR$/PythonLearn/pypic/picto.py" />
         <option value="$PROJECT_DIR$/PythonTest/test/pypyecharts.py" />
         <option value="$PROJECT_DIR$/PythonTest/test/py-numpy.py" />
+        <option value="$PROJECT_DIR$/Z/one.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" />
+        <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/nihao.py" />
+        <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/good.py" />
+        <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/niha.py" />
+        <option value="$PROJECT_DIR$/PythonTest/test/t-1.py" />
+        <option value="$PROJECT_DIR$/PythonTest/test/good.py" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-222" />
-    <option name="y" value="226" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -272,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,11 +305,21 @@
               <item name="learnpython" type="462c0819:PsiDirectoryNode" />
               <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="Z" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -321,7 +334,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -358,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.to-lower-case">
+  <component name="RunManager" selected="Python.one">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -377,7 +390,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pic4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="one" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,34 +398,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/pypic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Z" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\pjs\GitHub\learnpython\PythonLearn\pypic\pic-resize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="picto (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learnpython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/pypic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\pjs\GitHub\learnpython\PythonLearn\pypic\pictochars.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Z/one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -487,6 +478,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="two-sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learnpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/two-sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -505,19 +518,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.picto (1)" />
-      <item itemvalue="Python.pic4" />
       <item itemvalue="Python.py-numpy" />
       <item itemvalue="Python.pypyecharts" />
       <item itemvalue="Python.to-lower-case" />
+      <item itemvalue="Python.two-sum" />
+      <item itemvalue="Python.one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.one" />
+        <item itemvalue="Python.two-sum" />
         <item itemvalue="Python.to-lower-case" />
         <item itemvalue="Python.pypyecharts" />
         <item itemvalue="Python.py-numpy" />
-        <item itemvalue="Python.picto (1)" />
-        <item itemvalue="Python.pic4" />
       </list>
     </recent_temporary>
   </component>
@@ -668,13 +681,9 @@
       <workItem from="1537118305410" duration="671000" />
       <workItem from="1537153816026" duration="250000" />
       <workItem from="1537154193415" duration="2459000" />
-    </task>
-    <task id="LOCAL-00002" summary="20180107-1">
-      <created>1515256177604</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1515256177604</updated>
+      <workItem from="1537285430470" duration="2472000" />
+      <workItem from="1537341046844" duration="3265000" />
+      <workItem from="1537425086253" duration="1476000" />
     </task>
     <task id="LOCAL-00003" summary="20180107-2">
       <created>1515257386420</created>
@@ -1012,17 +1021,23 @@
       <option name="project" value="LOCAL" />
       <updated>1537156630966</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="other">
+      <created>1537285618562</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1537285618569</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235201000" />
+    <option name="totallyTimeSpent" value="242414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1031,7 +1046,6 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Learn" order="8" />
-      <window_info anchor="bottom" id="Tail" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.32254586" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48687088" weight="0.36548766" />
@@ -1047,13 +1061,14 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32961783" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.3296875" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32832617" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.5072" side_tool="true" weight="0.27497315" />
       <window_info anchor="bottom" id="SmartIM" order="20" />
-      <window_info anchor="bottom" id="Use Gists" order="21" />
+      <window_info anchor="bottom" id="Use Gists" order="21" weight="0.32939914" />
+      <window_info anchor="bottom" id="Tail" order="22" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1113,52 +1128,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pythonrequestshtml/requestshtml_jiandan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log/requests.md" />
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pythonrequestshtml/rh3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/requests_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" selection-start-line="16" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTest/test/spiderzhihu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pyspiders/easy_getHtml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log/spider.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="19">
-            <caret line="17" selection-start-line="17" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTest/taihe/th2.py" />
     <entry file="file://$PROJECT_DIR$/PythonTest/taihe/tt.py" />
     <entry file="file://$PROJECT_DIR$/PythonTest/taihe/yg-a.py" />
@@ -1237,13 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/two-sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1382,12 +1344,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py">
+    <entry file="file://$PROJECT_DIR$/Z/one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="106">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/two-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/nihao.py" />
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/good.py" />
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/niha.py" />
+    <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/end.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest/test/t-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest/test/good.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
