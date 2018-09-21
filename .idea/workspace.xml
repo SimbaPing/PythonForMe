@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="palindrome">
-      <change afterPath="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/jewels-and-stones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z/Zz/771.jewels-and-stones.py" afterDir="false" />
+    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="leetcode-jewels-and-stones">
+      <change afterPath="$PROJECT_DIR$/Z/Zz/LC/skyline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z/Zz/771.jewels-and-stones.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z/Zz/LC/771.jewels-and-stones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z/Zz/9.palindrome-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z/Zz/LC/9.palindrome-number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z/Zz/pa-number-t.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z/Zz/LC/pa-number-t.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +68,7 @@
     <SUITE FILE_PATH="coverage/learnpython$yg1.coverage" NAME="yg1 Coverage Results" MODIFIED="1529141130203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
     <SUITE FILE_PATH="coverage/learnpython$class_5.coverage" NAME="class-5 Coverage Results" MODIFIED="1532790213421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
     <SUITE FILE_PATH="coverage/learnpython$weixin3.coverage" NAME="weixin3 Coverage Results" MODIFIED="1528098149862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$skyline.coverage" NAME="skyline Coverage Results" MODIFIED="1537543743657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
     <SUITE FILE_PATH="coverage/learnpython$class_4.coverage" NAME="class-4 Coverage Results" MODIFIED="1532788712801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
     <SUITE FILE_PATH="coverage/learnpython$th1.coverage" NAME="th1 Coverage Results" MODIFIED="1527074122843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
     <SUITE FILE_PATH="coverage/learnpython$table1.coverage" NAME="table1 Coverage Results" MODIFIED="1527070546575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
@@ -143,26 +146,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="1" />
-          <entry key="py" value="16" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="py" value="1524" />
-          <entry key="txt" value="10" />
+          <entry key="py" value="2153" />
+          <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="1524" />
+          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="Python" value="2153" />
         </counts>
       </usages-collector>
     </session>
@@ -170,10 +173,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/jewels-and-stones.py">
+        <entry file="file://$PROJECT_DIR$/Z/Zz/LC/skyline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="209">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -198,12 +201,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Z/Zz/771.jewels-and-stones.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Z/Zz/LC/771.jewels-and-stones.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonTest/taihe/tt.py" />
         <option value="$PROJECT_DIR$/PythonTest/taihe/yg1.py" />
         <option value="$PROJECT_DIR$/PythonTest/taihe/yg-无进深.py" />
         <option value="$PROJECT_DIR$/PythonTest/taihe/yg-c.py" />
@@ -254,6 +256,7 @@
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/jewelsStones.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/771.jewels-and-stones.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/jewels-and-stones.py" />
+        <option value="$PROJECT_DIR$/Z/Zz/LC/skyline.py" />
       </list>
     </option>
   </component>
@@ -328,6 +331,19 @@
               <item name="learnpython" type="462c0819:PsiDirectoryNode" />
               <item name="Z" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="Z" type="462c0819:PsiDirectoryNode" />
+              <item name="Zz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="Z" type="462c0819:PsiDirectoryNode" />
+              <item name="Zz" type="462c0819:PsiDirectoryNode" />
+              <item name="LC" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -360,11 +376,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\uppjs\Desktop\John\GitHub\learnpython\PythonLearn\leetcode\arithmetic" />
+      <recent name="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z\Zz\LC" />
       <recent name="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z\Zz" />
+      <recent name="C:\Users\uppjs\Desktop\John\GitHub\learnpython\PythonLearn\leetcode\arithmetic" />
       <recent name="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z" />
       <recent name="C:\Users\pjs\GitHub\learnpython\Z" />
-      <recent name="C:\Users\pjs\GitHub\learnpython\PythonTest\test" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -384,7 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jewelsStones">
+  <component name="RunManager" selected="Python.skyline">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -416,7 +432,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z\Zz\9.palindrome-number.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z\Zz\LC\9.palindrome-number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -460,7 +476,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z\Zz\pa-number-t.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z\Zz\LC\pa-number-t.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -491,7 +507,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse-integer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="skyline" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -499,12 +515,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Z/Zz/LC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/reverse-integer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Z/Zz/LC/skyline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -531,19 +547,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.reverse-integer" />
       <item itemvalue="Python.9.palindrome-number" />
       <item itemvalue="Python.palindrome-number" />
       <item itemvalue="Python.pa-number-t" />
       <item itemvalue="Python.jewelsStones" />
+      <item itemvalue="Python.skyline" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.skyline" />
         <item itemvalue="Python.jewelsStones" />
         <item itemvalue="Python.pa-number-t" />
         <item itemvalue="Python.palindrome-number" />
         <item itemvalue="Python.9.palindrome-number" />
-        <item itemvalue="Python.reverse-integer" />
       </list>
     </recent_temporary>
   </component>
@@ -700,14 +716,7 @@
       <workItem from="1537478756430" duration="7210000" />
       <workItem from="1537486355103" duration="815000" />
       <workItem from="1537531944051" duration="2941000" />
-      <workItem from="1537535358656" duration="1710000" />
-    </task>
-    <task id="LOCAL-00004" summary="20180108-1">
-      <created>1515351875275</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1515351875276</updated>
+      <workItem from="1537535358656" duration="7623000" />
     </task>
     <task id="LOCAL-00005" summary="20180108-2">
       <created>1515425097207</created>
@@ -1045,17 +1054,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537486294436</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="leetcode-jewels-and-stones">
+      <created>1537537214765</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1537537214766</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255090000" />
+    <option name="totallyTimeSpent" value="261003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1066,7 +1082,7 @@
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.32188842" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48933902" weight="0.36480686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48933902" visible="true" weight="0.36480686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1114,7 +1130,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="20180108-2" />
     <MESSAGE value="20180109-1" />
     <MESSAGE value="20180109-requests" />
     <MESSAGE value="20180110-1" />
@@ -1139,14 +1154,14 @@
     <MESSAGE value="py-numpy" />
     <MESSAGE value="other" />
     <MESSAGE value="palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="palindrome" />
+    <MESSAGE value="leetcode-jewels-and-stones" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode-jewels-and-stones" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonTest/taihe/yg-g.py" />
     <entry file="file://$PROJECT_DIR$/PythonTest/taihe/yg-f.py" />
     <entry file="file://$PROJECT_DIR$/PythonTest/taihe/read.md" />
     <entry file="file://$PROJECT_DIR$/PythonTest/taihe/yg1.py" />
@@ -1394,14 +1409,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Z/Zz/9.palindrome-number.py">
+    <entry file="file://$PROJECT_DIR$/Z/Zz/LC/9.palindrome-number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Z/Zz/pa-number-t.py">
+    <entry file="file://$PROJECT_DIR$/Z/Zz/LC/pa-number-t.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
@@ -1415,7 +1430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Z/Zz/771.jewels-and-stones.py">
+    <entry file="file://$PROJECT_DIR$/Z/Zz/LC/771.jewels-and-stones.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="52" selection-end-column="23" />
@@ -1426,6 +1441,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Z/Zz/LC/skyline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
