@@ -10,6 +10,7 @@ Created with IntelliJ IDEA
 
 # # 输入字符，并以相反的顺序打印出来
 
+
 def output(one, two):
     if two == 0:
         return
