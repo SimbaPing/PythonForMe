@@ -28,3 +28,5 @@ aa = [1, 2, 3]
 bb = aa
 bb += aa
 print(bb, aa)
+
+print("hello world")
