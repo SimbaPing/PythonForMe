@@ -29,5 +29,4 @@ def isValid(s):
             return
 
 
-
 print(isValid(ls))
