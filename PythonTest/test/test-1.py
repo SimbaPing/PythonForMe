@@ -10,3 +10,9 @@ description:
 """
 
 print(len('name'))
+
+l1 = [1, 22, 333, 44, 5, 8]
+print(l1.pop())
+print(l1)
+a = 0
+print(a == 0)

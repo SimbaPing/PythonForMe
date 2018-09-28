@@ -4,10 +4,11 @@
 """
 Created with IntelliJ IDEA
 Created by uppjs on 2018/9/28 23:54
-Filename: valid-parentheses.py
+Filename: a-valid-parentheses.py
 Contact: uppjs@qq.com
 Description: 有效的括号
 """
+
 
 def isValid(s):
     stack = []
@@ -19,3 +20,8 @@ def isValid(s):
             return False
     return len(stack) == 0
 
+
+s1 = '()(('
+s2 = '({})'
+print(isValid(s1))
+print(isValid(s2))
