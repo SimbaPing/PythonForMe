@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="leetcode-valid-parentheses">
-      <change afterPath="$PROJECT_DIR$/PythonLearn/pydict/learn-dict.py" afterDir="false" />
+    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other">
+      <change afterPath="$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/uppjs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/uppjs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/valid-parentheses.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/valid-parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/a-valid-parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonTest/test/test-0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z/Zz/tt/test-0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonTest/test/test-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonTest/test/test-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonTest/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z/Zz/tt/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Z/Zz/LC/t-valid-parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z/Zz/LC/t-valid-parentheses.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +44,7 @@
     <SUITE FILE_PATH="coverage/learnpython$wx_.coverage" NAME="wx-接入机器人 Coverage Results" MODIFIED="1529211173417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
     <SUITE FILE_PATH="coverage/learnpython$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1537716585938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
     <SUITE FILE_PATH="coverage/learnpython$class_2.coverage" NAME="class-2 Coverage Results" MODIFIED="1532704159518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
+    <SUITE FILE_PATH="coverage/learnpython$pascals_triangle.coverage" NAME="pascals-triangle Coverage Results" MODIFIED="1538577059133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/array" />
     <SUITE FILE_PATH="coverage/learnpython$yg_c.coverage" NAME="yg-c Coverage Results" MODIFIED="1529147546566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
     <SUITE FILE_PATH="coverage/learnpython$tow_sum.coverage" NAME="tow-sum Coverage Results" MODIFIED="1532447346013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
     <SUITE FILE_PATH="coverage/learnpython$class_1.coverage" NAME="class-1 Coverage Results" MODIFIED="1532484239569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
@@ -140,7 +135,7 @@
     <session id="-669227815">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
@@ -150,17 +145,17 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.9" value="8" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="37" />
+          <entry key="py" value="38" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -169,22 +164,22 @@
           <entry key="Image" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="37" />
+          <entry key="Python" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
           <entry key="md" value="189" />
-          <entry key="py" value="6034" />
-          <entry key="txt" value="160" />
+          <entry key="py" value="6230" />
+          <entry key="txt" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="189" />
-          <entry key="PLAIN_TEXT" value="170" />
-          <entry key="Python" value="6034" />
+          <entry key="PLAIN_TEXT" value="175" />
+          <entry key="Python" value="6230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything">
@@ -195,33 +190,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/a-valid-parentheses.py">
+        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <marker date="1538155496028" expanded="true" signature="208:483" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/pydict/learn-dict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTest/test/test-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="741">
+              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -251,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/tow-sum.py" />
         <option value="$PROJECT_DIR$/PythonTest/test/class-1.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/two-sum.py" />
         <option value="$PROJECT_DIR$/PythonTest/pyclass/class-2.py" />
@@ -302,6 +275,7 @@
         <option value="$PROJECT_DIR$/PythonLearn/pydict/learn-dict.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/t-valid-parentheses.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/a-valid-parentheses.py" />
+        <option value="$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py" />
       </list>
     </option>
   </component>
@@ -318,8 +292,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="y" value="30" />
+    <option name="x" value="882" />
+    <option name="y" value="130" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -346,7 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,12 +330,24 @@
             <path>
               <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
               <item name="Z" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -372,12 +357,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535471141260" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simbaping.github.io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -415,7 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.learn-dict">
+  <component name="RunManager" selected="Python.pascals-triangle">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -456,7 +441,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t-longest-common-prefix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pascals-triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -464,12 +449,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/leetcode/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\uppjs\Desktop\John\GitHub\learnpython\PythonLearn\leetcode\arithmetic\longest-common-prefix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -562,19 +547,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.t-longest-common-prefix" />
       <item itemvalue="Python.t-valid-parentheses" />
       <item itemvalue="Python.valid-parentheses" />
       <item itemvalue="Python.learn-dict" />
       <item itemvalue="Python.test-1" />
+      <item itemvalue="Python.pascals-triangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pascals-triangle" />
         <item itemvalue="Python.learn-dict" />
         <item itemvalue="Python.valid-parentheses" />
         <item itemvalue="Python.test-1" />
         <item itemvalue="Python.t-valid-parentheses" />
-        <item itemvalue="Python.t-longest-common-prefix" />
       </list>
     </recent_temporary>
   </component>
@@ -739,14 +724,9 @@
       <workItem from="1537966245321" duration="4497000" />
       <workItem from="1538056982747" duration="3614000" />
       <workItem from="1538090011680" duration="604000" />
-      <workItem from="1538149184314" duration="6093000" />
-    </task>
-    <task id="LOCAL-00013" summary="20180125-0">
-      <created>1516868814325</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1516868814325</updated>
+      <workItem from="1538149184314" duration="7411000" />
+      <workItem from="1538411247786" duration="199000" />
+      <workItem from="1538572715155" duration="2027000" />
     </task>
     <task id="LOCAL-00014" summary="20180125-1">
       <created>1516895839244</created>
@@ -1084,16 +1064,24 @@
       <option name="project" value="LOCAL" />
       <updated>1538150339133</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="other">
+      <created>1538155507447</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1538155507447</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288040000" />
+    <option name="totallyTimeSpent" value="291584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1104,7 +1092,7 @@
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.3197425" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.30472103" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48880598" visible="true" weight="0.30472103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1175,22 +1163,15 @@
     <MESSAGE value="leetcode-fliping-an-image" />
     <MESSAGE value="leetcode-roman-to-integer" />
     <MESSAGE value="leetcode-longest-common-prefix" />
-    <MESSAGE value="other" />
     <MESSAGE value="leetcode-valid-parentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode-valid-parentheses" />
+    <MESSAGE value="other" />
+    <option name="LAST_COMMIT_MESSAGE" value="other" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pyclass/class-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Z/Zz/tt/class-3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1431,13 +1412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pylist/t-list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/pylist/t-list.py" />
     <entry file="file://$PROJECT_DIR$/Z/Zz/tt/test-0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1469,6 +1444,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/a-valid-parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/pydict/learn-dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTest/test/test-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1476,20 +1465,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pydict/learn-dict.py">
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/a-valid-parentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <marker date="1538155496028" expanded="true" signature="208:483" ph="..." />
-          </folding>
+        <state relative-caret-position="741">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
         </state>
       </provider>
     </entry>
