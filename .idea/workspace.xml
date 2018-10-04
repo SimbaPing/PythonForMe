@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other">
-      <change afterPath="$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/uppjs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/uppjs.xml" afterDir="false" />
+    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="118-pascals-triangle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/spider.md" beforeDir="false" afterPath="$PROJECT_DIR$/Log/spider.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,11 +135,12 @@
     <session id="-669227815">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -148,13 +149,14 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="har" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="3" />
           <entry key="py" value="38" />
           <entry key="txt" value="1" />
         </counts>
@@ -162,23 +164,23 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="md" value="189" />
+          <entry key="md" value="1046" />
           <entry key="py" value="6230" />
-          <entry key="txt" value="165" />
+          <entry key="txt" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="189" />
-          <entry key="PLAIN_TEXT" value="175" />
+          <entry key="Markdown" value="1046" />
+          <entry key="PLAIN_TEXT" value="195" />
           <entry key="Python" value="6230" />
         </counts>
       </usages-collector>
@@ -190,12 +192,15 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        <entry file="file://$PROJECT_DIR$/Log/spider.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="576">
+                <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -225,7 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonTest/test/class-1.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/two-sum.py" />
         <option value="$PROJECT_DIR$/PythonTest/pyclass/class-2.py" />
         <option value="$PROJECT_DIR$/PythonTest/pyclass/class-1.py" />
@@ -268,7 +272,6 @@
         <option value="$PROJECT_DIR$/Z/Zz/tt/tt-1.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/valid-parenttheses.py" />
         <option value="$PROJECT_DIR$/PythonLearn/pydict/learndict.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/PythonLearn/pylist/t-list.py" />
         <option value="$PROJECT_DIR$/PythonTest/test/test-1.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/valid-parentheses.py" />
@@ -276,6 +279,8 @@
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/t-valid-parentheses.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/a-valid-parentheses.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Log/spider.md" />
       </list>
     </option>
   </component>
@@ -292,10 +297,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="882" />
-    <option name="y" value="130" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="676" />
+    <option name="y" value="30" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -320,12 +325,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="Log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
@@ -347,8 +359,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -726,14 +736,9 @@
       <workItem from="1538090011680" duration="604000" />
       <workItem from="1538149184314" duration="7411000" />
       <workItem from="1538411247786" duration="199000" />
-      <workItem from="1538572715155" duration="2027000" />
-    </task>
-    <task id="LOCAL-00014" summary="20180125-1">
-      <created>1516895839244</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1516895839244</updated>
+      <workItem from="1538572715155" duration="2189000" />
+      <workItem from="1538613385785" duration="2666000" />
+      <workItem from="1538632263163" duration="4597000" />
     </task>
     <task id="LOCAL-00015" summary="20180126-0">
       <created>1516896393343</created>
@@ -1071,17 +1076,33 @@
       <option name="project" value="LOCAL" />
       <updated>1538155507447</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="118-pascals-triangle">
+      <created>1538577486395</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1538577486396</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291584000" />
+    <option name="totallyTimeSpent" value="299009000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12783661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1089,14 +1110,14 @@
       <window_info id="JRebel" order="5" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="UI Designer" order="7" />
-      <window_info id="Learn" order="8" />
+      <window_info id="Learn" order="8" weight="0.23903178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.3197425" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48880598" visible="true" weight="0.30472103" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.30472103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Dilbert" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4928" weight="0.27682403" />
@@ -1105,12 +1126,12 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32961783" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.3296875" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32832617" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32741934" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.51119405" side_tool="true" weight="0.36480686" />
-      <window_info anchor="bottom" id="SmartIM" order="20" />
+      <window_info anchor="bottom" id="SmartIM" order="20" weight="0.32903227" />
       <window_info anchor="bottom" id="Use Gists" order="21" weight="0.32939914" />
       <window_info anchor="bottom" id="Tail" order="22" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1140,7 +1161,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="20180124-b" />
     <MESSAGE value="20180125-0" />
     <MESSAGE value="20180125-1" />
     <MESSAGE value="20180126-0" />
@@ -1165,27 +1185,14 @@
     <MESSAGE value="leetcode-longest-common-prefix" />
     <MESSAGE value="leetcode-valid-parentheses" />
     <MESSAGE value="other" />
-    <option name="LAST_COMMIT_MESSAGE" value="other" />
+    <MESSAGE value="118-pascals-triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="118-pascals-triangle" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Z/Zz/tt/class-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pyclass/class-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTest/test/二维码二合一.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1420,16 +1427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="304">
-            <caret line="142" column="37" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Z/Zz/tt/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1465,10 +1462,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="766">
+            <caret line="393" lean-forward="true" selection-start-line="393" selection-end-line="393" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        <state relative-caret-position="57">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github.com.har">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4218" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log/spider.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="576">
+            <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
