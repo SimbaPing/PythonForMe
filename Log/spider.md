@@ -4,8 +4,10 @@
 
 ## 什么是爬虫？
 
-英文名：web crawler 。<br>
-URL（Uniform Resource Locator）统一资源定位符。<br>
+英文名：web crawler 。
+
+URL（Uniform Resource Locator）统一资源定位符。
+
 URL 格式由三部分组成：
 
 - (1)protocol：第一部分就是协议，例如百度使用的就是 https 协议；
@@ -16,8 +18,10 @@ URL 格式由三部分组成：
 
 ## 爬虫能做什么？
 
-爬取网页上自己想要的信息。进行分析，存储。<br>
-例如：爬取新闻，变成新闻阅读器；故事集；图片；电商价格对比。<br>
+爬取网页上自己想要的信息。进行分析，存储。
+
+例如：爬取新闻，变成新闻阅读器；故事集；图片；电商价格对比。
+
 
 ---
 
@@ -30,7 +34,8 @@ URL 管理器：管理待爬取的的 URL 和已爬取的 URL
 - 防止重复抓取，防止循环抓取
 - set() 直接去除重复的元素
 
-网页下载器：将互联网上对应的网页下载到本地的工具<br>
+网页下载器：将互联网上对应的网页下载到本地的工具
+
 网页解析器：从网页中提取有价值数据的工具
 
 - 正则表达式，模糊匹配，其他三个都是结构化解析
@@ -40,10 +45,14 @@ URL 管理器：管理待爬取的的 URL 和已爬取的 URL
 
 ### 实例
 
-目标：<br>
-入口页：<br>
-URL 格式：后缀需要变化的网页链接<br>
-数据格式：标签、属性之类<br>
+目标：
+
+入口页：
+
+URL 格式：后缀需要变化的网页链接
+
+数据格式：标签、属性之类
+
 页面编码：
 
 ---
@@ -81,15 +90,25 @@ Console，显示页面的报错和输出，并且可以执行 JS 代码。
 
 ## 第三方库有哪些？
 
-urllib:<br>
-scrapy:<br>
-BeautifulSoup4: from bs4 import BeautifulSoup<br>
-requests:<br>
+urllib:
+
+scrapy:
+
+BeautifulSoup4: from bs4 import BeautifulSoup
+
+requests:
+
+```python
+
+
+```
+
 html:
 
 ### 名词解释
 
-cookie：储存用户本地终端上的数据。<br>
+cookie：储存用户本地终端上的数据。
+
 DOM（Document Object Model）文档对象模型。
 
 ### 特殊情景处理器

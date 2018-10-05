@@ -1,10 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="118-pascals-triangle">
+    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="爬虫基本信息">
+      <change afterPath="$PROJECT_DIR$/PythonLearn/pyrequests/spider-20181004.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learnpython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnpython.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/spider.md" beforeDir="false" afterPath="$PROJECT_DIR$/Log/spider.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python XML解析和处理 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python break语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python continue语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python for循环语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python if...elif...else语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python if语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.access()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.chdir()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.chflags()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.chmod()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.chown()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.chroot()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.close()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.closerange()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.dup()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.dup2()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.fchdir()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.fchmod()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.fchown()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.fdatasync()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.fdopen()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.fstatvfs()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.fsync()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.ftruncate()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.getcwd()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.getcwdu()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.isatty()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.lchflags()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.lchmod()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.link()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.listdir()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.lseek()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.lstat()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.major()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.makedev()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.makedirs()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.minor()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.mkdir()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.mkfifo()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.mknod()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.open()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.openpty()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.pathconf()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.pipe()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.popen()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.read()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.readlink()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.remove()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.removedirs()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.rename()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.renames()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.rmdir()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.stat()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.stat_float_times()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.statvfs()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.symlink()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.tcgetpgrp()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.tcsetpgrp()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.tempnam()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.tmpfile()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.ttyname()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.unlink()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os.write()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python os模块方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python pass语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python while循环语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python+MySQL数据库操作（PyMySQL） - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python二维数组 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python修饰器 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python元组 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python元组 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python元组cmp()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python元组len()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python元组max()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python元组min()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python元组tuple()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python决策 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python函数 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表append()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表cmp()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表count()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表len()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表list()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表max()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表min()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表pop()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表remove()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表reverse()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python列表sort()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python功能特点 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python双端队列 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python发送邮件 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python变量类型 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python可以开发哪些程序？ - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python命令行参数 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python哈希表 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python回溯 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python图 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python图遍历算法 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python基本运算符 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python堆 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python多线程编程 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python多重继承 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典clear()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典copy()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典fromkeys()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典has_key()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典items()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典keys()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典len()函数 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典setdefault()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典type()函数 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典update()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字典values()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串capitalize()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串center()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串count()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串decode()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串encode()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串endswith()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串expandtabs()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串find()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串index()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串isalpha()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串isdecimal()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串isdigit()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串islower()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串isnumeric()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串isspace()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串istitle()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串isupper()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串join()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串len()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串ljust()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串lower()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串lstrip()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串maketrans()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串max()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串replace()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串rindex()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串rjust()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串rstrip()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串split()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串startswith()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串strip()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串swapcase()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串title()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串upper()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python字符串zfill()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python安装和环境配置 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python嵌套if语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python嵌套循环语句 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python异常处理 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python循环 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python快速入门 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python成员运算符示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python按位运算符示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python排序算法 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python搜索树 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python搜索算法 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python操作符重载 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字abs()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字acos()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字asin()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字atan()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字atan2()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字ceil()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字choice()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字cos()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字degrees()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字exp()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字fabs()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字floor()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字hypot()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字log()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字log10()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字max()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字min()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字modf()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字pow()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字radians()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字random()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字randrange()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字round()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字seed()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字shuffle()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字sin()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字sqrt()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字tan()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数字uniform()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数据结构开发环境 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数据结构简介 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python数组 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件close()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件fileno()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件flush()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件isatty()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件next()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件read()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件readline()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件readlines()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件seek()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件tell()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件truncate()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件write()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件writelines()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件对象方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python文件读写 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python日期和时间 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间altzone属性 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间asctime()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间clock()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间ctime()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间gmtime()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间localtime()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间mktime()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间sleep()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间strftime()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间strptime()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python时间time()方法 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python是什么？ - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python构造函数 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python栈 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python树遍历算法 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python模块 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python正则表达式 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python比较运算符示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python生成器 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python的历史 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python矩阵 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python算术运算符示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python算法分析 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python算法设计 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python继承 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python网络编程（Sockets） - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python节点 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python计算时间差 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python赋值运算符示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python身份运算符示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python运算符优先级示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python迭代器 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python递归 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python逻辑运算符示例 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python链表 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python闭包 - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python队列 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python集合 - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python面向对象（类和对象） - Python教程&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/Python高级链表（双向链表） - Python数据结构&amp;trade;.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spiders/yiibi/teacher/易百教程&amp;trade; - 专注于IT教程和实例.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +284,7 @@
     <SUITE FILE_PATH="coverage/learnpython$rh3.coverage" NAME="rh3 Coverage Results" MODIFIED="1527348718336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
     <SUITE FILE_PATH="coverage/learnpython$jewelsStones.coverage" NAME="jewelsStones Coverage Results" MODIFIED="1537536818150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
     <SUITE FILE_PATH="coverage/learnpython$weixin2.coverage" NAME="weixin2 Coverage Results" MODIFIED="1529210630480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$spider_20181004.coverage" NAME="spider-20181004 Coverage Results" MODIFIED="1538701413522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyrequests" />
     <SUITE FILE_PATH="coverage/learnpython$error_1.coverage" NAME="error-1 Coverage Results" MODIFIED="1534688178060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyerror" />
     <SUITE FILE_PATH="coverage/learnpython$class_3.coverage" NAME="class-3 Coverage Results" MODIFIED="1532787530814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
     <SUITE FILE_PATH="coverage/learnpython$weixin5.coverage" NAME="weixin5 Coverage Results" MODIFIED="1529210563946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
@@ -135,21 +394,23 @@
     <session id="-669227815">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -157,7 +418,7 @@
           <entry key="har" value="1" />
           <entry key="jpg" value="1" />
           <entry key="md" value="3" />
-          <entry key="py" value="38" />
+          <entry key="py" value="42" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -166,22 +427,22 @@
           <entry key="Image" value="1" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="38" />
+          <entry key="Python" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="md" value="1046" />
-          <entry key="py" value="6230" />
-          <entry key="txt" value="185" />
+          <entry key="md" value="1064" />
+          <entry key="py" value="6343" />
+          <entry key="txt" value="207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1046" />
-          <entry key="PLAIN_TEXT" value="195" />
-          <entry key="Python" value="6230" />
+          <entry key="Markdown" value="1064" />
+          <entry key="PLAIN_TEXT" value="217" />
+          <entry key="Python" value="6343" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything">
@@ -193,14 +454,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Log/spider.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="576">
-                <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+              <first_editor relative-caret-position="1463">
+                <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/spider-20181004.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#183#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/openurl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <element signature="e#163#192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,13 +509,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Z/Zz/LC/771.jewels-and-stones.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/two-sum.py" />
         <option value="$PROJECT_DIR$/PythonTest/pyclass/class-2.py" />
         <option value="$PROJECT_DIR$/PythonTest/pyclass/class-1.py" />
         <option value="$PROJECT_DIR$/PythonTest/pyclass/class-3.py" />
@@ -280,6 +564,7 @@
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/a-valid-parentheses.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/array/pascals-triangle.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/PythonLearn/pyrequests/spider-20181004.py" />
         <option value="$PROJECT_DIR$/Log/spider.md" />
       </list>
     </option>
@@ -311,9 +596,17 @@
             <id>Java</id>
           </State>
           <State>
+            <id>Python</id>
+          </State>
+          <State>
             <id>Threading issuesJava</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -325,8 +618,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,7 +641,24 @@
               <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnpython" type="462c0819:PsiDirectoryNode" />
               <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="pyrequests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="pyspiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="Spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="Spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="yiibi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
@@ -367,9 +677,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535471141260" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simbaping.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -410,7 +720,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pascals-triangle">
+  <component name="RunManager" selected="Python.spider-20181004">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -473,7 +783,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t-valid-parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spider-20181004" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -481,12 +791,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/pyrequests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\uppjs\Desktop\John\GitHub\learnpython\Z\Zz\LC\t-valid-parentheses.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearn/pyrequests/spider-20181004.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -557,19 +867,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.t-valid-parentheses" />
       <item itemvalue="Python.valid-parentheses" />
       <item itemvalue="Python.learn-dict" />
       <item itemvalue="Python.test-1" />
       <item itemvalue="Python.pascals-triangle" />
+      <item itemvalue="Python.spider-20181004" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spider-20181004" />
         <item itemvalue="Python.pascals-triangle" />
         <item itemvalue="Python.learn-dict" />
         <item itemvalue="Python.valid-parentheses" />
         <item itemvalue="Python.test-1" />
-        <item itemvalue="Python.t-valid-parentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -738,14 +1048,10 @@
       <workItem from="1538411247786" duration="199000" />
       <workItem from="1538572715155" duration="2189000" />
       <workItem from="1538613385785" duration="2666000" />
-      <workItem from="1538632263163" duration="4597000" />
-    </task>
-    <task id="LOCAL-00015" summary="20180126-0">
-      <created>1516896393343</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1516896393343</updated>
+      <workItem from="1538632263163" duration="6989000" />
+      <workItem from="1538659638875" duration="1240000" />
+      <workItem from="1538662013599" duration="1107000" />
+      <workItem from="1538701349434" duration="258000" />
     </task>
     <task id="LOCAL-00016" summary="requests_html_1">
       <created>1519841832789</created>
@@ -1083,11 +1389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538577486396</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="爬虫基本信息">
+      <created>1538641606562</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1538641606563</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299009000" />
+    <option name="totallyTimeSpent" value="304006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1100,9 +1413,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12783661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13161875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1113,7 +1425,7 @@
       <window_info id="Learn" order="8" weight="0.23903178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.3197425" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.30472103" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.30322582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1161,7 +1473,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="20180125-0" />
     <MESSAGE value="20180125-1" />
     <MESSAGE value="20180126-0" />
     <MESSAGE value="requests_html_1" />
@@ -1186,27 +1497,14 @@
     <MESSAGE value="leetcode-valid-parentheses" />
     <MESSAGE value="other" />
     <MESSAGE value="118-pascals-triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="118-pascals-triangle" />
+    <MESSAGE value="爬虫基本信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫基本信息" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonTest/test/二维码二合一.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pythonrequestshtml/requestshtml_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonLearn/pythonrequestshtml/requests-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1310,9 +1608,6 @@
     <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/nihao.py" />
     <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/good.py" />
     <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/niha.py" />
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/end.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTest/test/t-1.py" />
     <entry file="file://$PROJECT_DIR$/PythonTest/test/good.py" />
     <entry file="file://$PROJECT_DIR$/mypic.jpg">
@@ -1479,18 +1774,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com.har">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4218" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../../../github.com.har" />
+    <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/end.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Log/spider.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="576">
-            <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+          <first_editor relative-caret-position="1463">
+            <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/openurl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="e#163#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/pyrequests/spider-20181004.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#183#212#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1552,6 +1866,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
