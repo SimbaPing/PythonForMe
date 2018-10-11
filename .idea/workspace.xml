@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="leetcode reverse words in a string">
-      <change afterPath="$PROJECT_DIR$/PythonLearn/leetcode/math/push-one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z/Zz/tt/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonLearn/leetcode/t-edit-distance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z/Zz/tt/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z/Zz/tt/t1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,14 +237,46 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-173866291">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="1" />
+          <entry key="py" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/math/push-one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="342">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -253,10 +284,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Z/Zz/tt/t1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="770">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/t-edit-distance.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -284,8 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonLearn/pyerror/error-1.py" />
-        <option value="$PROJECT_DIR$/PythonLearn/pypic/pic4.py" />
         <option value="$PROJECT_DIR$/PythonLearn/pypic/picto.py" />
         <option value="$PROJECT_DIR$/PythonTest/test/pypyecharts.py" />
         <option value="$PROJECT_DIR$/PythonTest/test/py-numpy.py" />
@@ -334,6 +368,8 @@
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/t-reverse-words-in-a-string.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/math/pust-one.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/math/push-one.py" />
+        <option value="$PROJECT_DIR$/Z/Zz/html.md" />
+        <option value="$PROJECT_DIR$/PythonLearn/leetcode/t-edit-distance.py" />
         <option value="$PROJECT_DIR$/Z/Zz/tt/t1.py" />
       </list>
     </option>
@@ -351,10 +387,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="22" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="953" />
+    <option name="y" value="30" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -391,48 +427,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="Z" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="Z" type="462c0819:PsiDirectoryNode" />
               <item name="Zz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="Z" type="462c0819:PsiDirectoryNode" />
               <item name="Zz" type="462c0819:PsiDirectoryNode" />
               <item name="tt" type="462c0819:PsiDirectoryNode" />
@@ -441,8 +463,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -832,6 +854,7 @@
       <workItem from="1538854587459" duration="7722000" />
       <workItem from="1539118936516" duration="2276000" />
       <workItem from="1539133773238" duration="2449000" />
+      <workItem from="1539256000041" duration="3916000" />
     </task>
     <task id="LOCAL-00023" summary="other">
       <created>1521128607002</created>
@@ -1180,7 +1203,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325597000" />
+    <option name="totallyTimeSpent" value="329513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1192,10 +1215,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41758242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1206,7 +1229,7 @@
       <window_info id="Learn" order="8" weight="0.23903178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.31960997" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48880598" visible="true" weight="0.29677418" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.29677418" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1286,14 +1309,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonLearn/pypic/pic-resize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTest/test/render.html" />
     <entry file="file://$PROJECT_DIR$/Z/Zz/tt/pypyecharts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1565,17 +1580,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/math/push-one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/Z/Zz/html.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="123">
+            <caret line="203" column="33" lean-forward="true" selection-start-line="203" selection-start-column="33" selection-end-line="203" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/math/push-one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/t-edit-distance.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Z/Zz/tt/t1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="770">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
