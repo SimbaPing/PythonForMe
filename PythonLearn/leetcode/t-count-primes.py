@@ -8,3 +8,13 @@ Filename: t-count-primes.py
 Contact: uppjs@qq.com
 Description: 
 """
+
+
+def countPrimes(num):
+    if num == 0 or num == 1:
+        print(0)
+    for i in range(1, num):
+        print(i)
+
+
+countPrimes(2)
