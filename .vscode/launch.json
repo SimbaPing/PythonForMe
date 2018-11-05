@@ -1,22 +1,75 @@
 {
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
-            "name": "Python",
-            "type": "python",
+            "type": "java",
+            "name": "Debug (Launch)",
             "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
             "stopOnEntry": false,
-            //"pythonPath": "C:/Python27/python",
-            "pythonPath": "C:\\Users\\pjs\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe",
-            "program": "${file}",
-            "cwd": "${workspaceRoot}",
-            "env": {},
-            "envFile": "${workspaceRoot}/.env",
-            "debugOptions": [
-                "WaitOnAbnormalExit",
-                "WaitOnNormalExit",
-                "RedirectOutput"
-            ]
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DemoFour",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "src.now.test.ali.tentest.DemoFour",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DemoThree",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "src.now.test.ali.tentest.DemoThree",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Hw",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "src.now.test.testone.Hw",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SetTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "src.now.test.testone.SetTest",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Look",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "src.now.test.testtwo.Look",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of remote debuggee>"
         }
     ]
+}
