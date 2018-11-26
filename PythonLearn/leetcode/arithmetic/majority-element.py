@@ -25,4 +25,9 @@ def majorityElement(nums):
             print(item)
 
 
-majorityElement('111222222222333')
+majorityElement('1112223334445555666')
+
+a = '12312313'
+
+print(len(a))
+print(a.count('2'))
