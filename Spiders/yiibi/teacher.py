@@ -7,7 +7,7 @@ Created with IntelliJ IDEA
 @file: teacher.py
 @time: 2018/1/1 15:28
 """
-
+pythons
 import os
 import re
 import urllib.request
@@ -22,6 +22,7 @@ REX_TITLE = r'<title>(.*?)</title>'
 REX_URL = r'/python/(.+?).html'
 # 种子url，从这个url开始爬取
 BASE_URL = 'http://www.yiibai.com/python/'
+
 
 
 # 将获取到的文本保存为html文件
