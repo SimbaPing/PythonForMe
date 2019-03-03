@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other" />
+    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learnpython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnpython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,78 +24,79 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/learnpython$yg_g.coverage" NAME="yg-g Coverage Results" MODIFIED="1529157092005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$two_sum.coverage" NAME="two-sum Coverage Results" MODIFIED="1537285960884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$t_valid_parentheses.coverage" NAME="t-valid-parentheses Coverage Results" MODIFIED="1538059807274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$two_sum__1_.coverage" NAME="two-sum (1) Coverage Results" MODIFIED="1532502142435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$requestshtml_1.coverage" NAME="requestshtml_1 Coverage Results" MODIFIED="1533575013040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
     <SUITE FILE_PATH="coverage/learnpython$yg_d.coverage" NAME="yg-d Coverage Results" MODIFIED="1529156719225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$tow_sum.coverage" NAME="tow-sum Coverage Results" MODIFIED="1532447346013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$weixin3.coverage" NAME="weixin3 Coverage Results" MODIFIED="1528098149862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
     <SUITE FILE_PATH="coverage/learnpython$t_path_sum.coverage" NAME="t-path-sum Coverage Results" MODIFIED="1538859208772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/depth-first-search" />
+    <SUITE FILE_PATH="coverage/learnpython$class_4.coverage" NAME="class-4 Coverage Results" MODIFIED="1532788712801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
+    <SUITE FILE_PATH="coverage/learnpython$class_1.coverage" NAME="class-1 Coverage Results" MODIFIED="1532484239569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$table1.coverage" NAME="table1 Coverage Results" MODIFIED="1527070546575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$t_roman_to_integer.coverage" NAME="t-roman-to-integer Coverage Results" MODIFIED="1537714839500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$spider_20181004.coverage" NAME="spider-20181004 Coverage Results" MODIFIED="1538701413522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyrequests" />
+    <SUITE FILE_PATH="coverage/learnpython$testclass.coverage" NAME="testclass Coverage Results" MODIFIED="1526486216825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$t_reverse_string.coverage" NAME="t-reverse-string Coverage Results" MODIFIED="1538860710408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$yg1.coverage" NAME="yg1 Coverage Results" MODIFIED="1529141130203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$skyline.coverage" NAME="skyline Coverage Results" MODIFIED="1537543743657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
+    <SUITE FILE_PATH="coverage/learnpython$pa_number_t.coverage" NAME="pa-number-t Coverage Results" MODIFIED="1537485940409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/LearnPython$9_palindrome_number.coverage" NAME="9.palindrome-number Coverage Results" MODIFIED="1551578857231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
+    <SUITE FILE_PATH="coverage/learnpython$learn_dict.coverage" NAME="learn-dict Coverage Results" MODIFIED="1538154887954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pydict" />
+    <SUITE FILE_PATH="coverage/learnpython$class_1__1_.coverage" NAME="class-1 (1) Coverage Results" MODIFIED="1532705512914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
+    <SUITE FILE_PATH="coverage/learnpython$class_3.coverage" NAME="class-3 Coverage Results" MODIFIED="1532787530814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
+    <SUITE FILE_PATH="coverage/learnpython$9_palindrome_number.coverage" NAME="9.palindrome-number Coverage Results" MODIFIED="1537481803108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnpython$t_flipping_an_image.coverage" NAME="t-flipping-an-image Coverage Results" MODIFIED="1537632086369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$class1.coverage" NAME="class1 Coverage Results" MODIFIED="1526226563588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$wx_.coverage" NAME="wx-接入机器人 Coverage Results" MODIFIED="1529211173417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$t_longest_common_prefix.coverage" NAME="t-longest-common-prefix Coverage Results" MODIFIED="1537970296802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$weixin2.coverage" NAME="weixin2 Coverage Results" MODIFIED="1529210630480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$yg_c.coverage" NAME="yg-c Coverage Results" MODIFIED="1529147546566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$push_one.coverage" NAME="push-one Coverage Results" MODIFIED="1539121583291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/math" />
+    <SUITE FILE_PATH="coverage/learnpython$palindrome_number.coverage" NAME="palindrome-number Coverage Results" MODIFIED="1537482266644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/LearnPython$t_count_primes.coverage" NAME="t-count-primes Coverage Results" MODIFIED="1539311310081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode" />
+    <SUITE FILE_PATH="coverage/learnpython$picto__1_.coverage" NAME="picto (1) Coverage Results" MODIFIED="1534865849049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pypic" />
+    <SUITE FILE_PATH="coverage/learnpython$yg_b.coverage" NAME="yg-b Coverage Results" MODIFIED="1529156538213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$tt.coverage" NAME="tt Coverage Results" MODIFIED="1528277099336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$two_sum.coverage" NAME="two-sum Coverage Results" MODIFIED="1537285960884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$pic2.coverage" NAME="pic2 Coverage Results" MODIFIED="1529246434055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pypic" />
+    <SUITE FILE_PATH="coverage/learnpython$class_2.coverage" NAME="class-2 Coverage Results" MODIFIED="1532704159518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
+    <SUITE FILE_PATH="coverage/learnpython$one.coverage" NAME="one Coverage Results" MODIFIED="1537285986307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z" />
+    <SUITE FILE_PATH="coverage/learnpython$reverse_integer.coverage" NAME="reverse-integer Coverage Results" MODIFIED="1537479956556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$t_stack.coverage" NAME="t-stack Coverage Results" MODIFIED="1538857388166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
+    <SUITE FILE_PATH="coverage/learnpython$single_number.coverage" NAME="single-number Coverage Results" MODIFIED="1538777419916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/bit-manipulation" />
     <SUITE FILE_PATH="coverage/learnpython$rh3.coverage" NAME="rh3 Coverage Results" MODIFIED="1527348718336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
     <SUITE FILE_PATH="coverage/learnpython$jewelsStones.coverage" NAME="jewelsStones Coverage Results" MODIFIED="1537536818150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$t_stack.coverage" NAME="t-stack Coverage Results" MODIFIED="1538857388166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
-    <SUITE FILE_PATH="coverage/learnpython$weixin2.coverage" NAME="weixin2 Coverage Results" MODIFIED="1529210630480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
-    <SUITE FILE_PATH="coverage/learnpython$spider_20181004.coverage" NAME="spider-20181004 Coverage Results" MODIFIED="1538701413522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyrequests" />
-    <SUITE FILE_PATH="coverage/learnpython$error_1.coverage" NAME="error-1 Coverage Results" MODIFIED="1534688178060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyerror" />
-    <SUITE FILE_PATH="coverage/learnpython$class_3.coverage" NAME="class-3 Coverage Results" MODIFIED="1532787530814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
-    <SUITE FILE_PATH="coverage/learnpython$weixin5.coverage" NAME="weixin5 Coverage Results" MODIFIED="1529210563946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
-    <SUITE FILE_PATH="coverage/learnpython$two_sum__1_.coverage" NAME="two-sum (1) Coverage Results" MODIFIED="1532502142435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$pa_number_t.coverage" NAME="pa-number-t Coverage Results" MODIFIED="1537485940409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/LearnPython$t_count_primes.coverage" NAME="t-count-primes Coverage Results" MODIFIED="1539311310081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode" />
-    <SUITE FILE_PATH="coverage/learnpython$class_1__1_.coverage" NAME="class-1 (1) Coverage Results" MODIFIED="1532705512914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
-    <SUITE FILE_PATH="coverage/learnpython$t_roman_to_integer.coverage" NAME="t-roman-to-integer Coverage Results" MODIFIED="1537714839500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$testclass.coverage" NAME="testclass Coverage Results" MODIFIED="1526486216825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
-    <SUITE FILE_PATH="coverage/learnpython$tt.coverage" NAME="tt Coverage Results" MODIFIED="1528277099336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$picto__1_.coverage" NAME="picto (1) Coverage Results" MODIFIED="1534865849049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pypic" />
-    <SUITE FILE_PATH="coverage/learnpython$yg_.coverage" NAME="yg-无进深 Coverage Results" MODIFIED="1529141637548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$th2.coverage" NAME="th2 Coverage Results" MODIFIED="1528260006775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$learn_dict.coverage" NAME="learn-dict Coverage Results" MODIFIED="1538154887954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pydict" />
-    <SUITE FILE_PATH="coverage/learnpython$9_palindrome_number.coverage" NAME="9.palindrome-number Coverage Results" MODIFIED="1537481803108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learnpython$file1.coverage" NAME="file1 Coverage Results" MODIFIED="1526142181070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyfile" />
-    <SUITE FILE_PATH="coverage/learnpython$wx_.coverage" NAME="wx-接入机器人 Coverage Results" MODIFIED="1529211173417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
-    <SUITE FILE_PATH="coverage/learnpython$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1537716585938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
-    <SUITE FILE_PATH="coverage/learnpython$class_2.coverage" NAME="class-2 Coverage Results" MODIFIED="1532704159518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
-    <SUITE FILE_PATH="coverage/learnpython$pascals_triangle.coverage" NAME="pascals-triangle Coverage Results" MODIFIED="1538577059133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/array" />
-    <SUITE FILE_PATH="coverage/learnpython$yg_c.coverage" NAME="yg-c Coverage Results" MODIFIED="1529147546566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$tow_sum.coverage" NAME="tow-sum Coverage Results" MODIFIED="1532447346013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$class_1.coverage" NAME="class-1 Coverage Results" MODIFIED="1532484239569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
-    <SUITE FILE_PATH="coverage/learnpython$yg_b.coverage" NAME="yg-b Coverage Results" MODIFIED="1529156538213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$py_numpy.coverage" NAME="py-numpy Coverage Results" MODIFIED="1535379731243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
-    <SUITE FILE_PATH="coverage/learnpython$palindrome_number.coverage" NAME="palindrome-number Coverage Results" MODIFIED="1537482266644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$t_flipping_an_image.coverage" NAME="t-flipping-an-image Coverage Results" MODIFIED="1537632086369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$pic2.coverage" NAME="pic2 Coverage Results" MODIFIED="1529246434055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pypic" />
-    <SUITE FILE_PATH="coverage/learnpython$weixin_4.coverage" NAME="weixin_4 Coverage Results" MODIFIED="1528099500141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
-    <SUITE FILE_PATH="coverage/learnpython$one.coverage" NAME="one Coverage Results" MODIFIED="1537285986307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z" />
-    <SUITE FILE_PATH="coverage/learnpython$yg_end_2.coverage" NAME="yg-end-2 Coverage Results" MODIFIED="1533827370991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/yigao" />
-    <SUITE FILE_PATH="coverage/learnpython$spiderzhihu.coverage" NAME="spiderzhihu Coverage Results" MODIFIED="1528126380667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
-    <SUITE FILE_PATH="coverage/learnpython$pic_learn.coverage" NAME="pic-learn Coverage Results" MODIFIED="1534863073550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pypic" />
-    <SUITE FILE_PATH="coverage/learnpython$requestshtml_1.coverage" NAME="requestshtml_1 Coverage Results" MODIFIED="1533575013040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
-    <SUITE FILE_PATH="coverage/LearnPython$majority_element.coverage" NAME="majority-element Coverage Results" MODIFIED="1541433388284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
     <SUITE FILE_PATH="coverage/learnpython$requestshtml_jiandan.coverage" NAME="requestshtml_jiandan Coverage Results" MODIFIED="1527348464538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
+    <SUITE FILE_PATH="coverage/learnpython$tt_1.coverage" NAME="tt-1 Coverage Results" MODIFIED="1537717574448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/tt" />
+    <SUITE FILE_PATH="coverage/learnpython$t_pascals_trangle.coverage" NAME="t-pascals-trangle Coverage Results" MODIFIED="1538771561991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
+    <SUITE FILE_PATH="coverage/learnpython$yg_.coverage" NAME="yg-无进深 Coverage Results" MODIFIED="1529141637548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$file1.coverage" NAME="file1 Coverage Results" MODIFIED="1526142181070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyfile" />
+    <SUITE FILE_PATH="coverage/LearnPython$majority_element.coverage" NAME="majority-element Coverage Results" MODIFIED="1541433388284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
     <SUITE FILE_PATH="coverage/learnpython$test180510.coverage" NAME="test180510 Coverage Results" MODIFIED="1525966727304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
     <SUITE FILE_PATH="coverage/learnpython$t_reverse_words_in_a_string.coverage" NAME="t-reverse-words-in-a-string Coverage Results" MODIFIED="1538862355932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$t_longest_common_prefix.coverage" NAME="t-longest-common-prefix Coverage Results" MODIFIED="1537970296802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$to_lower_case.coverage" NAME="to-lower-case Coverage Results" MODIFIED="1537285959061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1539150296959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/tt" />
-    <SUITE FILE_PATH="coverage/learnpython$test_1.coverage" NAME="test-1 Coverage Results" MODIFIED="1538153572056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$pic_learn.coverage" NAME="pic-learn Coverage Results" MODIFIED="1534863073550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pypic" />
     <SUITE FILE_PATH="coverage/learnpython$requests_1.coverage" NAME="requests-1 Coverage Results" MODIFIED="1533575928841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pythonrequestshtml" />
     <SUITE FILE_PATH="coverage/learnpython$pic4.coverage" NAME="pic4 Coverage Results" MODIFIED="1534863997087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pypic" />
-    <SUITE FILE_PATH="coverage/learnpython$pypyecharts.coverage" NAME="pypyecharts Coverage Results" MODIFIED="1535470915257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
     <SUITE FILE_PATH="coverage/learnpython$yg_f.coverage" NAME="yg-f Coverage Results" MODIFIED="1529156185255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$yg1.coverage" NAME="yg1 Coverage Results" MODIFIED="1529141130203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$single_number.coverage" NAME="single-number Coverage Results" MODIFIED="1538777419916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/bit-manipulation" />
-    <SUITE FILE_PATH="coverage/learnpython$class_5.coverage" NAME="class-5 Coverage Results" MODIFIED="1532790213421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
-    <SUITE FILE_PATH="coverage/learnpython$weixin3.coverage" NAME="weixin3 Coverage Results" MODIFIED="1528098149862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
-    <SUITE FILE_PATH="coverage/learnpython$t_pascals_trangle.coverage" NAME="t-pascals-trangle Coverage Results" MODIFIED="1538771561991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
-    <SUITE FILE_PATH="coverage/learnpython$push_one.coverage" NAME="push-one Coverage Results" MODIFIED="1539121583291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/math" />
-    <SUITE FILE_PATH="coverage/learnpython$skyline.coverage" NAME="skyline Coverage Results" MODIFIED="1537543743657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/LC" />
-    <SUITE FILE_PATH="coverage/learnpython$fliping_an_image.coverage" NAME="fliping-an-image Coverage Results" MODIFIED="1537633583184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$t_reverse_string.coverage" NAME="t-reverse-string Coverage Results" MODIFIED="1538860710408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$class_4.coverage" NAME="class-4 Coverage Results" MODIFIED="1532788712801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
-    <SUITE FILE_PATH="coverage/learnpython$th1.coverage" NAME="th1 Coverage Results" MODIFIED="1527074122843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
-    <SUITE FILE_PATH="coverage/learnpython$tt_1.coverage" NAME="tt-1 Coverage Results" MODIFIED="1537717574448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/tt" />
-    <SUITE FILE_PATH="coverage/learnpython$table1.coverage" NAME="table1 Coverage Results" MODIFIED="1527070546575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
-    <SUITE FILE_PATH="coverage/learnpython$t_valid_parentheses.coverage" NAME="t-valid-parentheses Coverage Results" MODIFIED="1538059807274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$reverse_integer.coverage" NAME="reverse-integer Coverage Results" MODIFIED="1537479956556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-    <SUITE FILE_PATH="coverage/learnpython$class1.coverage" NAME="class1 Coverage Results" MODIFIED="1526226563588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
-    <SUITE FILE_PATH="coverage/learnpython$yg_e.coverage" NAME="yg-e Coverage Results" MODIFIED="1529150562898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$pascals_triangle.coverage" NAME="pascals-triangle Coverage Results" MODIFIED="1538577059133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/array" />
+    <SUITE FILE_PATH="coverage/learnpython$to_lower_case.coverage" NAME="to-lower-case Coverage Results" MODIFIED="1537285959061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$pypyecharts.coverage" NAME="pypyecharts Coverage Results" MODIFIED="1535470915257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$th2.coverage" NAME="th2 Coverage Results" MODIFIED="1528260006775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$error_1.coverage" NAME="error-1 Coverage Results" MODIFIED="1534688178060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/pyerror" />
     <SUITE FILE_PATH="coverage/learnpython$valid_parentheses.coverage" NAME="valid-parentheses Coverage Results" MODIFIED="1538154178836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$py_numpy.coverage" NAME="py-numpy Coverage Results" MODIFIED="1535379731243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1537716585938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1539150296959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z/Zz/tt" />
+    <SUITE FILE_PATH="coverage/learnpython$class_5.coverage" NAME="class-5 Coverage Results" MODIFIED="1532790213421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/pyclass" />
+    <SUITE FILE_PATH="coverage/learnpython$yg_end_2.coverage" NAME="yg-end-2 Coverage Results" MODIFIED="1533827370991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/yigao" />
+    <SUITE FILE_PATH="coverage/learnpython$weixin5.coverage" NAME="weixin5 Coverage Results" MODIFIED="1529210563946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$test_1.coverage" NAME="test-1 Coverage Results" MODIFIED="1538153572056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$spiderzhihu.coverage" NAME="spiderzhihu Coverage Results" MODIFIED="1528126380667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/learnpython$th1.coverage" NAME="th1 Coverage Results" MODIFIED="1527074122843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
+    <SUITE FILE_PATH="coverage/learnpython$fliping_an_image.coverage" NAME="fliping-an-image Coverage Results" MODIFIED="1537633583184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
+    <SUITE FILE_PATH="coverage/learnpython$weixin_4.coverage" NAME="weixin_4 Coverage Results" MODIFIED="1528099500141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/weixin" />
+    <SUITE FILE_PATH="coverage/learnpython$yg_e.coverage" NAME="yg-e Coverage Results" MODIFIED="1529150562898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/taihe" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -104,206 +112,8 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-67027516">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="py" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Python" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="218" />
-          <entry key="txt" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="218" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-669227815">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="36" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="3" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="3" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="37" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="har" value="1" />
-          <entry key="jpg" value="1" />
-          <entry key="md" value="3" />
-          <entry key="py" value="42" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="1" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="42" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="10" />
-          <entry key="md" value="1064" />
-          <entry key="py" value="6343" />
-          <entry key="txt" value="207" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="1064" />
-          <entry key="PLAIN_TEXT" value="217" />
-          <entry key="Python" value="6343" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.actions.runAnything">
-        <counts>
-          <entry key="RunAnythingMainListModel: RunAnything - execution - Recent" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1358938043">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="1" />
-          <entry key="py" value="2898" />
-          <entry key="txt" value="132" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="133" />
-          <entry key="Python" value="2898" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-173866291">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="1" />
-          <entry key="py" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="Python" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="md" value="1" />
-          <entry key="py" value="428" />
-          <entry key="txt" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="428" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/t-edit-distance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/t-count-primes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/majority-element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -322,13 +132,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Z/Zz/LC/771.jewels-and-stones.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Z/Zz/LC/771.jewels-and-stones.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonTest/test/py-numpy.py" />
         <option value="$PROJECT_DIR$/Z/one.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/nihao.py" />
@@ -379,49 +188,21 @@
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/t-edit-distance.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/t-count-primes.py" />
         <option value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/majority-element.py" />
+        <option value="$PROJECT_DIR$/Z/Zz/LC/9.palindrome-number.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="y" value="30" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyPep8Inspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -431,9 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,60 +219,35 @@
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Z" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Zz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Zz" type="462c0819:PsiDirectoryNode" />
-              <item name="tt" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535471141260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551579294285" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -504,6 +257,9 @@
         <option name="myModuleName" value="learnpython" />
       </console-settings>
     </option>
+  </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -532,8 +288,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.majority-element">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Python.9.palindrome-number">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -546,10 +302,33 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="9.palindrome-number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Z/Zz/LC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Z/Zz/LC/9.palindrome-number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="majority-element" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
@@ -617,28 +396,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t-reverse-words-in-a-string" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learnpython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/t-reverse-words-in-a-string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -661,7 +418,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -669,34 +427,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.t-reverse-words-in-a-string" />
       <item itemvalue="Python.push-one" />
       <item itemvalue="Python.t1" />
       <item itemvalue="Python.t-count-primes" />
       <item itemvalue="Python.majority-element" />
+      <item itemvalue="Python.9.palindrome-number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9.palindrome-number" />
         <item itemvalue="Python.majority-element" />
         <item itemvalue="Python.t-count-primes" />
         <item itemvalue="Python.t1" />
         <item itemvalue="Python.push-one" />
-        <item itemvalue="Python.t-reverse-words-in-a-string" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\uppjs\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -874,6 +632,8 @@
       <workItem from="1539308031758" duration="2384000" />
       <workItem from="1541432353314" duration="1114000" />
       <workItem from="1550508982451" duration="201000" />
+      <workItem from="1551577839033" duration="268000" />
+      <workItem from="1551578119870" duration="1169000" />
     </task>
     <task id="LOCAL-00025" summary="other">
       <created>1522634149859</created>
@@ -1219,10 +979,14 @@
       <updated>1541433181506</updated>
     </task>
     <option name="localTasksCounter" value="74" />
-    <servers />
+    <servers>
+      <GitHub url="https://github.com">
+        <token>dfcfdf9adf98dfc9df99df9bdf9edfc8dfccdfc8df9ddfcbdfc9dfc8df9fdf9fdf9edfccdfc9dfcedfcfdf9bdf9ddf9ddfcedfcedfcbdfc8dfccdfccdfc8dfcbdf93df9ddf92df9cdf9ddfc9df9bdf92</token>
+      </GitHub>
+    </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333256000" />
+    <option name="totallyTimeSpent" value="334693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1234,10 +998,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14977308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1246,10 +1009,10 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Learn" order="8" weight="0.23903178" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49781182" weight="0.31960997" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.2918455" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" weight="0.2907916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1266,11 +1029,12 @@
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.51119405" side_tool="true" weight="0.36451614" />
+      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.51119405" side_tool="true" weight="0.3634895" />
       <window_info anchor="bottom" id="SmartIM" order="20" weight="0.32903227" />
       <window_info anchor="bottom" id="Use Gists" order="21" weight="0.32939914" />
       <window_info anchor="bottom" id="Tail" order="22" />
-      <window_info anchor="right" id="Codota" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="23" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1287,18 +1051,14 @@
       <window_info anchor="right" id="Flutter Outline" order="13" />
       <window_info anchor="right" id="Flutter Inspector" order="14" />
       <window_info anchor="right" id="GfmBrowser" order="15" />
+      <window_info anchor="right" id="Codota" order="16" />
+      <window_info anchor="right" id="Maven" order="17" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
     <MESSAGE value="python-wx" />
     <MESSAGE value="two-sum" />
     <MESSAGE value="class-1" />
@@ -1357,13 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Z/Zz/LC/9.palindrome-number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -1610,8 +1363,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/majority-element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Z/Zz/LC/9.palindrome-number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1644,7 +1404,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.7 interpreter library</last-edited>
+          <last-edited>Python 3.7 (LearnPython) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1656,7 +1416,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Python 3.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1668,7 +1428,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>learnpython</last-edited>
+          <last-edited>LearnPython</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
