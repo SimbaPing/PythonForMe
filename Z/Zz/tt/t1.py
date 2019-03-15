@@ -34,7 +34,7 @@ l21 = ''.join(list(l2))
 # 1. int(str) - 变为数字
 # 2. list(str) - 变为字符串列表
 # 3. int(i) for i in list(str) - 变为数字列表
-# TODO: [1, 2, 3, 4] ==> 1234
+# [1, 2, 3, 4] ==> 1234
 lc = [1, 2, 3, 4]
 ld = []
 for i in lc:

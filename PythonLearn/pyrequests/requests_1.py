@@ -10,8 +10,6 @@ Created with IntelliJ IDEA
 
 import requests
 from bs4 import BeautifulSoup
-import re
-import os
 
 url = 'http://www.meizitu.com/'
 headers = {

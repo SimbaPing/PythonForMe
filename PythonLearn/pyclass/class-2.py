@@ -38,9 +38,11 @@ class Tortoise(Animal):
     def run(self):
         print('Tortoise is running slowly.')
 
+
 def run_twice(animal):
     animal.run()
     animal.run()
+
 
 if __name__ == '__main__':
     dog = Dog()

@@ -52,3 +52,6 @@ Temporary Items
 .iml
 .pem
 .pyc
+.idea/learnpython.iml
+.idea/misc.xml
+.idea/workspace.xml
