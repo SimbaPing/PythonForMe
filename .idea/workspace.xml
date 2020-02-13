@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spiders/formoney/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spiders/formoney/bs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spiders/formoney/moneytext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spiders/formoney/simpleone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learnpython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnpython.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonTest/test/calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonTest/test/calculate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonTest/test/irandom.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonTest/test/irandom.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,11 +117,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="connectMySQL" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="connectMySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="connectMySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mysql: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LearnPython" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,6 +163,13 @@
     <setting file="file://$PROJECT_DIR$/PythonLearn/leetcode/arithmetic/to-lower-case.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Z/Zz/LC/771.jewels-and-stones.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\uppjs\Desktop\django\GitHub\LearnPython\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -145,8 +180,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -194,19 +236,7 @@
       <command value="?" />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.h">
+  <component name="RunManager" selected="Python.simpleone">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -226,7 +256,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PyBiLi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,12 +264,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/pyrequests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spiders/formoney" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearn/pyrequests/PyBiLi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spiders/formoney/bs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,51 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="h" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spiders/hpicture" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spiders/hpicture/h.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hellotest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Z/Zz/tt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Z/Zz/tt/hellotest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="irandom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="calculate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,7 +291,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/test/irandom.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/test/calculate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,7 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sexpic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="moneytext" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,12 +308,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearn/pyrequests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spiders/formoney" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearn/pyrequests/sexpic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spiders/formoney/moneytext.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="primenumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/test/primenumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simpleone" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spiders/formoney" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spiders/formoney/simpleone.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,6 +384,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.simpleone" />
+        <item itemvalue="Python.moneytext" />
+        <item itemvalue="Python.bs" />
+        <item itemvalue="Python.calculate" />
+        <item itemvalue="Python.primenumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\uppjs\AppData\Roaming\Subversion</configuration>
@@ -551,6 +602,48 @@
       <workItem from="1564421568622" duration="243000" />
       <workItem from="1567775669458" duration="597000" />
       <workItem from="1569228262738" duration="20000" />
+      <workItem from="1572269081108" duration="463000" />
+      <workItem from="1572277318517" duration="649000" />
+      <workItem from="1572524342625" duration="649000" />
+      <workItem from="1572526489844" duration="97000" />
+      <workItem from="1573615452485" duration="245000" />
+      <workItem from="1573615762436" duration="1273000" />
+      <workItem from="1574950181445" duration="1356000" />
+      <workItem from="1575030300364" duration="640000" />
+      <workItem from="1575036638944" duration="168000" />
+      <workItem from="1575036904684" duration="998000" />
+      <workItem from="1575088656436" duration="1520000" />
+      <workItem from="1575090289673" duration="2410000" />
+      <workItem from="1575093087565" duration="140000" />
+      <workItem from="1575104400861" duration="89000" />
+      <workItem from="1575171958024" duration="589000" />
+      <workItem from="1575192882388" duration="123000" />
+      <workItem from="1575193345476" duration="8615000" />
+      <workItem from="1575344020225" duration="3620000" />
+      <workItem from="1575446519023" duration="570000" />
+      <workItem from="1575447469388" duration="3306000" />
+      <workItem from="1575519683887" duration="7180000" />
+      <workItem from="1575794446695" duration="1245000" />
+      <workItem from="1575881752542" duration="642000" />
+      <workItem from="1575951201712" duration="87000" />
+      <workItem from="1576143002685" duration="52000" />
+      <workItem from="1576410109452" duration="1087000" />
+      <workItem from="1576573421075" duration="227000" />
+      <workItem from="1576573825339" duration="1818000" />
+      <workItem from="1576745442404" duration="37000" />
+      <workItem from="1577247187099" duration="3000" />
+      <workItem from="1577266248800" duration="226000" />
+      <workItem from="1577352759659" duration="45000" />
+      <workItem from="1577696946768" duration="40000" />
+      <workItem from="1578126385526" duration="202000" />
+      <workItem from="1578645764187" duration="358000" />
+      <workItem from="1578992969029" duration="5578000" />
+      <workItem from="1579169685782" duration="81000" />
+      <workItem from="1579172449790" duration="1145000" />
+      <workItem from="1581319030102" duration="706000" />
+      <workItem from="1581573806621" duration="8321000" />
+      <workItem from="1581582555025" duration="111000" />
+      <workItem from="1581594628623" duration="628000" />
     </task>
     <task id="LOCAL-00026" summary="other">
       <created>1523037257554</created>
@@ -900,15 +993,6 @@
       <GitHub url="https://github.com" />
     </servers>
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -953,107 +1037,64 @@
     <MESSAGE value="other" />
     <option name="LAST_COMMIT_MESSAGE" value="other" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Updates" timestamp="1579172630508">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="0" y="0" key="#Updates/0.30.1920.1050@0.30.1920.1050" timestamp="1579172630508" />
+    <state x="896" y="341" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575522701330">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="896" y="341" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1575522701330" />
+    <state x="345" y="201" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581319151853">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="345" y="201" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1366.738@0.30.1366.738" timestamp="1581319151853" />
+    <state x="875" y="273" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579172548724">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="875" y="273" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1579172548724" />
+    <state width="655" height="246" key="GridCell.Tab.0.bottom" timestamp="1578646125072">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="655" height="246" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1578646125072" />
+    <state width="655" height="246" key="GridCell.Tab.0.center" timestamp="1578646125072">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="655" height="246" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1578646125072" />
+    <state width="655" height="246" key="GridCell.Tab.0.left" timestamp="1578646125072">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="655" height="246" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1578646125072" />
+    <state width="655" height="246" key="GridCell.Tab.0.right" timestamp="1578646125072">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="655" height="246" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1578646125072" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1575537812427">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.30.1920.1050@0.30.1920.1050" timestamp="1575537812427" />
+    <state x="730" y="222" key="SettingsEditor" timestamp="1581597902797">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="368" y="52" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1581319295068" />
+    <state x="730" y="222" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1581597902797" />
+    <state x="715" y="398" key="cloudConfig.SelfSettingsDialog" timestamp="1575036591344">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="715" y="398" key="cloudConfig.SelfSettingsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1575036591344" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Python (LearnPython)|Python</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Python 3.7 interpreter library</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>Python 3.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>LearnPython</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>9.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LearnPython$bs.coverage" NAME="bs Coverage Results" MODIFIED="1575201054272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spiders/formoney" />
+    <SUITE FILE_PATH="coverage/LearnPython$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1575172392634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/LearnPython$simpleone.coverage" NAME="simpleone Coverage Results" MODIFIED="1578992979704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spiders/formoney" />
+    <SUITE FILE_PATH="coverage/LearnPython$h.coverage" NAME="h Coverage Results" MODIFIED="1575104458437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spiders/hpicture" />
+    <SUITE FILE_PATH="coverage/LearnPython$primenumber.coverage" NAME="primenumber Coverage Results" MODIFIED="1575104470873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/test" />
+    <SUITE FILE_PATH="coverage/LearnPython$moneytext.coverage" NAME="moneytext Coverage Results" MODIFIED="1575201090040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spiders/formoney" />
   </component>
   <component name="org.codebrewer.idea.toolwindowmanager">
     <toolwindow id="Ant Build" preference="UNAFFECTED" />
