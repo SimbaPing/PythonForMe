@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="other1" />
+    <list default="true" id="df496b91-c3b8-4b41-a17a-ce6ea08f3077" name="Default" comment="2021年1月6日 21:44:51">
+      <change beforePath="$PROJECT_DIR$/.idea/learnpython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnpython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypic.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -800,13 +804,6 @@
       <workItem from="1587378797569" duration="97000" />
       <workItem from="1587379720653" duration="1450000" />
     </task>
-    <task id="LOCAL-00027" summary="other">
-      <created>1524584200665</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1524584200665</updated>
-    </task>
     <task id="LOCAL-00028" summary="other">
       <created>1525794555210</created>
       <option name="number" value="00028" />
@@ -1143,7 +1140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581597939242</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="2021年1月6日 21:44:51">
+      <created>1609940696379</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1609940696380</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers>
       <GitHub url="https://github.com" />
     </servers>
@@ -1165,7 +1169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="two-sum" />
     <MESSAGE value="class-1" />
     <MESSAGE value="object-class" />
     <MESSAGE value="pic" />
@@ -1190,7 +1193,8 @@
     <MESSAGE value="leetcode reverse words in a string" />
     <MESSAGE value="other" />
     <MESSAGE value="other1" />
-    <option name="LAST_COMMIT_MESSAGE" value="other1" />
+    <MESSAGE value="2021年1月6日 21:44:51" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年1月6日 21:44:51" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
